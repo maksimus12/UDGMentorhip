@@ -9,10 +9,19 @@
         </p>
 
         <p><?= htmlspecialchars($note['body']) ?></p>
-        <form method="post">
+
+            <footer class="mt-6">
+        <a href="/note/edit?id=<?= $note['id']?>" class="text-green-500 border border-current px-4 py-2 rounded">Edit</a>
+        </footer>
+        <form class="mt-6" method="post">
             <input type="hidden" name="_method" value="DELETE">
             <input type="hidden" name="id" value="<?= $note['id'] ?>">
-            <button name="delete">Delete</button>
+            <button
+                type="submit"
+                class="inline-flex justify-center rounded-md border border-transparent bg-red-500 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+            >
+                Delete
+            </button>
         </form>
     </div>
 </main>
