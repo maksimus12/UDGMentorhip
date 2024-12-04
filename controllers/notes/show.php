@@ -5,7 +5,7 @@ use Core\App;
 $db = App::resolve(Database::class);
 
 
-$currentUserId = 3;
+$currentUserId = 1;
 
 
     $note = $db->query('select * from posts where id = :id', [
