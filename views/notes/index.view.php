@@ -12,7 +12,19 @@
 <main>
     <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
     <div class="table_component" role="region" tabindex="0">
-
+        <p class="mt-6 mb-10 primary">
+            <a href="/notes/create" 
+                class="rounded-md border 
+                    border-transparent 
+                    bg-blue-500 py-2 px-4 text-sm font-medium 
+                    text-white shadow-sm 
+                    hover:bg-blue-700 
+                    focus:outline-none focus:ring-2 
+                    focus:ring-indigo-500 
+                    focus:ring-offset-2"
+                    >Create Note 
+            </a>
+        </p>
         <div class="flex flex-col">
         <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
         <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
@@ -22,10 +34,10 @@
             <thead
                 class="border-b border-neutral-200 font-medium dark:border-black/20">
                 <tr>
-                <th scope="col" class="w-1 <?= $table_headings_style ?>">No</th>
-                <th scope="col" class="<?= $table_headings_style ?>">Student</th>
-                <th scope="col" class="<?= $table_headings_style ?>">Topic</th>
-                <th scope="col" class=" w-1 px-6 py-4 ">Action</th>
+                <th scope="col" class="w-0 <?= $table_headings_style ?>">No</th>
+                <th scope="col" class="w-0 <?= $table_headings_style ?>">Student</th>
+                <th scope="col" class=" <?= $table_headings_style ?>">Topic</th>
+                <th scope="col" class=" px-6 py-4 ">Action</th>
                 </tr>
             </thead>
             <tbody>
@@ -71,19 +83,7 @@
             <?php endforeach; ?>
             </tbody>
             </table>
-            <p class="mt-6 mb-10 primary">
-            <a href="/notes/create" 
-                class="rounded-md border 
-                    border-transparent 
-                    bg-blue-500 py-2 px-4 text-sm font-medium 
-                    text-white shadow-sm 
-                    hover:bg-blue-700 
-                    focus:outline-none focus:ring-2 
-                    focus:ring-indigo-500 
-                    focus:ring-offset-2"
-                    >Create Note 
-            </a>
-        </p>
+            
         </div>
         </div>
     </div>
