@@ -23,8 +23,9 @@
                 class="border-b border-neutral-200 font-medium dark:border-black/20">
                 <tr>
                 <th scope="col" class="w-1 <?= $table_headings_style ?>">No</th>
-                <th scope="col" class="<?= $table_headings_style ?>">First</th>
-                <th scope="col" class=" w-1 px-6 py-4 ">Handle</th>
+                <th scope="col" class="<?= $table_headings_style ?>">Student</th>
+                <th scope="col" class="<?= $table_headings_style ?>">Topic</th>
+                <th scope="col" class=" w-1 px-6 py-4 ">Action</th>
                 </tr>
             </thead>
             <tbody>
@@ -32,14 +33,28 @@
                 <tr class="border-b border-neutral-200 dark:border-black/10">
                 <td class="<?= $table_row_style ?>"><?= $index + 1?></td>
                 <td class="<?= $table_row_style ?>">  
+                     <?= htmlspecialchars($note['student']) ?>
+                </td>
+                <td class="<?= $table_row_style ?>">
                     <a href="/note?id=<?= $note['id'] ?>" class="text-blue-500 hover:underline">
-                        <?= htmlspecialchars($note['body']) ?>
-                    </a></td>
+                            <?= htmlspecialchars($note['topic']) ?>
+                    </a>
+                </td>
                 <td class="whitespace-nowrap px-6 py-4"> 
                     <div class="flex">
-                        <a href="/note/edit?id=<?= $note['id']?>" class="text-green-500 border border-current px-4 py-2 rounded">Edit</a>  
+                        <a href="/note/edit?id=<?= $note['id']?>" class="rounded-md border 
+                        border-transparent 
+                        bg-orange-500 py-2 px-4 text-sm font-medium 
+                        text-white shadow-sm 
+                        hover:bg-orange-700 
+                        focus:outline-none focus:ring-2 
+                        focus:ring-indigo-500 
+                        focus:ring-offset-"
+                        >
+                        Edit
+                        </a>  
                         
-                        <form class="ml-6" method="post">
+                        <!-- <form class="ml-6" method="post">
                             <input type="hidden" name="_method" value="DELETE">
                             <input type="hidden" name="id" value="<?= $note['id'] ?>">
                             <button
@@ -48,7 +63,7 @@
                             >
                                 Delete
                             </button>
-                        </form>
+                        </form> -->
 
                     </div>
                     </td>

@@ -11,7 +11,51 @@
                     <input type="hidden" name="id" value="<?= $note['id'] ?>">
                     <div class="shadow sm:overflow-hidden sm:rounded-md">
                         <div class="space-y-6 bg-white px-4 py-5 sm:p-6">
-                            <div>
+                        <div>
+                            <label
+                                for="student"
+                                class="block text-sm font-medium text-gray-700"
+                            >Student</label>
+                            <div class="mt-1">
+                                <select
+                                    id="student"
+                                    name="student"
+                                    class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                                    placeholder="Metting Topic"
+                                >
+                                    <option value="Student 1">Student 1</option>
+                                    <option value="Student 2">Student 2</option>
+                                    <option value="Student 3">Student 3</option>
+                                    <option value="Student 4">Student 4</option>
+                                    <option value="Student 5">Student 5</option>
+                                    <option value="Student 6">Student 6</option>
+                                </select>
+
+                                <?php if (isset($errors['body'])) : ?>
+                                    <p class="text-red-500 text-xs mt-2"><?= $errors['body'] ?></p>
+                                <?php endif; ?>
+                        </div>
+                        </div>       
+                        <div>
+                            <label
+                                for="topic"
+                                class="block text-sm font-medium text-gray-700"
+                            >Topic</label>
+                            <div class="mt-1">
+                                <input
+                                    id="topic"
+                                    name="topic"
+                                    class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                                    placeholder="Metting Topic"
+                                    value="<?= $note['topic'] ?? '' ?>"
+                                ></input>
+
+                                <?php if (isset($errors['topic'])) : ?>
+                                    <p class="text-red-500 text-xs mt-2"><?= $errors['topic'] ?></p>
+                                <?php endif; ?>
+                        </div>
+                        </div>    
+                        <div>
                                 <label
                                     for="body"
                                     class="block text-sm font-medium text-gray-700"

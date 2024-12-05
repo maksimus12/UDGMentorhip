@@ -31,9 +31,11 @@ if(count($errors)){
     ]);
 }
 
-$db->query('update posts set body = :body where id = :id', [
+$db->query('update posts set body = :body, student = :student, topic = :topic where id = :id', [
     'id' => $_POST['id'],
-    'body' => $_POST['body']
+    'body' => $_POST['body'],
+    'student' => $_POST['student'],
+    'topic' => $_POST['topic']
 ]);
 
 header('Location: /notes');

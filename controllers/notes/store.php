@@ -22,7 +22,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     if (empty($errors)) {
-        $db->query('INSERT INTO posts(body, user_id) VALUES(:body, :user_id)', [
+        $db->query('INSERT INTO posts(student, topic, body, user_id) VALUES(:student, :topic, :body, :user_id)', [
+            'student' => $_POST['student'],
+            'topic' => $_POST['topic'],
             'body' => $_POST['body'],
             'user_id' => 1
         ]);
