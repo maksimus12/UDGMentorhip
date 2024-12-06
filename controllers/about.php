@@ -3,5 +3,5 @@
 
 
 view("about.view.php", [
-    'heading' => 'About Us',
+    'heading' => 'About us',
 ]);
