@@ -11,10 +11,9 @@ $currentUserId = 1;
    
 
     $note = $db->query('SELECT 
-                        posts.id,
-                        posts.user_id,
-                        students.id,
-                        users.id,
+                        posts.id as post_id,
+                        students.id as student_id,
+                        users.id as user_id,
                         students.fname,
                         posts.topic,
                         posts.body

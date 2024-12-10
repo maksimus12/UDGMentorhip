@@ -8,7 +8,7 @@
             <div class="mt-5 md:col-span-2 md:mt-0">
                 <form method="POST" action="/note">
                     <input type="hidden" name="_method" value="PATCH">
-                    <input type="hidden" name="id" value="<?= $note['id'] ?>">
+                    <input type="hidden" name="id" value="<?= $note['post_id'] ?>">
                     <div class="shadow sm:overflow-hidden sm:rounded-md">
                         <div class="space-y-6 bg-white px-4 py-5 sm:p-6">
                         <div>
@@ -17,6 +17,7 @@
                                 class="block text-sm font-medium text-gray-700"
                             >Student</label>
                             <div class="mt-1">
+                                <input type="hidden" name="student_id" value="<?=$note['student_id']?>">
                                 <input type="text"
                                         class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                                        value="<?= $note['fname']?>" readonly>

@@ -13,7 +13,7 @@ $currentUserId = 1;
     $note = $db->query('select * from posts where id = :id', [
         'id' => $_POST['id']
     ])->findOrFail();
-    $students = $db->query('SELECT * FROM students')->findOrFail();
+    
 authorize($note['user_id'] === $currentUserId);
 
 $errors = [];
