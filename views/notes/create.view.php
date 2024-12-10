@@ -18,16 +18,13 @@
                             <div class="mt-1">
                                 <select
                                     id="student"
-                                    name="student"
+                                    name="student_id"
                                     class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                                     placeholder="Metting Topic"
                                 >
-                                    <option value="Student 1">Student 1</option>
-                                    <option value="Student 2">Student 2</option>
-                                    <option value="Student 3">Student 3</option>
-                                    <option value="Student 4">Student 4</option>
-                                    <option value="Student 5">Student 5</option>
-                                    <option value="Student 6">Student 6</option>
+                                <?php foreach($students as $student):?>
+                                    <option value="<?= htmlspecialchars($student['id'])?>"><?= htmlspecialchars($student['fname'])?></option>
+                                <?php endforeach?>
                                 </select>
 
                                 <?php if (isset($errors['body'])) : ?>
