@@ -29,7 +29,7 @@
         </footer>
         <form class="mt-6" method="post">
             <input type="hidden" name="_method" value="DELETE">
-            <input type="hidden" name="id" value="<?= $note['id'] ?>">
+            <input type="hidden" name="id" value="<?= $note['post_id'] ?>">
             <button
                 type="submit"
                 class="inline-flex justify-center rounded-md border border-transparent bg-red-500 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
