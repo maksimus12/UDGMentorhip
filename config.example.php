@@ -6,6 +6,6 @@ return [
         'port' => 3306,
         'dbname' => 'myNewApp',
     ],
-
-    //
+    'db_user' => 'root',
+    'db_pass' => '',
 ];
