@@ -13,6 +13,7 @@ $notes = $db->query('SELECT
             INNER JOIN students ON posts.student_id = students.id; 
             where user_id = 1')->get();
 
+
 view("notes/index.view.php", [
     'heading' => 'My Notes',
     'notes' => $notes
