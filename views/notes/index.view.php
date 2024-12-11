@@ -45,7 +45,7 @@
                 <tr class="border-b border-neutral-200 dark:border-black/10">
                 <td class="<?= $table_row_style ?>"><?= $index + 1?></td>
                 <td class="<?= $table_row_style ?>">  
-                     <?= htmlspecialchars($note['student']) ?>
+                     <?= htmlspecialchars($note['fname']) ?>
                 </td>
                 <td class="<?= $table_row_style ?>">
                     <a href="/note?id=<?= $note['id'] ?>" class="text-blue-500 hover:underline">

@@ -8,7 +8,7 @@
             <div class="mt-5 md:col-span-2 md:mt-0">
                 <form method="POST" action="/note">
                     <input type="hidden" name="_method" value="PATCH">
-                    <input type="hidden" name="id" value="<?= $note['id'] ?>">
+                    <input type="hidden" name="id" value="<?= $note['post_id'] ?>">
                     <div class="shadow sm:overflow-hidden sm:rounded-md">
                         <div class="space-y-6 bg-white px-4 py-5 sm:p-6">
                         <div>
@@ -17,19 +17,10 @@
                                 class="block text-sm font-medium text-gray-700"
                             >Student</label>
                             <div class="mt-1">
-                                <select
-                                    id="student"
-                                    name="student"
-                                    class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                                    placeholder="Metting Topic"
-                                >
-                                    <option value="Student 1">Student 1</option>
-                                    <option value="Student 2">Student 2</option>
-                                    <option value="Student 3">Student 3</option>
-                                    <option value="Student 4">Student 4</option>
-                                    <option value="Student 5">Student 5</option>
-                                    <option value="Student 6">Student 6</option>
-                                </select>
+                                <input type="hidden" name="student_id" value="<?=$note['student_id']?>">
+                                <input type="text"
+                                        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                                       value="<?= $note['fname']?>" readonly>
 
                                 <?php if (isset($errors['body'])) : ?>
                                     <p class="text-red-500 text-xs mt-2"><?= $errors['body'] ?></p>

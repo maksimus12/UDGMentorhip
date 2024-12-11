@@ -18,7 +18,7 @@ $currentUserId = 1;
         'id' => $_POST['id']
     ]);
 
-    header('location: /notes');
+    header('Location: /notes');
     exit();
 
 

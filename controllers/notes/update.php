@@ -31,10 +31,10 @@ if(count($errors)){
     ]);
 }
 
-$db->query('update posts set body = :body, student = :student, topic = :topic where id = :id', [
+$db->query('update posts set body = :body, student_id = :student_id, topic = :topic where id = :id', [
     'id' => $_POST['id'],
     'body' => $_POST['body'],
-    'student' => $_POST['student'],
+    'student_id' => $_POST['student_id'],
     'topic' => $_POST['topic']
 ]);
 
