@@ -13,7 +13,7 @@ $notes = $db->query('SELECT
             INNER JOIN users ON posts.user_id = users.id
             INNER JOIN students ON posts.student_id = students.id 
             where posts.user_id = :user_id', [
-                'user_id'=> 1
+                'user_id'=> $_SESSION['user']['user_id']
             ])->get();
 
 

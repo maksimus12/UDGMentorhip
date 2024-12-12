@@ -7,7 +7,7 @@ use Core\Validator;
 $db = App::resolve(Database::class);
 
 
-$currentUserId = 1;
+$currentUserId = $_SESSION['user']['user_id'];
 
 
     $note = $db->query('select * from posts where id = :id', [
