@@ -5,7 +5,7 @@ use Core\App;
 $db = App::resolve(Database::class);
 
 
-$currentUserId = 1;
+$curresntUserId = 1;
 
 
     $note = $db->query('SELECT posts.id as post_id,
