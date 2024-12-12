@@ -38,8 +38,14 @@ if($user){
         'email'=>$email,
         'password' => password_hash($password, PASSWORD_DEFAULT)
     ]);
+    $user_id = $db->query('SELECT * FROM users where email = :email',[
+        'email'=> $_SESSION['name']
+    ])->get();
 
-    login($user);
+    login([
+        'email' => $email,
+        'user_id' => $user_id[0]['id']
+    ]);
 
     header('Location: /');
     exit();
