@@ -44,7 +44,7 @@ if($user){
 
     login([
         'email' => $email,
-        'user_id' => $user_id[0]['id']
+        'user_id' => $user[0]['id']
     ]);
 
     header('Location: /');
