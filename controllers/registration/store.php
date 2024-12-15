@@ -39,7 +39,7 @@ if($user){
         'password' => password_hash($password, PASSWORD_DEFAULT)
     ]);
     $user_id = $db->query('SELECT * FROM users where email = :email',[
-        'email'=> $_SESSION['name']
+        'email'=> $email
     ])->get();
 
     login([

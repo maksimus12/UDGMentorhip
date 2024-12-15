@@ -6,9 +6,9 @@ use Core\App;
 $db = App::resolve(Database::class);
 
 
-$currentUserId = 1;
+$currentUserId = $_SESSION['user']['user_id'];
 
-   
+
 
     $note = $db->query('SELECT 
                         posts.id as post_id,

@@ -3,7 +3,7 @@ use Core\Database;
 use Core\App;
 
 $db = App::resolve(Database::class);
-
+//dd($_SESSION['user']['user_id']);
 $notes = $db->query('SELECT 
             posts.id,   
             posts.user_id,
