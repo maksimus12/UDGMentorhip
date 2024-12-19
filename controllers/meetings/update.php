@@ -10,7 +10,7 @@ $db = App::resolve(Database::class);
 $currentUserId = $_SESSION['user']['user_id'];
 
 
-    $meeting = $db->query('select * from posts where id = :id', [
+    $meeting = $db->query('select * meetings where id = :id', [
         'id' => $_POST['id']
     ])->findOrFail();
     
@@ -31,7 +31,7 @@ if(count($errors)){
     ]);
 }
 
-$db->query('update posts set body = :body, student_id = :student_id, topic = :topic where id = :id', [
+$db->query('update meetings set body = :body, student_id = :student_id, topic = :topic where id = :id', [
     'id' => $_POST['id'],
     'body' => $_POST['body'],
     'student_id' => $_POST['student_id'],

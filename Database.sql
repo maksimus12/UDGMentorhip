@@ -15,7 +15,7 @@ CREATE TABLE if not exists `students` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-CREATE TABLE if not exists `posts` (
+CREATE TABLE if not exists `meetings` (
                          `id` int NOT NULL AUTO_INCREMENT,
                          `student_id` int DEFAULT NULL,
                          `topic` varchar(255) DEFAULT NULL,

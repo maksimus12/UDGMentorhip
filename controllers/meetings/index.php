@@ -5,14 +5,14 @@ use Core\App;
 $db = App::resolve(Database::class);
 //dd($_SESSION['user']['user_id']);
 $meetings = $db->query('SELECT 
-            posts.id,   
-            posts.user_id,
+            meetings.id,   
+            meetings.user_id,
             students.fname,
-            posts.topic
-            FROM posts
-            INNER JOIN users ON posts.user_id = users.id
-            INNER JOIN students ON posts.student_id = students.id 
-            where posts.user_id = :user_id', [
+            meetings.topic
+            FROM meetings
+            INNER JOIN users ON meetings.user_id = users.id
+            INNER JOIN students ON meetings.student_id = students.id 
+            where meetings.user_id = :user_id', [
                 'user_id'=> $_SESSION['user']['user_id']
             ])->get();
 

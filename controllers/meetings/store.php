@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     if (empty($errors)) {
-        $db->query('INSERT INTO posts(student_id, topic, body, user_id) VALUES(:student_id, :topic, :body, :user_id)', [
+        $db->query('INSERT INTO meetings(student_id, topic, body, user_id) VALUES(:student_id, :topic, :body, :user_id)', [
             'student_id' => $_POST['student_id'],
             'topic' => $_POST['topic'],
             'body' => $_POST['body'],
