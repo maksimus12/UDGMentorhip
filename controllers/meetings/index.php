@@ -4,7 +4,7 @@ use Core\App;
 
 $db = App::resolve(Database::class);
 //dd($_SESSION['user']['user_id']);
-$notes = $db->query('SELECT 
+$meetings = $db->query('SELECT 
             posts.id,   
             posts.user_id,
             students.fname,
@@ -17,7 +17,7 @@ $notes = $db->query('SELECT
             ])->get();
 
 
-view("notes/index.view.php", [
-    'heading' => 'My Notes',
-    'notes' => $notes
+view("meetings/index.view.php", [
+    'heading' => 'My meetings',
+    'meetings' => $meetings
 ]);

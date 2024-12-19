@@ -13,7 +13,7 @@
     <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
     <div class="table_component" role="region" tabindex="0">
         <p class="mt-6 mb-10 primary">
-            <a href="/notes/create" 
+            <a href="/meetings/create"
                 class="rounded-md border 
                     border-transparent 
                     bg-blue-500 py-2 px-4 text-sm font-medium 
@@ -22,7 +22,7 @@
                     focus:outline-none focus:ring-2 
                     focus:ring-indigo-500 
                     focus:ring-offset-2"
-                    >Create Note 
+                    >Create Meeting
             </a>
         </p>
         <div class="flex flex-col">
@@ -41,20 +41,20 @@
                 </tr>
             </thead>
             <tbody>
-            <?php foreach ($notes as $index => $note) : ?>
+            <?php foreach ($meetings as $index => $meeting) : ?>
                 <tr class="border-b border-neutral-200 dark:border-black/10">
                 <td class="<?= $table_row_style ?>"><?= $index + 1?></td>
                 <td class="<?= $table_row_style ?>">  
-                     <?= htmlspecialchars($note['fname']) ?>
+                     <?= htmlspecialchars($meeting['fname']) ?>
                 </td>
                 <td class="<?= $table_row_style ?>">
-                    <a href="/note?id=<?= $note['id'] ?>" class="text-blue-500 hover:underline">
-                            <?= htmlspecialchars($note['topic']) ?>
+                    <a href="/meeting?id=<?= $meeting['id'] ?>" class="text-blue-500 hover:underline">
+                            <?= htmlspecialchars($meeting['topic']) ?>
                     </a>
                 </td>
                 <td class="whitespace-nowrap px-6 py-4"> 
                     <div class="flex">
-                        <a href="/note/edit?id=<?= $note['id']?>" class="rounded-md border 
+                        <a href="/meeting/edit?id=<?= $meeting['id']?>" class="rounded-md border
                         border-transparent 
                         bg-orange-500 py-2 px-4 text-sm font-medium 
                         text-white shadow-sm 

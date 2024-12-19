@@ -15,8 +15,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
     
     if(!empty($errors)){
-        view("notes/create.view.php", [
-            'heading' => 'Create Note',
+        view("meetings/create.view.php", [
+            'heading' => 'Create meeting',
             'errors' => $errors
         ]);
     }
@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'user_id' => $_SESSION['user']['user_id']
         ]);
 
-        header('Location: /notes');
+        header('Location: /meetings');
         die();
     }
 }

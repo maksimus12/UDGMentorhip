@@ -7,7 +7,7 @@
         <div class="md:grid md:grid-cols-3 md:gap-6">
             <div class="mt-5 md:col-span-2 md:mt-0">
                 <h1 class="mb-5 text-2xl font-bold tracking-tight text-gray-900">Add new meetting record</h1>
-                <form method="POST" action="/notes">
+                <form method="POST" action="/meetings">
                     <div class="shadow sm:overflow-hidden sm:rounded-md">
                         <div class="space-y-6 bg-white px-4 py-5 sm:p-6">
                         <div>
@@ -61,7 +61,7 @@
                                         name="body"
                                         rows="3"
                                         class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                                        placeholder="Here's your notes..."
+                                        placeholder="Here's your meetings..."
                                     ><?= $_POST['body'] ?? '' ?></textarea>
 
                                     <?php if (isset($errors['body'])) : ?>

@@ -10,7 +10,7 @@ $currentUserId = $_SESSION['user']['user_id'];
 
 
 
-    $note = $db->query('SELECT 
+    $meeting = $db->query('SELECT 
                         posts.id as post_id,
                         students.id as student_id,
                         users.id as user_id,
@@ -24,12 +24,12 @@ $currentUserId = $_SESSION['user']['user_id'];
                         'id' => $_GET['id']
     ])->findOrFail();
     
-    authorize($note['user_id'] === $currentUserId);
+    authorize($meeting['user_id'] === $currentUserId);
 
 
-view("notes/edit.view.php", [
-    'heading' => 'Edit Note',
+view("meetings/edit.view.php", [
+    'heading' => 'Edit meeting',
     'errors' => [],
-    'note' => $note,
+    'meeting' => $meeting,
     // 'students' => $students
 ]);

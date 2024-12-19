@@ -8,7 +8,7 @@ $db = App::resolve(Database::class);
 $currentUserId = $_SESSION['user']['user_id'];
 
 
-    $note = $db->query('SELECT posts.id as post_id,
+    $meeting = $db->query('SELECT posts.id as post_id,
                         students.id as student_id,
                         users.id as user_id,
                         students.fname,
@@ -21,10 +21,10 @@ $currentUserId = $_SESSION['user']['user_id'];
                         'id' => $_GET['id']
                         ])->findOrFail();
     
-    authorize($note['user_id'] === $currentUserId);
+    authorize($meeting['user_id'] === $currentUserId);
     
-    view("notes/show.view.php", [
-        'heading' => 'Note',
-        'note' => $note,
+    view("meetings/show.view.php", [
+        'heading' => 'Meeting',
+        'meeting' => $meeting,
     ]);
 
