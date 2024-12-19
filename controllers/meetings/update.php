@@ -10,7 +10,7 @@ $db = App::resolve(Database::class);
 $currentUserId = $_SESSION['user']['user_id'];
 
 
-    $meeting = $db->query('select * meetings where id = :id', [
+    $meeting = $db->query('select * from meetings where id = :id', [
         'id' => $_POST['id']
     ])->findOrFail();
     

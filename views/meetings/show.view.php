@@ -5,7 +5,7 @@
 <main>
     <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
         
-        <h3 class="mb-5 text-2xl font-bold tracking-tight text-gray-900"><?= htmlspecialchars($meeting['fname']). ": " .htmlspecialchars($meetings['topic']) ?></h3>
+        <h3 class="mb-5 text-2xl font-bold tracking-tight text-gray-900"><?= htmlspecialchars($meeting['fname']). ": " .htmlspecialchars($meeting['topic']) ?></h3>
 
         <p><?= htmlspecialchars($meeting['body']) ?></p>
 
