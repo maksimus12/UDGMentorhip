@@ -6,8 +6,8 @@ $db = App::resolve(Database::class);
 
 $students = $db->query('SELECT * FROM students')->get();
 
-view("notes/create.view.php", [
+view("meetings/create.view.php", [
     'students' => $students,
-    'heading' => 'Create Note',
+    'heading' => 'Create meeting',
     'errors' => []
 ]);

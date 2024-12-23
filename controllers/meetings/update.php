@@ -10,11 +10,11 @@ $db = App::resolve(Database::class);
 $currentUserId = $_SESSION['user']['user_id'];
 
 
-    $note = $db->query('select * from posts where id = :id', [
+    $meeting = $db->query('select * from meetings where id = :id', [
         'id' => $_POST['id']
     ])->findOrFail();
     
-authorize($note['user_id'] === $currentUserId);
+authorize($meeting['user_id'] === $currentUserId);
 
 $errors = [];
 
@@ -24,19 +24,19 @@ if (!Validator::string($_POST['body'], 1, 1000)) {
 
 
 if(count($errors)){
-    return view('notes/edit.view.php', [
-        'heading' => 'Edit Note',
+    return view('meetings/edit.view.php', [
+        'heading' => 'Edit meeting',
         'errors' => $errors,
-        'note' => $note
+        'meeting' => $meeting
     ]);
 }
 
-$db->query('update posts set body = :body, student_id = :student_id, topic = :topic where id = :id', [
+$db->query('update meetings set body = :body, student_id = :student_id, topic = :topic where id = :id', [
     'id' => $_POST['id'],
     'body' => $_POST['body'],
     'student_id' => $_POST['student_id'],
     'topic' => $_POST['topic']
 ]);
 
-header('Location: /notes');
+header('Location: /meetings');
 die();
