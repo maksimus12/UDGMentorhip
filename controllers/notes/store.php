@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'student_id' => $_POST['student_id'],
             'topic' => $_POST['topic'],
             'body' => $_POST['body'],
-            'user_id' => 1
+            'user_id' => $_SESSION['user']['user_id']
         ]);
 
         header('Location: /notes');

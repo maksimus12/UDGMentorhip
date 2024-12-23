@@ -29,9 +29,11 @@ $user = $db->query('select * from users where email = :email', [
     'email' => $email,
 ])->find();
 
+
 if($user){
     if(password_verify($password, $user['password'])){
         login([
+            'user_id' => $user['id'],
             'email' => $email
         ]);
         header('Location: /');
@@ -41,7 +43,7 @@ if($user){
 return view('sessions/create.view.php', [
     'errors' => [
         'email' => 'Wrong email or password'
-    ]
+        ]
     ]);
 
 
