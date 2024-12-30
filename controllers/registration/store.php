@@ -3,6 +3,7 @@
 use Core\App;
 use Core\Database;
 use Core\Validator;
+use Core\UserRoles;
 
 $email = $_POST['email'];
 $password = $_POST['password'];
@@ -31,16 +32,12 @@ if(!empty($errors)){
         'errors' => $errors
     ]);
 } else{
-    $db->query('INSERT INTO users(email, password) VALUES(:email, :password)', [
+    $db->query('INSERT INTO users(email, password, role) VALUES(:email, :password, :role)', [
         'email'=>$email,
-        'password' => password_hash($password, PASSWORD_DEFAULT)
+        'password' => password_hash($password, PASSWORD_DEFAULT),
+        'role' => UserRoles::USER
     ]);
 
-    login([
-        'email' => $email,
-        'user_id' => $user[0]['id']
-    ]);
-
-    header('Location: /');
+    header('Location: /login');
     exit();
 }

@@ -3,7 +3,6 @@
 namespace Core\Middleware;
 
 use Exception;
-
 class Middleware{
 
     public const MAP = [
