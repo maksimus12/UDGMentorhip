@@ -22,11 +22,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     if (empty($errors)) {
-        $db->query('INSERT INTO meetings(student_id, topic, body, user_id) VALUES(:student_id, :topic, :body, :user_id)', [
+        $db->query('INSERT INTO meetings(student_id, topic, body, user_id, meeting_datetime) VALUES(:student_id, :topic, :body, :user_id, :meeting_datetime)', [
             'student_id' => $_POST['student_id'],
             'topic' => $_POST['topic'],
             'body' => $_POST['body'],
-            'user_id' => $_SESSION['user']['user_id']
+            'user_id' => $_SESSION['user']['user_id'],
+            'meeting_datetime' => $_POST['meeting_datetime']
         ]);
 
         header('Location: /meetings');

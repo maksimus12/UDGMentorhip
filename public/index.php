@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-
+date_default_timezone_set('Europe/Chisinau');
 use Core\Router;
 
 const BASE_PATH = __DIR__.'/../';

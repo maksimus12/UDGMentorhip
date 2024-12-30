@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 use Core\Database;
 use Core\App;
@@ -9,11 +9,10 @@ $db = App::resolve(Database::class);
 
 $currentUserId = $_SESSION['user']['user_id'];
 
-
     $meeting = $db->query('select * from meetings where id = :id', [
         'id' => $_POST['id']
     ])->findOrFail();
-    
+
 authorize($meeting['user_id'] === $currentUserId);
 
 $errors = [];
@@ -31,11 +30,12 @@ if(count($errors)){
     ]);
 }
 
-$db->query('update meetings set body = :body, student_id = :student_id, topic = :topic where id = :id', [
+$db->query('update meetings set body = :body, student_id = :student_id, topic = :topic, meeting_datetime = :meeting_datetime  where id = :id', [
     'id' => $_POST['id'],
     'body' => $_POST['body'],
     'student_id' => $_POST['student_id'],
-    'topic' => $_POST['topic']
+    'topic' => $_POST['topic'],
+    'meeting_datetime' => $_POST['meeting_datetime']
 ]);
 
 header('Location: /meetings');

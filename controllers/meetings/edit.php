@@ -16,7 +16,8 @@ $currentUserId = $_SESSION['user']['user_id'];
                         users.id as user_id,
                         students.fname,
                         meetings.topic,
-                        meetings.body
+                        meetings.body,
+                        meetings.meeting_datetime
                         FROM meetings
                         INNER JOIN users ON meetings.user_id = users.id
                         INNER JOIN students ON meetings.student_id = students.id
@@ -30,6 +31,5 @@ $currentUserId = $_SESSION['user']['user_id'];
 view("meetings/edit.view.php", [
     'heading' => 'Edit meeting',
     'errors' => [],
-    'meeting' => $meeting,
-    // 'students' => $students
+    'meeting' => $meeting
 ]);

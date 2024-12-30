@@ -8,7 +8,8 @@ $db = App::resolve(Database::class);
 $currentUserId = $_SESSION['user']['user_id'];
 
 
-    $meeting = $db->query('SELECT meetings.id as post_id,
+    $meeting = $db->query('SELECT 
+                        meetings.id as post_id,
                         students.id as student_id,
                         users.id as user_id,
                         students.fname,
