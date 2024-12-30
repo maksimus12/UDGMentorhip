@@ -8,7 +8,6 @@ $db = App::resolve(Database::class);
 
 
 $currentUserId = $_SESSION['user']['user_id'];
-$currentDateTime = date('Y-m-d H:i:s');
 
     $meeting = $db->query('select * from meetings where id = :id', [
         'id' => $_POST['id']
@@ -31,12 +30,11 @@ if(count($errors)){
     ]);
 }
 
-$db->query('update meetings set body = :body, student_id = :student_id, topic = :topic, updated_at = :updated_at, meeting_datetime = :meeting_datetime  where id = :id', [
+$db->query('update meetings set body = :body, student_id = :student_id, topic = :topic, meeting_datetime = :meeting_datetime  where id = :id', [
     'id' => $_POST['id'],
     'body' => $_POST['body'],
     'student_id' => $_POST['student_id'],
     'topic' => $_POST['topic'],
-    'updated_at' => $currentDateTime,
     'meeting_datetime' => $_POST['meeting_datetime']
 ]);
 
