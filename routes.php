@@ -14,6 +14,8 @@ $router->get('/meetings/create', 'controllers/meetings/create.php');
 $router->patch('/meeting', 'controllers/meetings/update.php');
 $router->get('/meeting/edit', 'controllers/meetings/edit.php');
 
+$router->get('/students', 'controllers/students/index.php')->only('auth');
+
 $router->get('/register', 'controllers/registration/create.php')->only('guest');
 $router->post('/register', 'controllers/registration/store.php')->only('guest');
 

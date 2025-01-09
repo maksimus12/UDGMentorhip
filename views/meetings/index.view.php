@@ -12,19 +12,34 @@
 <main>
     <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
     <div class="table_component" role="region" tabindex="0">
+        <div class="flex justify-between">
         <p class="mt-6 mb-10 primary">
             <a href="/meetings/create"
-                class="rounded-md border 
-                    border-transparent 
-                    bg-blue-500 py-2 px-4 text-sm font-medium 
-                    text-white shadow-sm 
-                    hover:bg-blue-700 
-                    focus:outline-none focus:ring-2 
-                    focus:ring-indigo-500 
+                class="rounded-md border
+                    border-transparent
+                    bg-blue-500 py-2 px-4 text-sm font-medium
+                    text-white shadow-sm
+                    hover:bg-blue-700
+                    focus:outline-none focus:ring-2
+                    focus:ring-indigo-500
                     focus:ring-offset-2"
                     >Create Meeting
             </a>
         </p>
+        <p class="ml-6 mt-6 mb-10 primary">
+            <a href="/students"
+               class="rounded-md border
+                    border-transparent
+                    bg-green-500 py-2 px-4 text-sm font-medium
+                    text-white shadow-sm
+                    hover:bg-green-700
+                    focus:outline-none focus:ring-2
+                    focus:ring-indigo-500
+                    focus:ring-offset-2"
+            >📮 New Student
+            </a>
+        </p>
+        </div>
         <div class="flex flex-col">
         <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
         <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
