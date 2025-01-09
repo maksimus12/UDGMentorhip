@@ -3,7 +3,7 @@ use Core\Database;
 use Core\App;
 
 $db = App::resolve(Database::class);
-//dd($_SESSION['user']['user_id']);
+//dd($_SESSION['user']['user_role']);
 $meetings = $db->query('SELECT 
             meetings.id,   
             meetings.user_id,
