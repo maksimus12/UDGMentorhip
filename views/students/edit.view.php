@@ -35,6 +35,9 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                                     class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
                                             </div>
                                         </div>
+                                        <?php if (isset($errors['student_name'])) : ?>
+                                            <p class="text-red-500 text-xs mt-2"><?= $errors['student_name'] ?></p>
+                                        <?php endif; ?>
                                     </div>
                                     <div class="bg-gray-50 px-4 py-3 text-right sm:px-6">
                                         <a
