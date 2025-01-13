@@ -6,6 +6,7 @@ $db = App::resolve(Database::class);
 //dd($_SESSION['user']['user_role']);
 $meetings = $db->query('SELECT 
             meetings.id,   
+            meetings.meeting_datetime,
             meetings.user_id,
             students.fname,
             meetings.topic

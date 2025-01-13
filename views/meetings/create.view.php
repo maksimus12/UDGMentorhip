@@ -17,7 +17,7 @@
                                         class="block text-sm font-medium text-gray-700"
                                 >Meeting Date & Time</label>
                                 <div class="mt-1">
-                                    <input
+                                    <input  required
                                             type="datetime-local"
                                             id="meeting_datetime"
                                             name="meeting_datetime"
@@ -38,7 +38,7 @@
                                         class="block text-sm font-medium text-gray-700"
                                 >Student</label>
                                 <div class="mt-1">
-                                    <select
+                                    <select required
                                             id="student"
                                             name="student_id"
                                             class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
@@ -62,7 +62,7 @@
                                         class="block text-sm font-medium text-gray-700"
                                 >Topic</label>
                                 <div class="mt-1">
-                                    <input
+                                    <input  required
                                             id="topic"
                                             name="topic"
                                             class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
@@ -84,6 +84,7 @@
                                 >Discussion Key Moments</label>
                                 <div class="mt-1">
                     <textarea
+                            required
                             id="body"
                             name="body"
                             rows="3"

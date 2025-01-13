@@ -36,16 +36,15 @@
             <thead
                 class="border-b border-neutral-200 font-medium dark:border-black/20">
                 <tr>
-                <th scope="col" class="w-0 <?= $table_headings_style ?>">No</th>
                 <th scope="col" class="w-0 <?= $table_headings_style ?>">Student</th>
                 <th scope="col" class=" <?= $table_headings_style ?>">Topic</th>
+                <th scope="col" class=" <?= $table_headings_style ?>">Date</th>
                 <th scope="col" class=" px-6 py-4 ">Action</th>
                 </tr>
             </thead>
             <tbody>
             <?php foreach ($meetings as $index => $meeting) : ?>
                 <tr class="border-b border-neutral-200 dark:border-black/10">
-                <td class="<?= $table_row_style ?>"><?= $index + 1?></td>
                 <td class="<?= $table_row_style ?>">  
                      <?= htmlspecialchars($meeting['fname']) ?>
                 </td>
@@ -54,6 +53,12 @@
                             <?= htmlspecialchars($meeting['topic']) ?>
                     </a>
                 </td>
+                <td class="<?= $table_row_style ?>">
+                   <p>
+                        <?= htmlspecialchars( $meeting['meeting_datetime']); ?>
+                   </p>
+                </td>
+
                 <td class="whitespace-nowrap px-6 py-4"> 
                     <div class="flex">
                         <a href="/meeting/edit?id=<?= $meeting['id']?>" class="rounded-md border
