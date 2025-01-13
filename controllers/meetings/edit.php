@@ -22,8 +22,7 @@ $currentUserId = $_SESSION['user']['user_id'];
                         INNER JOIN users ON meetings.user_id = users.id
                         INNER JOIN students ON meetings.student_id = students.id
                         where meetings.id = :id', [
-                        'id' => $_GET['id']
-    ])->findOrFail();
+                        'id' => $_GET['id']])->findOrFail();
     
     authorize($meeting['user_id'] === $currentUserId);
 

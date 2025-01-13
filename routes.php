@@ -4,6 +4,12 @@ $router->get('/', 'controllers/index.php');
 $router->get('/about', 'controllers/about.php');
 $router->get('/contact', 'controllers/contact.php');
 
+$router->get('/students', 'controllers/students/index.php')->only('auth');
+$router->post('/students', 'controllers/students/store.php');
+$router->delete('/students', 'controllers/students/destroy.php');
+$router->get('/student/edit', 'controllers/students/edit.php');
+$router->patch('/student', 'controllers/students/update.php');
+
 $router->get('/meetings', 'controllers/meetings/index.php')->only('auth');
 $router->get('/meeting', 'controllers/meetings/show.php');
 $router->delete('/meeting', 'controllers/meetings/destroy.php');
