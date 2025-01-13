@@ -55,7 +55,7 @@
                 </td>
                 <td class="<?= $table_row_style ?>">
                    <p>
-                        <?= htmlspecialchars( $meeting['meeting_datetime']); ?>
+                        <?= htmlspecialchars( date_format(date_create($meeting['meeting_datetime']), 'Y-m-d H:i')); ?>
                    </p>
                 </td>
 
