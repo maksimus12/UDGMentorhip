@@ -15,7 +15,7 @@ if (!Validator::string($_POST['student_name'], 1, 50)) {
     $errors['student_name'] = 'A Name of no more than 50 and no less then 1 characters is required.';
 }
 
-if(!empty($errors)){
+if (!empty($errors)) {
 
     view("students/edit.view.php", [
         'heading' => 'Update student',
@@ -27,9 +27,9 @@ if(!empty($errors)){
 
 
 $db->query('update students set fname = :fname where id = :id', [
-        'fname' => $_POST['student_name'],
-        'id' => $_POST['id']
-    ]);
+    'fname' => $_POST['student_name'],
+    'id' => $_POST['id']
+]);
 
 header('Location: /students');
 die();
