@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 use Core\Authenticator;
 use Http\Forms\LoginForm;
@@ -9,22 +9,20 @@ $password = $_POST['password'];
 
 $form = new LoginForm();
 
-if($form->validate($email, $password))
-    {
+if ($form->validate($email, $password)) {
 
-        if((new Authenticator())->attempt($email, $password))
-        {
-            redirect('/');
-        }
-
-            $form->error('email', "Wrong email or password");
-
+    if ((new Authenticator())->attempt($email, $password)) {
+        redirect('/');
     }
 
+    $form->error('email', "Wrong email or password");
 
-    view('sessions/create.view.php',[
-        'errors' => $form->errors()
-    ]);
+}
+
+
+view('sessions/create.view.php', [
+    'errors' => $form->errors()
+]);
 
 
 

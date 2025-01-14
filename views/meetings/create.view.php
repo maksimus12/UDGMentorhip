@@ -17,12 +17,12 @@
                                         class="block text-sm font-medium text-gray-700"
                                 >Meeting Date & Time</label>
                                 <div class="mt-1">
-                                    <input  required
-                                            type="datetime-local"
-                                            id="meeting_datetime"
-                                            name="meeting_datetime"
-                                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                                            value="<?= $_POST['meeting_datetime'] ?? '' ?>"
+                                    <input required
+                                           type="datetime-local"
+                                           id="meeting_datetime"
+                                           name="meeting_datetime"
+                                           class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                                           value="<?= $_POST['meeting_datetime'] ?? '' ?>"
                                     >
 
                                     <?php if (isset($errors['meeting_datetime'])) : ?>
@@ -43,8 +43,8 @@
                                             name="student_id"
                                             class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                                     >
-                                        <option value="" >Select...</option>
-                                        <?php foreach($students as $student): ?>
+                                        <option value="">Select...</option>
+                                        <?php foreach ($students as $student): ?>
                                             <option value="<?= htmlspecialchars($student['id']) ?>">
                                                 <?= htmlspecialchars($student['fname']) ?>
                                             </option>
@@ -63,12 +63,12 @@
                                         class="block text-sm font-medium text-gray-700"
                                 >Topic</label>
                                 <div class="mt-1">
-                                    <input  required
-                                            id="topic"
-                                            name="topic"
-                                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                                            placeholder="Meeting Topic"
-                                            value="<?= $_POST['topic'] ?? '' ?>"
+                                    <input required
+                                           id="topic"
+                                           name="topic"
+                                           class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                                           placeholder="Meeting Topic"
+                                           value="<?= $_POST['topic'] ?? '' ?>"
                                     >
 
                                     <?php if (isset($errors['topic'])) : ?>

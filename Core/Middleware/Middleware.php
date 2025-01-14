@@ -1,9 +1,11 @@
-<?php 
+<?php
 
 namespace Core\Middleware;
 
 use Exception;
-class Middleware{
+
+class Middleware
+{
 
     public const MAP = [
 
@@ -11,15 +13,16 @@ class Middleware{
         'auth' => Auth::class
     ];
 
-    public static function resolve($key){
+    public static function resolve($key)
+    {
 
-        if(!$key){
+        if (!$key) {
             return;
         }
 
         $middleware = static::MAP[$key] ?? false;
 
-        if(!$middleware){
+        if (!$middleware) {
             throw new \Exception("No middleware found for the key: {$key}");
         }
 

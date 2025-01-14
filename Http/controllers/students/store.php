@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $errors['student_name'] = 'A Name should be no more than 50 characters is required.';
     }
 
-    if(!empty($errors)){
+    if (!empty($errors)) {
         $students = $db->query('SELECT * FROM students')->get();
         view("students/index.view.php", [
             'heading' => 'Create student',

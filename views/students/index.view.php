@@ -18,9 +18,9 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
 
                         <div class="w-6/12 overflow-hidden">
                             <table
-                                class="table-auto border-collapse border border-gray-300 w-full min-w-full text-left text-sm font-light text-surface dark:text-black">
+                                    class="table-auto border-collapse border border-gray-300 w-full min-w-full text-left text-sm font-light text-surface dark:text-black">
                                 <thead
-                                    class="border-b border-neutral-200 font-medium dark:border-black/20">
+                                        class="border-b border-neutral-200 font-medium dark:border-black/20">
                                 <tr>
                                     <th scope="col" class="w-0 <?= $table_headings_style ?>">No.</th>
                                     <th scope="col" class="w-0 <?= $table_headings_style ?>">Student</th>
@@ -36,7 +36,7 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                         </td>
                                         <td class="whitespace-nowrap px-6 py-4">
                                             <div class="flex justify-center items-center">
-                                                <a href="/student/edit?id=<?= $student['id']?>" class="
+                                                <a href="/student/edit?id=<?= $student['id'] ?>" class="
                                                 mr-5
                                                 rounded-md border
                                                 border-transparent
@@ -63,25 +63,25 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                     </tr>
                                 <?php endforeach; ?>
                                 </tbody>
-                                </table>
+                            </table>
 
 
                         </div>
                         <div class="w-6/12 ml-5 overflow-hidden">
-                            <form  method="POST" action="/students">
+                            <form method="POST" action="/students">
                                 <div class="shadow sm:overflow-hidden sm:rounded-md">
                                     <div class="space-y-6 bg-white px-4 py-5 sm:p-6">
                                         <div>
                                             <label
-                                                for="student"
-                                                class="block text-sm font-medium text-gray-700"
+                                                    for="student"
+                                                    class="block text-sm font-medium text-gray-700"
                                             >New Student</label>
                                             <div class="mt-1">
                                                 <input
-                                                id="student"
-                                                value="<?= $_POST['student_name'] ?? " " ?>"
-                                                name="student_name"
-                                                class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                                                        id="student"
+                                                        value="<?= $_POST['student_name'] ?? " " ?>"
+                                                        name="student_name"
+                                                        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
                                             </div>
                                         </div>
                                         <?php if (isset($errors['student_name'])) : ?>
@@ -90,8 +90,8 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                     </div>
                                     <div class="bg-gray-50 px-4 py-3 text-right sm:px-6">
                                         <button
-                                            type="submit"
-                                            class="inline-flex justify-center
+                                                type="submit"
+                                                class="inline-flex justify-center
                                                 rounded-md border border-transparent
                                                 bg-indigo-600 py-2 px-4 text-sm font-medium
                                                 text-white shadow-sm hover:bg-indigo-700

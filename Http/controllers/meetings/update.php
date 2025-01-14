@@ -9,9 +9,9 @@ $db = App::resolve(Database::class);
 
 $currentUserId = $_SESSION['user']['user_id'];
 
-    $meeting = $db->query('select * from meetings where id = :id', [
-        'id' => $_POST['id']
-    ])->findOrFail();
+$meeting = $db->query('select * from meetings where id = :id', [
+    'id' => $_POST['id']
+])->findOrFail();
 
 authorize($meeting['user_id'] === $currentUserId);
 
@@ -22,7 +22,7 @@ if (!Validator::string($_POST['body'], 1, 1000)) {
 }
 
 
-if(count($errors)){
+if (count($errors)) {
     return view('meetings/edit.view.php', [
         'heading' => 'Edit meeting',
         'errors' => $errors,
