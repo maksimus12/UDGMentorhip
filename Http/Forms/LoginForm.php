@@ -1,8 +1,9 @@
 <?php
 
-
 namespace Http\Forms;
+
 use Core\Validator;
+
 class LoginForm
 {
     protected $errors = [];

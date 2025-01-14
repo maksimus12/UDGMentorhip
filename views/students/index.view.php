@@ -22,7 +22,6 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                 <thead
                                     class="border-b border-neutral-200 font-medium dark:border-black/20">
                                 <tr>
-                                    <th scope="col" class="w-0 <?= $table_headings_style ?>">No.</th>
                                     <th scope="col" class="w-0 <?= $table_headings_style ?>">Student</th>
                                     <th scope="col" class="w-0 text-center px-6 py-4">Action</th>
                                 </tr>
@@ -30,7 +29,6 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                 <tbody>
                                 <?php foreach ($students as $index => $student) : ?>
                                     <tr class="border-b border-neutral-200 dark:border-black/10">
-                                        <td class="<?= $table_row_style ?>"><?= $index + 1 ?></td>
                                         <td class="<?= $table_row_style ?>">
                                             <?= htmlspecialchars($student['fname']) ?>
                                         </td>
