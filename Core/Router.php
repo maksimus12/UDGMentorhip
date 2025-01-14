@@ -2,26 +2,12 @@
 
 namespace Core;
 
-use Core\Middleware\Auth;
-use Core\Middleware\Guest;
 use Core\Middleware\Middleware;
 
 class Router
 {
 
     protected $routes = [];
-
-    public function add($method, $uri, $controller)
-    {
-        $this->routes[] = [
-            'uri' => $uri,
-            'controller' => $controller,
-            'method' => $method,
-            'middleware' => null
-        ];
-
-        return $this;
-    }
 
     public function only($key)
     {
@@ -32,6 +18,18 @@ class Router
     public function get($uri, $controller)
     {
         return $this->add('GET', $uri, $controller);
+    }
+
+    public function add($method, $uri, $controller)
+    {
+        $this->routes[] = [
+            'uri' => $uri,
+            'controller' => $controller,
+            'method' => $method,
+            'middleware' => null,
+        ];
+
+        return $this;
     }
 
     public function post($uri, $controller)
@@ -58,7 +56,6 @@ class Router
     {
         foreach ($this->routes as $route) {
             if ($route['uri'] === $uri && $route['method'] === strtoupper($method)) {
-
                 Middleware::resolve($route['middleware']);
 
                 return require base_path('Http/controllers' . $route['controller']);
