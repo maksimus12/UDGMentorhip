@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Http\Forms;
 
 use Core\Validator;
