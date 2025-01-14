@@ -6,7 +6,7 @@ namespace Http\Forms;
 use Core\Validator;
 class LoginForm
 {
-    protected $errors = [];
+    protected $errors =[];
     public function validate($email, $password)
     {
 
@@ -18,7 +18,7 @@ class LoginForm
             $this->errors['password'] = 'Provide a valid password';
         }
 
-     return empty($this->errors);
+        return empty($this->errors);
     }
 
     public function errors(){

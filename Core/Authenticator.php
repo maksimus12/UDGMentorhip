@@ -19,6 +19,7 @@ class Authenticator
                     'email' => $user['email'],
                     'user_role' => $user['role']
                 ]);
+                return true;
             }
         }
         return false;

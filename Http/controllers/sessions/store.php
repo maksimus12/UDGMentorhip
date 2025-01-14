@@ -12,15 +12,17 @@ $form = new LoginForm();
 if($form->validate($email, $password))
     {
 
-        if((new Authenticator)->attempt($email, $password))
+        if((new Authenticator())->attempt($email, $password))
         {
             redirect('/');
         }
-    }
-        $form->error('email', "Wrong email or password");
+
+            $form->error('email', "Wrong email or password");
+
     }
 
-    return view('sessions/create.view.php',[
+
+    view('sessions/create.view.php',[
         'errors' => $form->errors()
     ]);
 
