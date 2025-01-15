@@ -1,0 +1,15 @@
+{
+  "name": "mediaudg/cru-dapp",
+  "authors": [
+    {
+      "name": "Max"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "Http\\": "Http/"
+    }
+  }
+}
