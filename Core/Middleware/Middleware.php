@@ -10,12 +10,11 @@ class Middleware
     public const MAP = [
 
         'guest' => Guest::class,
-        'auth' => Auth::class
+        'auth' => Auth::class,
     ];
 
     public static function resolve($key)
     {
-
         if (!$key) {
             return;
         }
@@ -23,7 +22,7 @@ class Middleware
         $middleware = static::MAP[$key] ?? false;
 
         if (!$middleware) {
-            throw new \Exception("No middleware found for the key: {$key}");
+            throw new Exception("No middleware found for the key: {$key}");
         }
 
         (new $middleware)->handler();

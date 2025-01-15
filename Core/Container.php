@@ -3,6 +3,8 @@
 namespace Core;
 
 
+use Exception;
+
 class Container
 {
 
@@ -16,7 +18,7 @@ class Container
     public function resolve($key)
     {
         if (!array_key_exists($key, $this->bindings)) {
-            return new \Exception("No matching binding for {$key}");
+            return new Exception("No matching binding for {$key}");
         }
         $resolver = $this->bindings[$key];
 

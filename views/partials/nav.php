@@ -11,19 +11,31 @@
                     <div class="ml-10 flex items-baseline space-x-4">
                         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                         <a href="/"
-                           class="<?= urlIs('/') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                           class="<?= urlIs(
+                               '/',
+                           ) ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Home</a>
                         <!--                        <a href="/about" class="-->
-                        <?php //= urlIs('/about') ? 'bg-gray-900 text-white' : 'text-gray-300' ?><!-- hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>-->
-                        <?php if ($_SESSION['user'] ?? false) : ?>
+                        <?php
+                        //= urlIs('/about') ? 'bg-gray-900 text-white' : 'text-gray-300' ?><!-- hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>-->
+                        <?php
+                        if ($_SESSION['user'] ?? false) : ?>
                             <a href="/meetings"
-                               class="<?= urlIs('/meetings') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Meetings</a>
-                        <?php endif ?>
-                        <?php if (((int)($_SESSION['user']['user_role'] ?? null)) === \Core\UserRoles::ADMIN) : ?>
+                               class="<?= urlIs(
+                                   '/meetings',
+                               ) ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Meetings</a>
+                        <?php
+                        endif ?>
+                        <?php
+                        if (isset($_SESSION['user']['user_role']) && ((int)$_SESSION['user']['user_role']) === \Core\UserRoles::ADMIN) : ?>
                             <a href="/students"
-                               class="<?= urlIs('/students') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Students</a>
-                        <?php endif ?>
+                               class="<?= urlIs(
+                                   '/students',
+                               ) ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Students</a>
+                        <?php
+                        endif ?>
                         <!--                        <a href="/contact" class="-->
-                        <?php //= urlIs('/contact') ? 'bg-gray-900 text-white' : 'text-gray-300' ?><!-- hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>-->
+                        <?php
+                        //= urlIs('/contact') ? 'bg-gray-900 text-white' : 'text-gray-300' ?><!-- hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>-->
                     </div>
                 </div>
             </div>
@@ -34,12 +46,15 @@
                     <!-- Profile dropdown -->
                     <div class="relative ml-3">
                         <div>
-                            <?php if (isset($_SESSION['user'])) { ?>
+                            <?php
+                            if (isset($_SESSION['user'])) { ?>
                                 <div class="flex">
 
                                     <form action="/sessions" method="POST">
                                         <input type="hidden" name="_method" value="DELETE">
-                                        <button class="<?= urlIs('/sessions') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> flex hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                        <button class="<?= urlIs(
+                                            '/sessions',
+                                        ) ? 'bg-gray-900 text-white' : 'text-gray-300' ?> flex hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                  stroke-width="1.5" stroke="currentColor"
                                                  class="h-6 w-6 text-indigo-500">
@@ -49,9 +64,12 @@
                                         </button>
                                     </form>
                                 </div>
-                            <?php } else { ?>
+                            <?php
+                            } else { ?>
                                 <a href="/login"
-                                   class="<?= urlIs('/login') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> mr-5 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                   class="<?= urlIs(
+                                       '/login',
+                                   ) ? 'bg-gray-900 text-white' : 'text-gray-300' ?> mr-5 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                 >
                                     Log In
                                 </a>
@@ -62,7 +80,8 @@
                                     Sign up
                                 </a>
 
-                            <?php } ?>
+                            <?php
+                            } ?>
                         </div>
                     </div>
                 </div>
