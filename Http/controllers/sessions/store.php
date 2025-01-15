@@ -2,34 +2,32 @@
 
 use Core\Authenticator;
 use Http\Forms\LoginForm;
-use Core\Session;
 
 
-$email = $_POST['email'];
-$password = $_POST['password'];
+$form = LoginForm::validate(
+    $attributes = [
+        'email' => $_POST['email'],
+        'password' => $_POST['password'],
+    ],
+);
 
-$form = new LoginForm();
+$signedIn = (new Authenticator)->attempt(
+    $attributes['email'],
+    $attributes['password'],
+);
 
-if ($form->validate($email, $password)) {
-    if ((new Authenticator)->attempt($email, $password)) {
-        redirect('/');
-    }
-
-    $form->error('email', "Wrong email or password");
+if (!$signedIn) {
+    $form
+        ->error('email', "Wrong email or password")
+        ->throw();
 }
 
-
-Session::flash('errors', $form->errors());
-Session::flash('old', [
-    'email' => $email,
-]);
+redirect('/');
 
 
-return redirect('/login');
 
-//view('sessions/create.view.php', [
-//    'errors' => $form->errors()
-//]);
+
+
 
 
 
