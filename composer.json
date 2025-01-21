@@ -6,7 +6,8 @@
     }
   ],
   "require": {
-    "illuminate/collections": "^11.38"
+    "illuminate/collections": "^11.38",
+    "robmorgan/phinx": "^0.16.6"
   },
   "autoload": {
     "psr-4": {
