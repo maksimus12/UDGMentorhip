@@ -6,6 +6,7 @@ use Phinx\Migration\AbstractMigration;
 
 final class InsertDataFromJson extends AbstractMigration
 {
+
     public function up()
     {
         $usersData = json_decode(file_get_contents(__DIR__ . '/../data/users.json'), true);
@@ -16,34 +17,9 @@ final class InsertDataFromJson extends AbstractMigration
         $studentsTable = $this->table('students');
         $meetingsTable = $this->table('meetings');
 
-        foreach ($usersData as $user) {
-            $usersTable->insert([
-                'id' => $user['id'],
-                'email' => $user['email'],
-                'password' => $user['password'],
-                'role' => $user['role'],
-            ])->save();
-        }
-
-        foreach ($studentsData as $student) {
-            $studentsTable->insert([
-                'id' => $student['id'],
-                'fname' => $student['fname'],
-            ])->save();
-        }
-
-        foreach ($meetingsData as $meeting) {
-            $meetingsTable->insert([
-                'id' => $meeting['id'],
-                'student_id' => $meeting['student_id'],
-                'topic' => $meeting['topic'],
-                'body' => $meeting['body'],
-                'user_id' => $meeting['user_id'],
-                'created_at' => $meeting['created_at'],
-                'updated_at' => $meeting['updated_at'],
-                'meeting_datetime' => $meeting['meeting_datetime'],
-            ])->save();
-        }
+        $usersTable->insert($usersData)->save();
+        $studentsTable->insert($studentsData)->save();
+        $meetingsTable->insert($meetingsData)->save();
     }
 
     public function down()

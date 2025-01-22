@@ -1,5 +1,7 @@
 <?php
 
+$config = require __DIR__ . '/config.php';
+
 return
     [
         'paths' => [
@@ -11,29 +13,29 @@ return
             'default_environment' => 'development',
             'production' => [
                 'adapter' => 'mysql',
-                'host' => 'localhost',
-                'name' => 'myNewApp',
-                'user' => 'root',
-                'pass' => '',
-                'port' => '3306',
+                'host' => $config['database']['host'],
+                'name' => $config['database']['dbname'],
+                'user' => $config['db_user'],
+                'pass' => $config['db_pass'],
+                'port' => $config['database']['port'],
                 'charset' => 'utf8',
             ],
             'development' => [
                 'adapter' => 'mysql',
-                'host' => 'localhost',
-                'name' => 'myNewApp',
-                'user' => 'root',
-                'pass' => '',
-                'port' => '3306',
+                'host' => $config['database']['host'],
+                'name' => $config['database']['dbname'],
+                'user' => $config['db_user'],
+                'pass' => $config['db_pass'],
+                'port' => $config['database']['port'],
                 'charset' => 'utf8',
             ],
             'testing' => [
                 'adapter' => 'mysql',
-                'host' => 'localhost',
-                'name' => 'myNewApp',
-                'user' => 'root',
-                'pass' => '',
-                'port' => '3306',
+                'host' => $config['database']['host'],
+                'name' => $config['database']['dbname'],
+                'user' => $config['db_user'],
+                'pass' => $config['db_pass'],
+                'port' => $config['database']['port'],
                 'charset' => 'utf8',
             ],
         ],

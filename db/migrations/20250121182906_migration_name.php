@@ -9,7 +9,7 @@ final class MigrationName extends AbstractMigration
     public function change(): void
     {
         $this
-            ->table('users', ['id' => 'id', 'signed' => false, 'collation' => 'utf8mb4_0900_ai_ci'])
+            ->table('users', ['id' => 'id', 'signed' => false, 'collation' => 'utf8mb4_general_ci'])
             ->addColumn('email', 'string', ['limit' => 255, 'null' => true])
             ->addColumn('password', 'string', ['limit' => 255, 'null' => true])
             ->addColumn('role', 'integer', ['null' => true])
@@ -21,7 +21,7 @@ final class MigrationName extends AbstractMigration
             ->create();
 
         $this
-            ->table('meetings', ['id' => 'id', 'signed' => false, 'collation' => 'utf8mb4_0900_ai_ci'])
+            ->table('meetings', ['id' => 'id', 'signed' => false, 'collation' => 'utf8mb4_general_ci'])
             ->addColumn('student_id', 'integer', ['null' => true, 'signed' => false])
             ->addColumn('topic', 'string', ['limit' => 255, 'null' => true])
             ->addColumn('body', 'text', ['null' => true])
