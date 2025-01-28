@@ -8,7 +8,7 @@ class Auth
     public function handler()
     {
         if (!$_SESSION['user'] ?? false) {
-            header('Location: /');
+            header('Location: /login');
             die();
         }
     }

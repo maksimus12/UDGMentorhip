@@ -1,6 +1,10 @@
-<?php require base_path('views/partials/head.php') ?>
-<?php require base_path('views/partials/nav.php') ?>
-<?php require base_path('views/partials/banner.php') ?>
+<?php
+
+require base_path('views/partials/head.php') ?>
+<?php
+require base_path('views/partials/nav.php') ?>
+<?php
+require base_path('views/partials/banner.php') ?>
 
 <main>
 
@@ -26,23 +30,41 @@
                                             value="<?= $meeting['meeting_datetime'] ?? date('Y-m-d H:i:s') ?>"
                                     >
 
-                                    <?php if (isset($errors['meeting_datetime'])) : ?>
+                                    <?php
+                                    if (isset($errors['meeting_datetime'])) : ?>
                                         <p class="text-red-500 text-xs mt-2"><?= $errors['meeting_datetime'] ?></p>
-                                    <?php endif; ?>
+                                    <?php
+                                    endif; ?>
                                 </div>
+
+
                                 <label
                                         for="student"
                                         class="block text-sm font-medium text-gray-700"
                                 >Student</label>
+
                                 <div class="mt-1">
                                     <input type="hidden" name="student_id" value="<?= $meeting['student_id'] ?>">
-                                    <input type="text"
-                                           class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                                           value="<?= $meeting['fname'] ?>" readonly>
+                                    <select id="student"
+                                            name="student_id"
+                                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                                        <?php
+                                        foreach ($students as $student): ?>
+                                            <option value="<?= htmlspecialchars(
+                                                $student['id'],
+                                            ) ?>" <?= $student['id'] == $meeting['student_id'] ? 'selected' : '' ?>>
+                                                <?= htmlspecialchars($student['fname']) ?>
+                                            </option>
+                                        <?php
+                                        endforeach ?>
+                                    </select>
+                                    
 
-                                    <?php if (isset($errors['body'])) : ?>
+                                    <?php
+                                    if (isset($errors['body'])) : ?>
                                         <p class="text-red-500 text-xs mt-2"><?= $errors['body'] ?></p>
-                                    <?php endif; ?>
+                                    <?php
+                                    endif; ?>
                                 </div>
                             </div>
                             <div>
@@ -59,9 +81,11 @@
                                             value="<?= $meeting['topic'] ?? '' ?>"
                                     >
 
-                                    <?php if (isset($errors['topic'])) : ?>
+                                    <?php
+                                    if (isset($errors['topic'])) : ?>
                                         <p class="text-red-500 text-xs mt-2"><?= $errors['topic'] ?></p>
-                                    <?php endif; ?>
+                                    <?php
+                                    endif; ?>
                                 </div>
                             </div>
                             <div>
@@ -79,9 +103,11 @@
                                             placeholder="Here's an idea for a meeting..."
                                     ><?= $meeting['body'] ?? '' ?></textarea>
 
-                                    <?php if (isset($errors['body'])) : ?>
+                                    <?php
+                                    if (isset($errors['body'])) : ?>
                                         <p class="text-red-500 text-xs mt-2"><?= $errors['body'] ?></p>
-                                    <?php endif; ?>
+                                    <?php
+                                    endif; ?>
                                 </div>
                             </div>
                         </div>
@@ -108,4 +134,5 @@
     </div>
 </main>
 
-<?php require base_path('views/partials/footer.php') ?>
+<?php
+require base_path('views/partials/footer.php') ?>
