@@ -12,7 +12,11 @@ $meeting = $db->query('select * from meetings where id = :id', [
     'id' => $_POST['id'],
 ])->findOrFail();
 
-authorize($meeting['user_id'] === $currentUserId);
+
+if ($_SESSION['user']['user_role'] !== \Core\UserRoles::ADMIN) {
+    authorize($meeting['user_id'] === $currentUserId);
+}
+
 
 $db->query('delete from meetings where id = :id', [
     'id' => $_POST['id'],

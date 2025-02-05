@@ -10,6 +10,7 @@ $currentUserId = $_SESSION['user']['user_id'];
 
 $students = $db->query('select * from students')->get();
 
+
 $meeting = $db->query(
     'SELECT 
                         meetings.id as post_id,
@@ -28,8 +29,9 @@ $meeting = $db->query(
     ],
 )->findOrFail();
 
-
-authorize($meeting['user_id'] === $currentUserId);
+if (!$_SESSION['user']['user_role'] == \Core\UserRoles::ADMIN) {
+    authorize($meeting['user_id'] === $currentUserId);
+}
 
 
 view("meetings/edit.view.php", [
