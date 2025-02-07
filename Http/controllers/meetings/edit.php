@@ -6,8 +6,6 @@ use Core\App;
 $db = App::resolve(Database::class);
 
 
-$currentUserId = $_SESSION['user']['user_id'];
-
 $students = $db->query('select * from students')->get();
 
 
@@ -29,9 +27,8 @@ $meeting = $db->query(
     ],
 )->findOrFail();
 
-if (!$_SESSION['user']['user_role'] == \Core\UserRoles::ADMIN) {
-    authorize($meeting['user_id'] === $currentUserId);
-}
+
+authorize($meeting['user_id'] === \Core\Session::getUserId() || \Core\Session::isAdmin());
 
 
 view("meetings/edit.view.php", [

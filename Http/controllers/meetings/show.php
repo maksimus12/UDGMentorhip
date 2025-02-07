@@ -5,10 +5,6 @@ use Core\App;
 
 $db = App::resolve(Database::class);
 
-
-$currentUserId = $_SESSION['user']['user_id'];
-
-
 $meeting = $db->query(
     'SELECT 
                         meetings.id as post_id,
@@ -28,10 +24,7 @@ $meeting = $db->query(
     ],
 )->findOrFail();
 
-if (!$_SESSION['user']['user_role'] == \Core\UserRoles::ADMIN) {
-    authorize($meeting['user_id'] === $currentUserId);
-}
-
+authorize($meeting['user_id'] === \Core\Session::getUserId() || \Core\Session::isAdmin());
 
 view("meetings/show.view.php", [
     'heading' => 'Meeting',

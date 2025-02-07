@@ -41,7 +41,8 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                         class="border-b border-neutral-200 font-medium dark:border-black/20">
                                 <tr>
                                     <?php
-                                    if ($_SESSION['user']['user_role'] == \Core\UserRoles::ADMIN) { ?>
+
+                                    if (Core\Session::isAdmin()) { ?>
                                         <th scope="col" class="w-0 <?= $table_headings_style ?>">Mentor</th>
                                         <?php
                                     } ?>
@@ -53,10 +54,11 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                 </thead>
                                 <tbody>
                                 <?php
+
                                 foreach ($meetings as $index => $meeting) : ?>
                                     <tr class="border-b border-neutral-200 dark:border-black/10">
                                         <?php
-                                        if ($_SESSION['user']['user_role'] == \Core\UserRoles::ADMIN) { ?>
+                                        if (Core\Session::isAdmin()) { ?>
                                             <td class="<?= $table_row_style ?>">
                                                 <?= htmlspecialchars($meeting['email']) ?>
                                             </td>

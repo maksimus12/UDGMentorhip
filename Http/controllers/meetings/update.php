@@ -13,9 +13,9 @@ $meeting = $db->query('select * from meetings where id = :id', [
     'id' => $_POST['id'],
 ])->findOrFail();
 
-if (!$_SESSION['user']['user_role'] == \Core\UserRoles::ADMIN) {
-    authorize($meeting['user_id'] === $currentUserId);
-}
+
+authorize($meeting['user_id'] === Core\Session::getUserId() || Core\Session::isAdmin());
+
 
 $errors = [];
 

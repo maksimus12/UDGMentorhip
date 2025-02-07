@@ -2,6 +2,8 @@
 
 namespace Core;
 
+use Core\UserRoles;
+
 class Session
 {
     public static function has($key)
@@ -32,6 +34,28 @@ class Session
     public static function flush()
     {
         $_SESSION = [];
+    }
+
+    public static function isAuthenticated()
+    {
+        return static::has('user');
+    }
+
+    public static function getUser()
+    {
+        return static::get('user');
+    }
+
+    public static function getUserId()
+    {
+        $user = static::get('user');
+        return $user['user_id'] ?? null;
+    }
+
+    public static function isAdmin()
+    {
+        $user = static::getUser();
+        return $user['user_role'] === UserRoles::ADMIN;
     }
 
     public static function destroy()
