@@ -10,10 +10,6 @@ if (isset($_SESSION['user']) && isset($_SESSION['user']['email'])) {
 
 $db = App::resolve(Database::class);
 
-
-//if(isset($_SESSION['user']['user_role']) && $_SESSION['user']['user_role'] === \Core\UserRoles::ADMIN){
-//    $meetings = $db->query('SELECT * FROM meetings)->get();
-//}
 if (isset($_SESSION['user'])) {
     $meetingsByMentor = [];
     if ($_SESSION['user']['user_role'] == \Core\UserRoles::ADMIN) {

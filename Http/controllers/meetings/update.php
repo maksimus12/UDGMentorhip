@@ -10,10 +10,12 @@ $db = App::resolve(Database::class);
 $currentUserId = $_SESSION['user']['user_id'];
 
 $meeting = $db->query('select * from meetings where id = :id', [
-    'id' => $_POST['id']
+    'id' => $_POST['id'],
 ])->findOrFail();
 
-authorize($meeting['user_id'] === $currentUserId);
+
+authorize($meeting['user_id'] === Core\Session::getUserId() || Core\Session::isAdmin());
+
 
 $errors = [];
 
@@ -26,17 +28,20 @@ if (count($errors)) {
     return view('meetings/edit.view.php', [
         'heading' => 'Edit meeting',
         'errors' => $errors,
-        'meeting' => $meeting
+        'meeting' => $meeting,
     ]);
 }
 
-$db->query('update meetings set body = :body, student_id = :student_id, topic = :topic, meeting_datetime = :meeting_datetime  where id = :id', [
-    'id' => $_POST['id'],
-    'body' => $_POST['body'],
-    'student_id' => $_POST['student_id'],
-    'topic' => $_POST['topic'],
-    'meeting_datetime' => $_POST['meeting_datetime']
-]);
+$db->query(
+    'update meetings set body = :body, student_id = :student_id, topic = :topic, meeting_datetime = :meeting_datetime  where id = :id',
+    [
+        'id' => $_POST['id'],
+        'body' => $_POST['body'],
+        'student_id' => $_POST['student_id'],
+        'topic' => $_POST['topic'],
+        'meeting_datetime' => $_POST['meeting_datetime'],
+    ],
+);
 
 header('Location: /meetings');
 die();
