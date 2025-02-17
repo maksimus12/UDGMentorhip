@@ -38,7 +38,7 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                            <p class="status px-3 py-1 rounded-lg text-sm text-center font-mono"><?= $mentor['is_deleted'] == 1 ? "Archived" : "Active" ?></p>
                                         </td>
                                         <td class=" <?= $table_row_style ?>">
-                                            <p class="role px-3 py-1 rounded-lg text-sm text-center font-mono"><?= htmlspecialchars($mentor['role'] == 1 ? 'Admin' : 'User') ?></p>
+                                            <p class="role px-3 py-1 rounded-lg text-sm text-center font-mono"><?= htmlspecialchars($mentor['role'] == 1 ? 'User' : 'Admin') ?></p>
                                         </td>
                                         <td class="whitespace-nowrap px-4 py-4">
                                             <div class="flex justify-center items-center">
