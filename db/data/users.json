@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "email": "maks.diacenko@icloud.com",
+    "password": "$2y$12$VnorZZnX6VIsqqpwLr4CX.HuCsYu6TtGypVPuYqsN/6W96OajRK1S",
+    "role": 0,
+    "is_deleted": 0
+  },
+  {
+    "id": 2,
+    "email": "mark.diacenko16@mail.ru",
+    "password": "$2y$12$xb8IXP8PP0EfIL41GLYzSetVDDvyafGwwipYucKqwzG/8ETBl070q",
+    "role": 1,
+    "is_deleted": 0
+  },
+  {
+    "id": 3,
+    "email": "kamila@uni-dg.md",
+    "password": "$2y$12$mkasLeXh.sR/xOFfbuOWzuAmHE6s.VMZN6XHLUyN.oA1f2GL73sJW",
+    "role": 1,
+    "is_deleted": 0
+  },
+  {
+    "id": 8,
+    "email": "pavel@gmail.com",
+    "password": "$2y$12$sXCcPupgS0Iu22/tIrgifevfehv6Es8xbtXprbk1Mj5e4eDDTl.qi",
+    "role": 1,
+    "is_deleted": 0
+  }
+]
