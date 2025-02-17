@@ -13,6 +13,7 @@ final class MigrationName extends AbstractMigration
             ->addColumn('email', 'string', ['limit' => 255, 'null' => true])
             ->addColumn('password', 'string', ['limit' => 255, 'null' => true])
             ->addColumn('role', 'integer', ['null' => true])
+            ->addColumn('is_deleted', 'boolean', ['default' => false, 'null' => false])
             ->create();
 
         $this

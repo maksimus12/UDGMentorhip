@@ -33,9 +33,15 @@
                                ) ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Students</a>
                         <?php
                         endif ?>
-                        <!--                        <a href="/contact" class="-->
                         <?php
-                        //= urlIs('/contact') ? 'bg-gray-900 text-white' : 'text-gray-300' ?><!-- hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>-->
+                        if (isset($_SESSION['user']['user_role']) && ((int)$_SESSION['user']['user_role']) === \Core\UserRoles::ADMIN) : ?>
+                            <a href="/mentors"
+                               class="<?= urlIs(
+                                   '/mentors',
+                               ) ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Mentors</a>
+                        <?php
+                        endif ?>
+
                     </div>
                 </div>
             </div>

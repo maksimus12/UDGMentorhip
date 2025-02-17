@@ -18,7 +18,8 @@ if (Core\Session::isAdmin()) {
                 meetings.topic
                 FROM meetings
                 INNER JOIN users ON meetings.user_id = users.id
-                INNER JOIN students ON meetings.student_id = students.id',
+                INNER JOIN students ON meetings.student_id = students.id
+                WHERE users.is_deleted = 0',
     )->get();
 } else {
     $meetings = $db->query(

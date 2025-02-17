@@ -57,7 +57,6 @@ if (isset($_SESSION['user'])) {
 }
 
 
-//dd($meetingsByMentor);
 view("index.view.php", [
     'heading' => 'Home',
     'meetingCount' => count($meetings),
