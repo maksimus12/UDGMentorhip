@@ -16,7 +16,7 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
 <main>
     <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
         <div class="table_component" role="region" tabindex="0">
-            <div class="flex">
+            <div class="flex justify-between">
                 <p class="mr-5 mt-6 mb-10 primary">
                     <a href="/meetings/create"
                        class="rounded-md border
@@ -31,6 +31,37 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                     </a>
                 </p>
             </div>
+            <form action="" method="GET" class="flex w-fit items-end">
+                <?php if(Core\Session::isAdmin()){ ?>
+                <select
+                        name="mentor"
+                        id="filter"
+                        class="h-fit block w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 mr-[10px]"
+                >
+                    <option value="" <?= empty($_GET['mentor']) ? 'selected' : '' ?>>All</option>
+                    <?php foreach ($uniqueUsers as $uniqueUser): ?>
+                        <option value="<?= $uniqueUser['id'] ?>" <?= (isset($_GET['mentor']) && $_GET['mentor'] == $uniqueUser['id']) ? 'selected' : '' ?>>
+                            <?= htmlspecialchars($uniqueUser['email']) ?>
+                        </option>
+                    <?php endforeach ?>
+                </select>
+                <?php } ?>
+                <div class="mr-[10px]">
+                    <label for="start_date" class="block text-gray-700 font-bold mb-2">Start:</label>
+                    <input type="date" id="start_date" name="start_date"  value=""   class="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div class="mr-[10px]">
+                    <label for="end_date" class="block text-gray-700 font-bold mb-2">End:</label>
+                    <input type="date" id="end_date" name="end_date"  value="" class="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+
+                <button
+                        type="submit"
+                        class="h-fit bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+                    Filter
+                </button>
+            </form>
             <div class="flex flex-col">
                 <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
                     <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
@@ -46,7 +77,7 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                         <th scope="col" class="w-0 <?= $table_headings_style ?>">Mentor</th>
                                         <?php
                                     } ?>
-                                    <th scope="col" class="w-0 <?= $table_headings_style ?>">Student</th>
+                                    <th scope="col" class="w-0 <?= $table_headings_style ?>">Student </th>
                                     <th scope="col" class=" <?= $table_headings_style ?>">Topic</th>
                                     <th scope="col" class=" <?= $table_headings_style ?>">Date</th>
                                     <th scope="col" class=" px-6 py-4 ">Action</th>
@@ -76,7 +107,7 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                         <td class="<?= $table_row_style ?>">
                                             <p>
                                                 <?= htmlspecialchars(
-                                                    date_format(date_create($meeting['meeting_datetime']), 'Y-m-d H:i'),
+                                                    date_format(date_create($meeting['meeting_datetime']), 'd.m.Y'),
                                                 ); ?>
                                             </p>
                                         </td>
