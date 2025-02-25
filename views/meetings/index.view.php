@@ -33,6 +33,8 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
             </div>
             <form action="" method="GET" class="flex w-fit items-end">
                 <?php if(Core\Session::isAdmin()){ ?>
+                <div class="mr-[10px]">
+                <label for="start_date" class="block text-gray-700 font-bold mb-2">Mentor:</label>
                 <select
                         name="mentor"
                         id="filter"
@@ -45,14 +47,30 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                         </option>
                     <?php endforeach ?>
                 </select>
+                </div>
                 <?php } ?>
                 <div class="mr-[10px]">
+                    <label for="start_date" class="block text-gray-700 font-bold mb-2">Student:</label>
+                    <select
+                            name="student"
+                            id="filter"
+                            class="h-fit block w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 mr-[10px]"
+                    >
+                        <option value="" <?= empty($_GET['student']) ? 'selected' : '' ?>>All</option>
+                        <?php foreach ($uniqueStudents as $uniqueStudent): ?>
+                            <option value="<?= $uniqueStudent['id'] ?>" <?= (isset($_GET['student']) && $_GET['student'] == $uniqueStudent['id']) ? 'selected' : '' ?>>
+                                <?= htmlspecialchars($uniqueStudent['fname']) ?>
+                            </option>
+                        <?php endforeach ?>
+                    </select>
+                </div>
+                <div class="mr-[10px]">
                     <label for="start_date" class="block text-gray-700 font-bold mb-2">Start:</label>
-                    <input type="date" id="start_date" name="start_date"  value=""   class="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <input type="date" id="start_date" name="startDate"  value="<?= $startDate ?>"   class="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
                 </div>
                 <div class="mr-[10px]">
                     <label for="end_date" class="block text-gray-700 font-bold mb-2">End:</label>
-                    <input type="date" id="end_date" name="end_date"  value="" class="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <input type="date" id="end_date" name="endDate"  value="<?= $endDate ?>" class="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
                 </div>
 
                 <button
