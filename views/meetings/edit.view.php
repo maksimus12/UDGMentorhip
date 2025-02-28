@@ -23,7 +23,7 @@ require base_path('views/partials/banner.php') ?>
                                 >Meeting Date & Time</label>
                                 <div class="mt-1 mb-5">
                                     <input
-                                            type="datetime-local"
+                                            type="date"
                                             id="meeting_datetime"
                                             name="meeting_datetime"
                                             class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
@@ -51,7 +51,7 @@ require base_path('views/partials/banner.php') ?>
                                         <?php
                                         foreach ($students as $student): ?>
                                             <option value="<?= htmlspecialchars(
-                                                $student['id'],
+                                                $student['id']
                                             ) ?>" <?= $student['id'] == $meeting['student_id'] ? 'selected' : '' ?>>
                                                 <?= htmlspecialchars($student['fname']) ?>
                                             </option>
