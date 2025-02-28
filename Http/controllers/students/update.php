@@ -31,5 +31,17 @@ $db->query('update students set fname = :fname where id = :id', [
     'id' => $_POST['id']
 ]);
 
+$db->query('DELETE FROM users_students WHERE student_id = :student_id', [
+    'student_id' => $_POST['id']
+]);
+
+$selectedMentors = $_POST['mentor'] ?? $errors['mentor'] = 'Should be at least one mentor selected'; // Получаем массив выбранных менторов или пустой массив
+foreach ($selectedMentors as $mentorId) {
+    $db->query('INSERT INTO users_students (user_id, student_id) VALUES (:user_id, :student_id)', [
+        'user_id' => $mentorId,
+        'student_id' => $_POST['id']
+    ]);
+}
+
 header('Location: /students');
 die();

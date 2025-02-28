@@ -105,11 +105,7 @@ if (Core\Session::isAdmin()) {
         $params['student_id'] = $_GET['student'];
     }
 
-//    dd($params);
-
     $meetings = $db->query($query, $params)->get();
-
-
 }
 
 view("meetings/index.view.php", [
