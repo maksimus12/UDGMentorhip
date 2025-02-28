@@ -89,6 +89,7 @@ if (Core\Session::isAdmin()) {
                 INNER JOIN students ON meetings.student_id = students.id 
                 where meetings.user_id = :user_id';
 
+
     $params = ['user_id' => $_SESSION['user']['user_id']];
 
 
@@ -106,6 +107,7 @@ if (Core\Session::isAdmin()) {
     }
 
     $meetings = $db->query($query, $params)->get();
+
 }
 
 view("meetings/index.view.php", [
