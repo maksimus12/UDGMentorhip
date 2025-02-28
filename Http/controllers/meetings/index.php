@@ -106,6 +106,8 @@ if (Core\Session::isAdmin()) {
     }
 
     $meetings = $db->query($query, $params)->get();
+
+
 }
 
 view("meetings/index.view.php", [
