@@ -5,7 +5,6 @@ use Core\App;
 
 $db = App::resolve(Database::class);
 
-$students = $db->query('SELECT * FROM students')->get();
 $users = $db->query('SELECT * FROM users')->get();
 
 $userStudents = $db->query('SELECT 
@@ -21,6 +20,5 @@ $userStudents = $db->query('SELECT
 view("students/index.view.php", [
     'heading' => 'Students',
     'users' => $users,
-    'students' => $students,
     'userStudents' => $userStudents,
 ]);

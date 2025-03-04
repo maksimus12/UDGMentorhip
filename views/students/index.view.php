@@ -29,7 +29,7 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                             <td class="whitespace-nowrap px-6 py-4">
                                                 <div class="flex justify-center items-center">
                                                     <a href="/student/edit?id=<?= $student['student_id'] ?>" class="mr-5 rounded-md border border-transparent bg-orange-400 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-">Edit</a>
-                                                    <form class="" method="post">
+                                                    <form class="" method="post" onsubmit="return confirmDelete()">
                                                         <input type="hidden" name="_method" value="DELETE">
                                                         <input type="hidden" name="id" value="<?= $student['student_id'] ?>">
                                                         <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-red-500 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Delete</button>
@@ -58,7 +58,7 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                                             <div class="py-1">
                                                                 <?php foreach ($users as $user): ?>
                                                                     <div class="flex items-center px-4 py-2">
-                                                                        <input type="checkbox" id="mentor-<?= $user['id'] ?>" name="mentor[]" value="<?= $user['id'] ?>" <?= (isset($_GET['mentor']) && in_array($user['id'], $_GET['mentor'])) ? 'checked' : '' ?> class="h-4 w-4 rounded border-gray-300 text-blue-500 focus:ring-2 focus:ring-blue-500">
+                                                                        <input required type="checkbox" id="mentor-<?= $user['id'] ?>" name="mentor[]" value="<?= $user['id'] ?>" <?= (isset($_GET['mentor']) && in_array($user['id'], $_GET['mentor'])) ? 'checked' : '' ?> class="h-4 w-4 rounded border-gray-300 text-blue-500 focus:ring-2 focus:ring-blue-500">
                                                                         <label for="mentor-<?= $user['id'] ?>" class="ml-3 text-sm text-gray-600 cursor-pointer"><?= htmlspecialchars($user['email']) ?></label>
                                                                     </div>
                                                                 <?php endforeach; ?>
@@ -84,6 +84,12 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
         </div>
     </main>
     <script>
+
+
+            function confirmDelete() {
+            return confirm("Are you sure you want to delete this record?");
+        }
+
         // Функция для обновления текста кнопки
         function updateSelectedMentors() {
             const trigger = document.getElementById('mentor-dropdown-trigger');

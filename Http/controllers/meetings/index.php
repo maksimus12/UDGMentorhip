@@ -39,8 +39,8 @@ if (Core\Session::isAdmin()) {
 
     $meetings = null;
 
-         $query = 'SELECT 
-                meetings.id,   
+         $query = 'SELECT
+                meetings.id,
                 meetings.meeting_datetime,
                 meetings.user_id,
                 students.fname,
@@ -63,15 +63,15 @@ if (Core\Session::isAdmin()) {
 
 
 
-         if(!empty($_GET['mentor'])){
-             $query .= ' AND meetings.user_id = :user_id';
-             $params['user_id'] = $_GET['mentor'];
-         }
+    if(!empty($_GET['mentor'])){
+        $query .= ' AND meetings.user_id = :user_id';
+        $params['user_id'] = $_GET['mentor'];
+    }
 
-         if(!empty($_GET['student'])){
-             $query .= ' AND meetings.student_id = :student_id';
-             $params['student_id'] = $_GET['student'];
-         }
+    if(!empty($_GET['student'])){
+        $query .= ' AND meetings.student_id = :student_id';
+        $params['student_id'] = $_GET['student'];
+    }
 
         $meetings = $db->query($query, $params)->get();
 

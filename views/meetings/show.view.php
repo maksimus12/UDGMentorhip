@@ -57,7 +57,7 @@ require base_path('views/partials/banner.php') ?>
                 >
                     Edit
                 </a>
-                <form method="post" onsubmit="confirmDelete()">
+                <form method="post" onsubmit="return confirmDelete()">
                     <input type="hidden" name="_method" value="DELETE">
                     <input type="hidden" name="id" value="<?= $meeting['post_id'] ?>">
                     <button type="submit" class="bg-red-500 text-white px-4 py-2 rounded-md shadow hover:bg-red-700">

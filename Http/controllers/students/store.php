@@ -31,9 +31,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         $student_id = $db->query('SELECT * FROM students WHERE fname = :fname', ['fname' => $_POST['student_name']])->findOrFail();
 
-        $mentors = $_POST;
+        $mentors = $_POST['mentor'];
 
-        foreach ($mentors['mentor'] as $mentor) {
+        foreach ($mentors as $mentor) {
             $db->query('INSERT INTO users_students (user_id, student_id) VALUES(:user_id, :student_id)', [
                 'user_id' => $mentor,
                 'student_id' => $student_id['id'],
