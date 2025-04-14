@@ -11,13 +11,12 @@ $mentors = $_POST['mentor'] ?? null;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-    $form = AddStudentForm::validate(
+    $form = AddStudentForm::make(
         $attributes = [
             'student_name'=> $_POST['student_name'],
             'mentor' => $mentors
         ]
     );
-
 
     $errors = $form->errors();
     

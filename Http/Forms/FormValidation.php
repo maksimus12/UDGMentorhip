@@ -1,19 +1,51 @@
 <?php
 
 namespace Http\Forms;
+
 use Core\ValidationException;
+
 abstract class FormValidation
 {
-    protected $errors = [];
-    abstract public function validate();
+    protected array $errors = [];
+    protected array $attributes = [];
 
-    public function getErrors(){
-        return $this->errors;
+    abstract public function validate(array $attributes);
+
+    public static function make(array $attributes): static
+    {
+        $instance = new static();
+
+        $instance->validate($attributes);
+
+        if ($instance->failed()) {
+            $instance->throw();
+        }
+
+        return $instance;
     }
 
-    public function throw()
+    /**
+     * @throws ValidationException
+     */
+    public function throw(): void
     {
         ValidationException::throw($this->errors(), $this->attributes);
     }
 
+    public function failed(): int
+    {
+        return count($this->errors);
+    }
+
+    public function errors(): array
+    {
+        return $this->errors;
+    }
+
+    public function error($field, $message): static
+    {
+        $this->errors[$field] = $message;
+
+        return $this;
+    }
 }

@@ -4,7 +4,7 @@ use Core\Authenticator;
 use Http\Forms\LoginForm;
 
 
-$form = LoginForm::validate(
+$form = LoginForm::make(
     $attributes = [
         'email' => $_POST['email'],
         'password' => $_POST['password'],
@@ -23,13 +23,3 @@ if (!$signedIn) {
 }
 
 redirect('/');
-
-
-
-
-
-
-
-
-
-
