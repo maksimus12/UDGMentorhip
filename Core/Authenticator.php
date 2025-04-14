@@ -13,10 +13,10 @@ class Authenticator
 
     public function attempt($email, $password)
     {
-        $user = App::resolve(Database::class)->query('select * from users where email = :email', [
+        $user = App::resolve(Database::class)->query('select * from users where email = :email AND is_deleted = 0', [
             'email' => $email,
         ])->find();
-        if ($user && $user['is_deleted'] == 0) {
+        if ($user) {
             if (password_verify($password, $user['password'])) {
                 $this->login([
                     'user_id' => $user['id'],
