@@ -2,6 +2,7 @@
 <?php require base_path('views/partials/nav.php') ?>
 <?php require base_path('views/partials/banner.php') ?>
 <?php
+
 $table_headings_style = 'border-e border-neutral-200 px-6 py-4 dark:border-black/20';
 $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font-medium dark:border-black/10';
 ?>
@@ -48,7 +49,7 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                             <div>
                                                 <label for="student" class="block text-sm font-medium text-gray-700">New Student</label>
                                                 <div class="mt-1">
-                                                    <input required id="student" value="<?= $_POST['student_name'] ?? "" ?>" name="student_name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                                                    <input id="student" value="<?= $_POST['student_name'] ?? "" ?>" name="student_name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
                                                 </div>
                                                 <div class="mt-5 block">
                                                     <label class="block text-sm font-medium text-gray-700">Mentor</label>
@@ -58,17 +59,21 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                                             <div class="py-1">
                                                                 <?php foreach ($users as $user): ?>
                                                                     <div class="flex items-center px-4 py-2">
-                                                                        <input required type="checkbox" id="mentor-<?= $user['id'] ?>" name="mentor[]" value="<?= $user['id'] ?>" <?= (isset($_GET['mentor']) && in_array($user['id'], $_GET['mentor'])) ? 'checked' : '' ?> class="h-4 w-4 rounded border-gray-300 text-blue-500 focus:ring-2 focus:ring-blue-500">
+                                                                        <input type="checkbox" id="mentor-<?= $user['id'] ?>" name="mentor[]" value="<?= $user['id'] ?>" <?= (isset($_GET['mentor']) && in_array($user['id'], $_GET['mentor'])) ? 'checked' : '' ?> class="h-4 w-4 rounded border-gray-300 text-blue-500 focus:ring-2 focus:ring-blue-500">
                                                                         <label for="mentor-<?= $user['id'] ?>" class="ml-3 text-sm text-gray-600 cursor-pointer"><?= htmlspecialchars($user['email']) ?></label>
                                                                     </div>
                                                                 <?php endforeach; ?>
                                                             </div>
+
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <?php if (isset($errors['student_name'])) : ?>
+                                            <?php if (isset($errors['student_name'])) :?>
                                                 <p class="text-red-500 text-xs mt-2"><?= $errors['student_name'] ?></p>
+                                            <?php endif; ?>
+                                            <?php if (isset($errors['mentor'])) : ?>
+                                                <p class="text-red-500 text-xs mt-2"><?= $errors['mentor'] ?></p>
                                             <?php endif; ?>
                                         </div>
                                         <div class="bg-gray-50 px-4 py-3 text-right sm:px-6">
@@ -86,7 +91,7 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
     <script>
 
 
-            function confirmDelete() {
+        function confirmDelete() {
             return confirm("Are you sure you want to delete this record?");
         }
 

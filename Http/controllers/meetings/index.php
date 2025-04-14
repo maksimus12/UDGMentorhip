@@ -37,7 +37,7 @@ if (Core\Session::isAdmin()) {
          WHERE users.is_deleted = 0'
     )->get();
 
-    $meetings = null;
+    $meetings = [];
 
          $query = 'SELECT
                 meetings.id,

@@ -36,5 +36,4 @@ view("students/edit.view.php", [
     'userStudent' => $userStudent,
     'mentors' => $mentors,
     'mentorIds' => $mentorIds
-
 ]);

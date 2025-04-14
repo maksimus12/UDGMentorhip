@@ -1,25 +1,41 @@
 <?php
 
-use Core\Validator;
+use Http\Forms\AddStudentForm;
 use Core\Database;
 use Core\App;
 
 $db = App::resolve(Database::class);
 
 $errors = [];
+$mentors = $_POST['mentor'] ?? null;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
+    $form = AddStudentForm::validate(
+        $attributes = [
+            'student_name'=> $_POST['student_name'],
+            'mentor' => $mentors
+        ]
+    );
 
-    if (!Validator::string($_POST['student_name'], 1, 50)) {
-        $errors['student_name'] = 'A Name should be no more than 50 characters is required.';
-    }
 
-    if (!empty($errors)) {
-        $students = $db->query('SELECT * FROM students')->get();
+    $errors = $form->errors();
+    
+    if (!empty($errors)){
+
+        $userStudents = $db->query('SELECT 
+                        students.fname AS student, 
+                        GROUP_CONCAT(users.email) AS mentor,
+                        students.id AS student_id
+                        FROM users_students
+                        JOIN students ON users_students.student_id = students.id
+                        JOIN users ON users_students.user_id = users.id
+                        GROUP BY student_id')->get();
+        $users = $db->query('SELECT * FROM users')->get();
         view("students/index.view.php", [
             'heading' => 'Create student',
-            'students' => $students,
+            'userStudents' => $userStudents,
+            'users' => $users,
             'errors' => $errors
         ]);
     }
@@ -40,9 +56,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             ]);
         }
 
-
-
         header('Location: /students');
         die();
     }
+
 }

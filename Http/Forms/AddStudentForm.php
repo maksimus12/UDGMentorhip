@@ -1,22 +1,24 @@
 <?php
 
 namespace Http\Forms;
+
 use Core\Validator;
 use Core\ValidationException;
 
-class LoginForm
+class AddStudentForm
 {
     protected $errors = [];
 
     public function __construct(public array $attributes)
     {
-        if (!Validator::email($attributes['email'])) {
-            $this->errors['email'] = 'Provide a valid email';
+        if (!Validator::string($attributes['student_name'], 1, 50)) {
+            $this->errors['student_name'] = 'A Name should be no more than 50 characters is required.';
         }
 
-        if (!Validator::string($attributes['password'])) {
-            $this->errors['password'] = 'Provide a valid password';
+        if (empty($attributes['mentor'])) {
+            $this->errors['mentor'] = 'Mentor is required.';
         }
+
     }
 
     public static function validate($attributes)
@@ -30,7 +32,6 @@ class LoginForm
     {
         ValidationException::throw($this->errors(), $this->attributes);
     }
-
     public function failed()
     {
         return count($this->errors);

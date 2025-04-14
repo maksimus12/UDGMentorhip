@@ -16,7 +16,6 @@ $userStudents = $db->query('SELECT
                         JOIN users ON users_students.user_id = users.id
                         GROUP BY student_id')->get();
 
-
 view("students/index.view.php", [
     'heading' => 'Students',
     'users' => $users,
