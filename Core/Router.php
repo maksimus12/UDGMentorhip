@@ -17,12 +17,12 @@ class Router
         return $this;
     }
 
-    public function get($uri, $controller, $action)
+    public function get($uri, $controller, $action = '')
     {
         return $this->add('GET', $uri, $controller, $action);
     }
 
-    public function add($method, $uri, $controller, $action)
+    public function add($method, $uri, $controller, $action = '')
     {
         $this->routes[] = [
             'uri' => $uri,
@@ -73,6 +73,8 @@ class Router
                     throw new RuntimeException("Method {$route['action']} not found in controller {$route['controller']}");
                 }
 
+                //TODO: remove this line after all controllers are converted to classes
+                return require base_path('Http/controllers' . $route['controller']);
             }
         }
 
