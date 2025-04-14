@@ -144,6 +144,11 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                                 >
                                                     Edit
                                                 </a>
+                                                <form class="" method="post" action="/meeting" onsubmit="return confirmDelete()">
+                                                    <input type="hidden" name="_method" value="DELETE">
+                                                    <input type="hidden" name="id" value="<?= $meeting['id'] ?>">
+                                                    <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-red-500 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Delete</button>
+                                                </form>
                                             </div>
                                         </td>
                                     </tr>
@@ -160,6 +165,11 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
     </div>
 
 </main>
+<script>
+    function confirmDelete() {
+        return confirm("Are you sure you want to delete this record?");
+    }
+</script>
 
 <?php
 require base_path('views/partials/footer.php') ?>
