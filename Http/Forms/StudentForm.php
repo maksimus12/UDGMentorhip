@@ -4,7 +4,7 @@ namespace Http\Forms;
 
 use Core\Validator;
 
-class AddStudentForm extends FormValidation
+class StudentForm extends FormValidation
 {
     public function validate(array $attributes): void
     {

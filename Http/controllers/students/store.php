@@ -1,6 +1,6 @@
 <?php
 
-use Http\Forms\AddStudentForm;
+use Http\Forms\StudentForm;
 use Core\Database;
 use Core\App;
 
@@ -11,7 +11,7 @@ $mentors = $_POST['mentor'] ?? null;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-    $form = AddStudentForm::make(
+    $form = StudentForm::make(
         $attributes = [
             'student_name'=> $_POST['student_name'],
             'mentor' => $mentors
