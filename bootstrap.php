@@ -5,6 +5,7 @@ use Core\Database;
 use Core\App;
 
 $container = new Container;
+App::setContainer($container);
 
 $container->bind(Database::class, function () {
     $config = require base_path('config.php');
@@ -19,9 +20,7 @@ $files = scandir($modelsPath);
 $models = array_diff($files, ['..', '.', 'BasicModel.php']);
 foreach ($models as $model) {
     $modelClass = 'Http\\Models\\' . pathinfo($model, PATHINFO_FILENAME);
-    $container->bind($modelClass, function () use ($container, $modelClass) {
-        return new $modelClass($container->resolve(Database::class));
+    $container->bind($modelClass, function () use ($modelClass) {
+        return new $modelClass();
     });
 }
-
-App::setContainer($container);
