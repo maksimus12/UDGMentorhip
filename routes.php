@@ -2,6 +2,9 @@
 
 use Http\controllers\StudentsController;
 
+//Define var for IDE hinting
+/** @var $router */
+
 //$router->get('/', '/index.php')->only('auth');
 //$router->get('/about', '/about.php');
 //$router->get('/contact', '/contact.php');
