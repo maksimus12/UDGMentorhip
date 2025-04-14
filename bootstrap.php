@@ -8,8 +8,8 @@ $container = new Container;
 
 $container->bind(Database::class, function () {
     $config = require base_path('config.php');
-    return new Database($config['database'], $config['db_user'], $config['db_pass']);
 
+    return new Database($config['database'], $config['db_user'], $config['db_pass']);
 });
 
 // Bind the models to the container
