@@ -15,12 +15,11 @@ abstract class FormValidation
     {
         $instance = new static();
 
+        $instance->attributes = $attributes;
         $instance->validate($attributes);
-
         if ($instance->failed()) {
             $instance->throw();
         }
-
         return $instance;
     }
 
@@ -31,7 +30,6 @@ abstract class FormValidation
     {
         ValidationException::throw($this->errors(), $this->attributes);
     }
-
     public function failed(): int
     {
         return count($this->errors);
@@ -45,7 +43,6 @@ abstract class FormValidation
     public function error($field, $message): static
     {
         $this->errors[$field] = $message;
-
         return $this;
     }
 }

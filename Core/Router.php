@@ -15,16 +15,17 @@ class Router
         return $this;
     }
 
-    public function get($uri, $controller)
+    public function get($uri, $controller, $action = "")
     {
-        return $this->add('GET', $uri, $controller);
+        return $this->add('GET', $uri, $controller, $action);
     }
 
-    public function add($method, $uri, $controller)
+    public function add($method, $uri, $controller, $action = "")
     {
         $this->routes[] = [
             'uri' => $uri,
             'controller' => $controller,
+            'action' => $action,
             'method' => $method,
             'middleware' => null,
         ];
@@ -32,33 +33,41 @@ class Router
         return $this;
     }
 
-    public function post($uri, $controller)
+    public function post($uri, $controller, $action = "")
     {
-        return $this->add('POST', $uri, $controller);
+        return $this->add('POST', $uri, $controller, $action);
     }
 
-    public function delete($uri, $controller)
+    public function delete($uri, $controller, $action = "")
     {
-        return $this->add('DELETE', $uri, $controller);
+        return $this->add('DELETE', $uri, $controller, $action);
     }
 
-    public function patch($uri, $controller)
+    public function patch($uri, $controller, $action = "")
     {
-        return $this->add('PATCH', $uri, $controller);
+        return $this->add('PATCH', $uri, $controller, $action);
     }
 
-    public function put($uri, $controller)
+    public function put($uri, $controller, $action = "")
     {
-        return $this->add('PUT', $uri, $controller);
+        return $this->add('PUT', $uri, $controller, $action);
     }
 
     public function route($uri, $method)
     {
         foreach ($this->routes as $route) {
+
             if ($route['uri'] === $uri && $route['method'] === strtoupper($method)) {
                 Middleware::resolve($route['middleware']);
 
-                return require base_path('Http/controllers' . $route['controller']);
+                if (class_exists($route['controller'])) {
+                    $controller = new $route['controller'];
+                    if(method_exists($controller, $route['action'])) {
+                        return $controller->{$route['action']}();
+                    }
+                    throw new Exception("Method '{$route['action']}' not found in controller '{$route['controller']}'");
+                }
+//                return require base_path('Http/controllers' . $route['controller']);
             }
         }
         $this->abort();

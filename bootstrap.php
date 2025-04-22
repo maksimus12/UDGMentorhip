@@ -4,6 +4,7 @@ use Core\Container;
 use Core\Database;
 use Core\App;
 
+
 $container = new Container;
 
 $container->bind('Core\Database', function () {
@@ -13,6 +14,16 @@ $container->bind('Core\Database', function () {
 
 });
 
-// $db = $container->resolve('Core\Database');
+$modelsPath = base_path('Http/models');
+$files = scandir($modelsPath);
+$models = array_diff($files, ['..', '.', 'BasicModel.php']);
+foreach ($models as $model)
+{
+    $modelClass = 'Http\models\\' . pathinfo($model, PATHINFO_FILENAME);
+    $container->bind($modelClass, function () use ($container, $modelClass)
+    {
+        return new $modelClass($container->resolve('Core\Database'));
+    });
+}
 
 App::setContainer($container);
