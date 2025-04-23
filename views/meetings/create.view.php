@@ -1,6 +1,9 @@
-<?php require base_path('views/partials/head.php') ?>
-<?php require base_path('views/partials/nav.php') ?>
-<?php require base_path('views/partials/banner.php') ?>
+<?php
+require base_path('views/partials/head.php') ?>
+<?php
+require base_path('views/partials/nav.php') ?>
+<?php
+require base_path('views/partials/banner.php') ?>
 
 <main>
     <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
@@ -25,9 +28,11 @@
                                            value="<?= $_POST['meeting_datetime'] ?? '' ?>"
                                     >
 
-                                    <?php if (isset($errors['meeting_datetime'])) : ?>
+                                    <?php
+                                    if (isset($errors['meeting_datetime'])) : ?>
                                         <p class="text-red-500 text-xs mt-2"><?= $errors['meeting_datetime'] ?></p>
-                                    <?php endif; ?>
+                                    <?php
+                                    endif; ?>
                                 </div>
                             </div>
 
@@ -44,16 +49,20 @@
                                             class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                                     >
                                         <option value="">Select...</option>
-                                        <?php foreach ($students as $student): ?>
+                                        <?php
+                                        foreach ($students as $student): ?>
                                             <option value="<?= htmlspecialchars($student['id']) ?>">
                                                 <?= htmlspecialchars($student['fname']) ?>
                                             </option>
-                                        <?php endforeach ?>
+                                        <?php
+                                        endforeach ?>
                                     </select>
 
-                                    <?php if (isset($errors['student_id'])) : ?>
+                                    <?php
+                                    if (isset($errors['student_id'])) : ?>
                                         <p class="text-red-500 text-xs mt-2"><?= $errors['student_id'] ?></p>
-                                    <?php endif; ?>
+                                    <?php
+                                    endif; ?>
                                 </div>
                             </div>
 
@@ -71,9 +80,11 @@
                                            value="<?= $_POST['topic'] ?? '' ?>"
                                     >
 
-                                    <?php if (isset($errors['topic'])) : ?>
+                                    <?php
+                                    if (isset($errors['topic'])) : ?>
                                         <p class="text-red-500 text-xs mt-2"><?= $errors['topic'] ?></p>
-                                    <?php endif; ?>
+                                    <?php
+                                    endif; ?>
                                 </div>
                             </div>
 
@@ -93,9 +104,11 @@
                             placeholder="Here's your meetings..."
                     ><?= $_POST['body'] ?? '' ?></textarea>
 
-                                    <?php if (isset($errors['body'])) : ?>
+                                    <?php
+                                    if (isset($errors['body'])) : ?>
                                         <p class="text-red-500 text-xs mt-2"><?= $errors['body'] ?></p>
-                                    <?php endif; ?>
+                                    <?php
+                                    endif; ?>
                                 </div>
                             </div>
                         </div>
@@ -122,4 +135,5 @@
     </div>
 </main>
 
-<?php require base_path('views/partials/footer.php') ?>
+<?php
+require base_path('views/partials/footer.php') ?>

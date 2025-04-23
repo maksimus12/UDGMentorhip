@@ -12,6 +12,18 @@ class UserModel extends BasicModel
         return $this->db->query("SELECT * FROM users")->get();
     }
 
+    public function findUserByEmail($email)
+    {
+        return $this->db->query('select * from users where email= :email', [
+            'email' => $email,
+        ])->find();
+    }
+
+    public function findUserById($id)
+    {
+        return $this->db->query('SELECT * FROM users WHERE id = :id', ['id' => $id])->find();
+    }
+
     public function getMentorNameAndId($mentorId)
     {
         return $this->db->query(
@@ -27,19 +39,37 @@ class UserModel extends BasicModel
         )->get();
     }
 
-    public function findUserByEmail($email)
+    public function deleteUser($userId)
     {
-        return $this->db->query('select * from users where email= :email', [
-            'email' => $email
-        ])->find();
+        return $this->db->query('update users set is_deleted = 1 where id = :id', [
+            'id' => $userId,
+        ]);
     }
 
-    public function createNewUser($email, $password)
+    public function createNewUser($email, $password, $role)
     {
         return $this->db->query('INSERT INTO users(email, password, role) VALUES(:email, :password, :role)', [
             'email' => $email,
             'password' => password_hash($password, PASSWORD_DEFAULT),
-            'role' => UserRoles::USER
+            'role' => $role,
+        ]);
+    }
+
+    public function updateUserInfo($email, $role, $status, $id)
+    {
+        $this->db->query('update users set email = :email, role = :role, is_deleted = :is_deleted  where id = :id', [
+            'email' => $email,
+            'role' => $role,
+            'is_deleted' => $status,
+            'id' => $id,
+        ]);
+    }
+
+    public function updateUserPassword($password, $id)
+    {
+        return $this->db->query('update users set password = :password  where id = :id', [
+            'password' => password_hash($password, PASSWORD_DEFAULT),
+            'id' => $id,
         ]);
     }
 }

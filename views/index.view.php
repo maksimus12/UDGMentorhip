@@ -18,11 +18,13 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
 
             <div class="mr-[10px]">
                 <label for="start_date" class="block text-gray-700 font-bold mb-2">Start:</label>
-                <input type="date" id="start_date" name="startDate"  value="<?= $startDate ?>"   class="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <input type="date" id="start_date" name="startDate" value="<?= $startDate ?>"
+                       class="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
             </div>
             <div class="mr-[10px]">
                 <label for="end_date" class="block text-gray-700 font-bold mb-2">End:</label>
-                <input type="date" id="end_date" name="endDate"  value="<?= $endDate ?>" class="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <input type="date" id="end_date" name="endDate" value="<?= $endDate ?>"
+                       class="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
             </div>
 
             <button

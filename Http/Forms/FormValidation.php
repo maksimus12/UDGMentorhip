@@ -7,11 +7,11 @@ use Core\ValidationException;
 abstract class FormValidation
 {
     protected array $errors = [];
-    protected array $attributes = [];
+    protected $attributes = [];
 
-    abstract public function validate(array $attributes);
+    abstract public function validate($attributes);
 
-    public static function make(array $attributes): static
+    public static function make($attributes): static
     {
         $instance = new static();
 

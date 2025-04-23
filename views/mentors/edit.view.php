@@ -1,6 +1,9 @@
-<?php require base_path('views/partials/head.php') ?>
-<?php require base_path('views/partials/nav.php') ?>
-<?php require base_path('views/partials/banner.php') ?>
+<?php
+require base_path('views/partials/head.php') ?>
+<?php
+require base_path('views/partials/nav.php') ?>
+<?php
+require base_path('views/partials/banner.php') ?>
 
 <?php
 
@@ -32,7 +35,7 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                                 <input
                                                         id="mentor"
                                                         value="<?= $mentor['email'] ?>"
-                                                        name="mentor_email"
+                                                        name="email"
                                                         class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
                                             </div>
                                         </div>
@@ -48,8 +51,12 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                                         name="role"
                                                         class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                                                 >
-                                                    <option value="1" <?= $mentor['role'] == 1 ? 'selected' : '' ?>>User</option>
-                                                    <option value="0" <?= $mentor['role'] == 0 ? 'selected' : '' ?>>Admin</option>
+                                                    <option value="1" <?= $mentor['role'] == 1 ? 'selected' : '' ?>>
+                                                        User
+                                                    </option>
+                                                    <option value="0" <?= $mentor['role'] == 0 ? 'selected' : '' ?>>
+                                                        Admin
+                                                    </option>
                                                 </select>
                                             </div>
                                         </div>
@@ -65,20 +72,29 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                                         name="status"
                                                         class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                                                 >
-                                                    <option value="0" <?= $mentor['is_deleted'] == 0 ? 'selected' : '' ?>>Active</option>
-                                                    <option value="1" <?= $mentor['is_deleted'] == 1 ? 'selected' : '' ?>>Archived</option>
+                                                    <option value="0" <?= $mentor['is_deleted'] == 0 ? 'selected' : '' ?>>
+                                                        Active
+                                                    </option>
+                                                    <option value="1" <?= $mentor['is_deleted'] == 1 ? 'selected' : '' ?>>
+                                                        Archived
+                                                    </option>
                                                 </select>
                                             </div>
                                         </div>
-                                        <?php if (isset($errors['email'])) : ?>
-                                            <p class="text-red-500 text-xs mt-2"><?= $errors['email'] ?></p>
-                                        <?php endif; ?>
-                                        <?php if (isset($errors['password'])) : ?>
+                                        <?php
+                                        if (isset($errors['mentor'])) : ?>
+                                            <p class="text-red-500 text-xs mt-2"><?= $errors['mentor'] ?></p>
+                                        <?php
+                                        endif; ?>
+                                        <?php
+                                        if (isset($errors['password'])) : ?>
                                             <p class="text-red-500 text-xs mt-2"><?= $errors['password'] ?></p>
-                                        <?php endif; ?>
+                                        <?php
+                                        endif; ?>
                                     </div>
                                     <div class="bg-gray-50 px-4 py-3 text-left sm:px-6">
-                                        <a class="text-blue-500" href="/mentor/editpass?id=<?= $mentor['id'] ?>"> Change Password</a>
+                                        <a class="text-blue-500" href="/mentor/editpass?id=<?= $mentor['id'] ?>"> Change
+                                            Password</a>
                                     </div>
                                     <div class="bg-gray-50 px-4 py-3 text-right sm:px-6">
                                         <a
@@ -114,4 +130,5 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
     </div>
 </main>
 
-<?php require base_path('views/partials/footer.php') ?>
+<?php
+require base_path('views/partials/footer.php') ?>
