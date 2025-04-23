@@ -1,6 +1,7 @@
 <?php
 
 namespace Http\Forms;
+
 use Core\Validator;
 
 class EditStudentForm extends FormValidation

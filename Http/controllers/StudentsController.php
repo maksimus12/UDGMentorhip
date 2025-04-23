@@ -14,11 +14,11 @@ use Http\models\UserModel;
 class StudentsController
 {
 
-    /* @var UserModel $userModel  */
-    protected  $userModel;
+    /* @var UserModel $userModel */
+    protected $userModel;
 
-    /* @var StudentModel $studentModel  */
-    protected  $studentModel;
+    /* @var StudentModel $studentModel */
+    protected $studentModel;
 
     public function __construct()
     {
@@ -26,15 +26,12 @@ class StudentsController
         $this->studentModel = App::resolve(StudentModel::class);
     }
 
-
-    /************ INDEX *********** */
-
     public function index()
     {
         $users = $this->userModel->getAll();
         $userStudents = $this->studentModel->getStudentsWithMentors();
-        $errors        = Session::get('errors', []);
-        $old           = Session::get('old', []);
+        $errors = Session::get('errors', []);
+        $old = Session::get('old', []);
 
         view("students/index.view.php", [
             'heading' => 'Students',
@@ -45,44 +42,43 @@ class StudentsController
         ]);
     }
 
-    /************ CREATE *********** */
 
     public function create()
     {
         $student = $_POST['student_name'];
         $mentor = $_POST['mentor'];
         $attributes = [
-            'student_name'=>  $student,
+            'student_name' => $student,
             'mentor' => $mentor ?? null,
         ];
 
         AddStudentForm::make($attributes);
 
-        /* @var StudentModel $studentModel  */
-        $this->studentModel-> insertStudent($student);
-        $studentID = $this->studentModel-> getStudent($student);
+        /* @var StudentModel $studentModel */
+        $this->studentModel->insertStudent($student);
+        $studentID = $this->studentModel->getStudent($student);
         $this->studentModel->insertMixStudentMentor($mentor, $studentID['id']);
         header('Location: /students');
         die();
     }
 
-    /************ DELETE *********** */
 
-    public function delete(){
+    public function delete()
+    {
         $this->studentModel->delete($_POST['id']);
         header('Location: /students');
         die();
     }
 
-    /************ EDIT *********** */
 
-    public function edit(){
+    public function edit()
+    {
         $allUsers = $this->userModel->getAll();
         $userStudent = $this->studentModel->getStudentNameAndId($_GET['id']);
         $mentors = $this->userModel->getMentorNameAndId($_GET['id']);
         $mentorIds = array_column($mentors, 'user_id');
-        $errors        = Session::get('errors', []);
-        $old           = Session::get('old', []);
+        $errors = Session::get('errors', []);
+        $old = Session::get('old', []);
 
         view("students/edit.view.php", [
             'heading' => 'Students',
@@ -93,10 +89,10 @@ class StudentsController
             'errors' => $errors,
             'old' => $old,
         ]);
-
     }
 
-    public function update(){
+    public function update()
+    {
         $this->studentModel->getStudentById($_POST['id']);
         EditStudentForm::make($_POST);
         $this->studentModel->updateStudent($_POST);
