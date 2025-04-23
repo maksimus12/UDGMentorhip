@@ -77,7 +77,6 @@ class MentorsController
     {
         $attributes = [
             'email' => $_POST['email'],
-            'id' => $_POST['id'],
         ];
 
         EditMentorForm::make($attributes);
@@ -90,7 +89,6 @@ class MentorsController
     {
         $attributes = [
             'pass' => $_POST['new-pass'],
-            'id' => $_POST['id'],
         ];
         EditMentorPassForm::make($attributes);
         $this->userModel->updateUserPassword($_POST['new-pass'], $_POST['id']);

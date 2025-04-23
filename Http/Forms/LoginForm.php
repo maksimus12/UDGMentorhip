@@ -6,7 +6,7 @@ use Core\Validator;
 
 class LoginForm extends FormValidation
 {
-    public function validate($attributes): void
+    public function validate(array $attributes): void
     {
         if (!Validator::email($attributes['email'])) {
             $this->errors['email'] = 'Provide a valid email';

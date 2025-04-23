@@ -31,7 +31,7 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                     </a>
                 </p>
             </div>
-            <form action="" method="GET" class="flex w-fit items-end">
+            <form id="meeting-filter" action="" method="GET" class="flex w-fit items-end">
                 <?php if(Core\Session::isAdmin()){ ?>
                 <div class="mr-[10px]">
                 <label for="start_date" class="block text-gray-700 font-bold mb-2">Mentor:</label>
@@ -169,6 +169,17 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
     function confirmDelete() {
         return confirm("Are you sure you want to delete this record?");
     }
+
+    const filterForm = document.getElementById('meeting-filter');
+
+    filterForm.addEventListener('submit', function(e) {
+        const controls = this.querySelectorAll('select[name], input[name]');
+        controls.forEach(control => {
+            if (control.value === '') {
+                control.disabled = true;
+            }
+        });
+    });
 </script>
 
 <?php
