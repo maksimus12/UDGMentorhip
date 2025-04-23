@@ -5,9 +5,9 @@
 use Http\controllers\StudentsController;
 use Http\controllers\IndexController;
 
-//$router->get('/', '/index.php')->only('auth');
-//$router->get('/about', '/about.php');
-//$router->get('/contact', '/contact.php');
+$router->get('/', '/index.php')->only('auth');
+$router->get('/about', '/about.php');
+$router->get('/contact', '/contact.php');
 
 $router->get('/', IndexController::class, 'index')->only('auth');
 $router->get('/students', StudentsController::class, 'index')->only('admin');

@@ -30,6 +30,7 @@ abstract class FormValidation
     {
         ValidationException::throw($this->errors(), $this->attributes);
     }
+
     public function failed(): int
     {
         return count($this->errors);

@@ -21,5 +21,3 @@ foreach ($models as $model) {
         return new $modelClass();
     });
 }
-
-

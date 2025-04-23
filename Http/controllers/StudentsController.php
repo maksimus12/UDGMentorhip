@@ -26,7 +26,6 @@ class StudentsController
         $this->studentModel = App::resolve(StudentModel::class);
     }
 
-
     public function index()
     {
         $users = $this->userModel->getAll();
