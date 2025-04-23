@@ -1,5 +1,7 @@
-<?php require base_path('views/partials/head.php') ?>
-<?php require base_path('views/partials/nav.php') ?>
+<?php
+require base_path('views/partials/head.php') ?>
+<?php
+require base_path('views/partials/nav.php') ?>
 
     <main>
         <div class="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
@@ -38,18 +40,23 @@
                         </button>
                     </div>
                     <div>
-                        <?php  if (isset($errors['email'])) : ?>
+                        <?php
+                        if (isset($errors['email'])) : ?>
                             <p class="text-red-500 text-xs mt-2"><?= $errors['email'] ?></p>
-                        <?php endif; ?>
+                        <?php
+                        endif; ?>
                     </div>
                     <div>
-                        <?php if (isset($errors['password'])) : ?>
+                        <?php
+                        if (isset($errors['password'])) : ?>
                             <p class="text-red-500 text-xs mt-2"><?= $errors['password'] ?></p>
-                        <?php endif; ?>
+                        <?php
+                        endif; ?>
                     </div>
                 </form>
             </div>
         </div>
     </main>
 
-<?php require base_path('views/partials/footer.php') ?>
+<?php
+require base_path('views/partials/footer.php') ?>

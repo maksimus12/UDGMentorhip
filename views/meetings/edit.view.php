@@ -51,14 +51,14 @@ require base_path('views/partials/banner.php') ?>
                                         <?php
                                         foreach ($students as $student): ?>
                                             <option value="<?= htmlspecialchars(
-                                                $student['id']
+                                                $student['id'],
                                             ) ?>" <?= $student['id'] == $meeting['student_id'] ? 'selected' : '' ?>>
                                                 <?= htmlspecialchars($student['fname']) ?>
                                             </option>
                                         <?php
                                         endforeach ?>
                                     </select>
-                                    
+
 
                                     <?php
                                     if (isset($errors['body'])) : ?>

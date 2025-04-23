@@ -4,6 +4,7 @@ namespace Http\controllers;
 
 use Core\App;
 use Core\Session;
+use Core\UserRoles;
 use Http\Forms\RegistrationForm;
 use Http\models\UserModel;
 
@@ -37,7 +38,7 @@ class RegistrationController
 
         RegistrationForm::make($attributes);
 
-        $userModel->createNewUser($email, $password);
+        $userModel->createNewUser($email, $password, UserRoles::USER);
         header('Location: /login');
         exit();
     }

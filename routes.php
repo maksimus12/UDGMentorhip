@@ -1,13 +1,14 @@
 <?php
 //Define var for IDE hinting
+
 /** @var $router */
 
 use Http\controllers\LoginController;
+use Http\controllers\MentorsController;
 use Http\controllers\StudentsController;
 use Http\controllers\IndexController;
 use Http\controllers\RegistrationController;
 
-//$router->get('/', '/index.php')->only('auth');
 $router->get('/about', '/about.php');
 $router->get('/contact', '/contact.php');
 
@@ -18,23 +19,20 @@ $router->delete('/students', StudentsController::class, 'delete')->only('admin')
 $router->get('/student/edit', StudentsController::class, 'edit')->only('admin');
 $router->patch('/student', StudentsController::class, 'update')->only('admin');
 
-$router->get('/meetings', '/meetings/index.php')->only('auth');
 $router->get('/meeting', '/meetings/show.php');
 $router->delete('/meeting', '/meetings/destroy.php');
-
 $router->post('/meetings', '/meetings/store.php');
 $router->get('/meetings/create', '/meetings/create.php');
-
 $router->patch('/meeting', '/meetings/update.php');
 $router->get('/meeting/edit', '/meetings/edit.php');
 
-$router->get('/mentors', '/mentors/index.php')->only('admin');
-$router->post('/mentors', '/mentors/store.php')->only('admin');
-$router->get('/mentor/edit', '/mentors/edit.php')->only('admin');
-$router->get('/mentor/editpass', '/mentors/editpass.php')->only('admin');
-$router->patch('/mentor', '/mentors/update.php')->only('admin');
-$router->patch('/mentorpass', '/mentors/updatepass.php')->only('admin');
-$router->delete('/mentors', '/mentors/destroy.php')->only('admin');
+$router->get('/mentors', MentorsController::class, 'index')->only('admin');
+$router->post('/mentors', MentorsController::class, 'create')->only('admin');
+$router->delete('/mentors', MentorsController::class, 'delete')->only('admin');
+$router->get('/mentor/edit', MentorsController::class, 'edit')->only('admin');
+$router->get('/mentor/editpass', MentorsController::class, 'editpass')->only('admin');
+$router->patch('/mentor', MentorsController::class, 'update')->only('admin');
+$router->patch('/mentorpass', MentorsController::class, 'updatepass')->only('admin');
 
 $router->get('/register', RegistrationController::class, 'index')->only('guest');
 $router->post('/register', RegistrationController::class, 'register')->only('guest');
@@ -42,7 +40,3 @@ $router->post('/register', RegistrationController::class, 'register')->only('gue
 $router->get('/login', LoginController::class, 'index')->only('guest');
 $router->post('/sessions', LoginController::class, 'login')->only('guest');
 $router->delete('/sessions', LoginController::class, 'logout')->only('auth');
-
-//$router->get('/login', '/sessions/create.php')->only('guest');
-//$router->post('/sessions', '/sessions/store.php')->only('guest');
-//$router->delete('/sessions', '/sessions/destroy.php')->only('auth');

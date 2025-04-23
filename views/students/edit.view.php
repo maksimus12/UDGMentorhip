@@ -1,6 +1,9 @@
-<?php require base_path('views/partials/head.php') ?>
-<?php require base_path('views/partials/nav.php') ?>
-<?php require base_path('views/partials/banner.php') ?>
+<?php
+require base_path('views/partials/head.php') ?>
+<?php
+require base_path('views/partials/nav.php') ?>
+<?php
+require base_path('views/partials/banner.php') ?>
 
 <?php
 
@@ -22,10 +25,12 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                 <div class="shadow sm:rounded-md">
                                     <div class="space-y-6 bg-white px-4 py-5 sm:p-6">
                                         <div>
-                                            <label for="student" class="block text-sm font-medium text-gray-700">Edit Student</label>
+                                            <label for="student" class="block text-sm font-medium text-gray-700">Edit
+                                                Student</label>
                                             <div class="mt-1">
                                                 <input type="hidden" name="_method" value="PATCH">
-                                                <input type="hidden" name="id" value="<?= $userStudent['student_id'] ?>">
+                                                <input type="hidden" name="id"
+                                                       value="<?= $userStudent['student_id'] ?>">
                                                 <input
                                                         id="student"
                                                         value="<?= $userStudent['student'] ?>"
@@ -36,11 +41,19 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                             <div class="mt-5 block">
                                                 <label class="block text-sm font-medium text-gray-700">Mentor</label>
                                                 <div class="relative">
-                                                    <button type="button" id="mentor-dropdown-trigger" class="mt-1 w-full rounded-md border border-gray-300 bg-white py-2 px-3 text-left shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm">Select Mentors</button>
-                                                    <div id="mentor-dropdown" class="absolute left-0 mt-2 w-full rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 hidden max-h-[200px] overflow-y-auto">
+                                                    <button type="button" id="mentor-dropdown-trigger"
+                                                            class="mt-1 w-full rounded-md border border-gray-300 bg-white py-2 px-3 text-left shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm">
+                                                        Select Mentors
+                                                    </button>
+                                                    <div id="mentor-dropdown"
+                                                         class="absolute left-0 mt-2 w-full rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 hidden max-h-[200px] overflow-y-auto">
                                                         <div class="py-1">
-                                                            <?php foreach ($allUsers as $user):
-                                                                $isChecked = in_array($user['id'], $mentorIds) ? 'checked' : '';
+                                                            <?php
+                                                            foreach ($allUsers as $user):
+                                                                $isChecked = in_array(
+                                                                    $user['id'],
+                                                                    $mentorIds,
+                                                                ) ? 'checked' : '';
                                                                 ?>
                                                                 <div class="flex items-center px-4 py-2">
                                                                     <input type="checkbox"
@@ -48,17 +61,23 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                                                            name="mentor[]"
                                                                            value="<?= $user['id'] ?>" <?= $isChecked ?>
                                                                            class="h-4 w-4 rounded border-gray-300 text-blue-500 focus:ring-2 focus:ring-blue-500">
-                                                                    <label for="mentor-<?= $user['id'] ?>" class="ml-3 text-sm text-gray-600 cursor-pointer"><?= htmlspecialchars($user['email']) ?></label>
+                                                                    <label for="mentor-<?= $user['id'] ?>"
+                                                                           class="ml-3 text-sm text-gray-600 cursor-pointer"><?= htmlspecialchars(
+                                                                            $user['email'],
+                                                                        ) ?></label>
                                                                 </div>
-                                                            <?php endforeach; ?>
+                                                            <?php
+                                                            endforeach; ?>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <?php if (isset($errors['student_name'])) : ?>
+                                        <?php
+                                        if (isset($errors['student_name'])) : ?>
                                             <p class="text-red-500 text-xs mt-2"><?= $errors['student_name'] ?></p>
-                                        <?php endif; ?>
+                                        <?php
+                                        endif; ?>
                                     </div>
                                     <div class="bg-gray-50 px-4 py-3 text-right sm:px-6">
                                         <a
@@ -102,12 +121,12 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
     }
 
     // Открытие/закрытие выпадающего списка
-    document.getElementById('mentor-dropdown-trigger').addEventListener('click', function() {
+    document.getElementById('mentor-dropdown-trigger').addEventListener('click', function () {
         document.getElementById('mentor-dropdown').classList.toggle('hidden');
     });
 
     // Закрытие при клике вне dropdown
-    document.addEventListener('click', function(event) {
+    document.addEventListener('click', function (event) {
         var dropdown = document.getElementById('mentor-dropdown');
         var trigger = document.getElementById('mentor-dropdown-trigger');
         if (!dropdown.contains(event.target) && !trigger.contains(event.target)) {
@@ -123,4 +142,5 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
     // Инициализация при загрузке страницы
     document.addEventListener('DOMContentLoaded', updateSelectedMentors);
 </script>
-<?php require base_path('views/partials/footer.php') ?>
+<?php
+require base_path('views/partials/footer.php') ?>

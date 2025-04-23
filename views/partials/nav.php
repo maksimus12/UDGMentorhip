@@ -70,7 +70,7 @@
                                         </button>
                                     </form>
                                 </div>
-                            <?php
+                                <?php
                             } else { ?>
                                 <a href="/login"
                                    class="<?= urlIs(
@@ -86,7 +86,7 @@
                                     Sign up
                                 </a>
 
-                            <?php
+                                <?php
                             } ?>
                         </div>
                     </div>
