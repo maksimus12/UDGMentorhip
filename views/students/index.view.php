@@ -49,17 +49,24 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                             <div>
                                                 <label for="student" class="block text-sm font-medium text-gray-700">New Student</label>
                                                 <div class="mt-1">
-                                                    <input id="student" value="<?= $_POST['student_name'] ?? "" ?>" name="student_name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                                                    <input id="student" value="<?= $old['student_name'] ?? "" ?>" name="student_name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
                                                 </div>
                                                 <div class="mt-5 block">
                                                     <label class="block text-sm font-medium text-gray-700">Mentor</label>
+                                                    <?php $selectedMentors = is_array($old['mentor'] ?? null) ? $old['mentor'] : [];
+                                                    ?>
                                                     <div class="relative">
                                                         <button type="button" id="mentor-dropdown-trigger" class="mt-1 w-full rounded-md border border-gray-300 bg-white py-2 px-3 text-left shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm">Select Mentors</button>
                                                         <div id="mentor-dropdown" class="absolute left-0 mt-2 w-full rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 hidden max-h-[200px] overflow-y-auto">
                                                             <div class="py-1">
                                                                 <?php foreach ($users as $user): ?>
                                                                     <div class="flex items-center px-4 py-2">
-                                                                        <input type="checkbox" id="mentor-<?= $user['id'] ?>" name="mentor[]" value="<?= $user['id'] ?>" <?= (isset($_GET['mentor']) && in_array($user['id'], $_GET['mentor'])) ? 'checked' : '' ?> class="h-4 w-4 rounded border-gray-300 text-blue-500 focus:ring-2 focus:ring-blue-500">
+                                                                        <input type="checkbox"
+                                                                               id="mentor-<?= $user['id'] ?>"
+                                                                               name="mentor[]"
+                                                                               value="<?= $user['id'] ?>"
+                                                                            <?= in_array($user['id'], $selectedMentors) ? 'checked' : '' ?>
+                                                                               class="h-4 w-4 rounded border-gray-300 text-blue-500 focus:ring-2 focus:ring-blue-500">
                                                                         <label for="mentor-<?= $user['id'] ?>" class="ml-3 text-sm text-gray-600 cursor-pointer"><?= htmlspecialchars($user['email']) ?></label>
                                                                     </div>
                                                                 <?php endforeach; ?>

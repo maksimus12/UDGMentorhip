@@ -1,14 +1,17 @@
 <?php
 
+use Http\controllers\StudentsController;
+
 $router->get('/', '/index.php')->only('auth');
 $router->get('/about', '/about.php');
 $router->get('/contact', '/contact.php');
 
-$router->get('/students', '/students/index.php')->only('admin');
-$router->post('/students', '/students/store.php')->only('admin');
-$router->delete('/students', '/students/destroy.php')->only('admin');
-$router->get('/student/edit', '/students/edit.php')->only('admin');
-$router->patch('/student', '/students/update.php')->only('admin');
+
+$router->get('/students', StudentsController::class, 'index')->only('admin');
+$router->post('/students', StudentsController::class, 'create')->only('admin');
+$router->delete('/students', StudentsController::class, 'delete')->only('admin');
+$router->get('/student/edit', StudentsController::class, 'edit')->only('admin');
+$router->patch('/student', StudentsController::class, 'update')->only('admin');
 
 $router->get('/meetings', '/meetings/index.php')->only('auth');
 $router->get('/meeting', '/meetings/show.php');
