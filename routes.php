@@ -2,10 +2,12 @@
 //Define var for IDE hinting
 /** @var $router */
 
+use Http\controllers\LoginController;
 use Http\controllers\StudentsController;
 use Http\controllers\IndexController;
+use Http\controllers\RegistrationController;
 
-$router->get('/', '/index.php')->only('auth');
+//$router->get('/', '/index.php')->only('auth');
 $router->get('/about', '/about.php');
 $router->get('/contact', '/contact.php');
 
@@ -34,9 +36,13 @@ $router->patch('/mentor', '/mentors/update.php')->only('admin');
 $router->patch('/mentorpass', '/mentors/updatepass.php')->only('admin');
 $router->delete('/mentors', '/mentors/destroy.php')->only('admin');
 
-$router->get('/register', '/registration/create.php')->only('guest');
-$router->post('/register', '/registration/store.php')->only('guest');
+$router->get('/register', RegistrationController::class, 'index')->only('guest');
+$router->post('/register', RegistrationController::class, 'register')->only('guest');
 
-$router->get('/login', '/sessions/create.php')->only('guest');
-$router->post('/sessions', '/sessions/store.php')->only('guest');
-$router->delete('/sessions', '/sessions/destroy.php')->only('auth');
+$router->get('/login', LoginController::class, 'index')->only('guest');
+$router->post('/sessions', LoginController::class, 'login')->only('guest');
+$router->delete('/sessions', LoginController::class, 'logout')->only('auth');
+
+//$router->get('/login', '/sessions/create.php')->only('guest');
+//$router->post('/sessions', '/sessions/store.php')->only('guest');
+//$router->delete('/sessions', '/sessions/destroy.php')->only('auth');
