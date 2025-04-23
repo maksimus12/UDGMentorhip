@@ -4,7 +4,8 @@ namespace Core;
 
 class BasicModel
 {
-    public function __construct(protected Database $db)
+    protected Database $db;
+    public function __construct()
     {
             $this->db = App::resolve(Database::class);
     }

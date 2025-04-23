@@ -86,7 +86,7 @@ class StudentModel extends BasicModel
     public function deleteStudentWithMentors($id)
     {
         $this->db->query('DELETE FROM users_students WHERE student_id = :student_id', [
-            'student_id' => $_POST['id']
+            'student_id' => $_POST['id'],
         ]);
     }
 

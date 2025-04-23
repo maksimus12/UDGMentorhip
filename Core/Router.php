@@ -67,7 +67,7 @@ class Router
                     }
                     throw new Exception("Method '{$route['action']}' not found in controller '{$route['controller']}'");
                 }
-//                return require base_path('Http/controllers' . $route['controller']);
+                return require base_path('Http/controllers' . $route['controller']);
             }
         }
         $this->abort();
