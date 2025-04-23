@@ -100,4 +100,23 @@ class StudentModel extends BasicModel
             ]);
         }
     }
+
+    public function queryMeetingByStudent($startDate, $endDate)
+    {
+        return $this->db->query(
+            'SELECT 
+                students.fname AS studentName, 
+                count(meetings.id) AS meetingCount 
+                FROM students 
+                LEFT JOIN meetings 
+                ON students.id = meetings.student_id 
+                WHERE meetings.meeting_datetime BETWEEN :start AND :end
+                GROUP BY students.id, students.fname 
+                ORDER BY meetingCount DESC',
+            [
+                'start' => $startDate,
+                'end' => $endDate,
+            ],
+        )->get();
+    }
 }

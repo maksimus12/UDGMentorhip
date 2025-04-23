@@ -4,7 +4,7 @@ namespace Http\models;
 
 use Core\BasicModel;
 
-class IndexModel extends BasicModel
+class MeetingsModel extends BasicModel
 {
 
     public function dateRange()
@@ -51,24 +51,6 @@ class IndexModel extends BasicModel
         )->get();
     }
 
-    public function queryMeetingByStudent($startDate, $endDate)
-    {
-        return $this->db->query(
-            'SELECT 
-                students.fname AS studentName, 
-                count(meetings.id) AS meetingCount 
-                FROM students 
-                LEFT JOIN meetings 
-                ON students.id = meetings.student_id 
-                WHERE meetings.meeting_datetime BETWEEN :start AND :end
-                GROUP BY students.id, students.fname 
-                ORDER BY meetingCount DESC',
-            [
-                'start' => $startDate,
-                'end' => $endDate,
-            ],
-        )->get();
-    }
 
     public function queryMeetingByMentor($startDate, $endDate)
     {

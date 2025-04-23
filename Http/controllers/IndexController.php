@@ -4,7 +4,8 @@ namespace Http\controllers;
 
 use Core\App;
 use Core\Session;
-use Http\models\IndexModel;
+use Http\models\MeetingsModel;
+use Http\models\StudentModel;
 
 class IndexController
 {
@@ -13,9 +14,11 @@ class IndexController
         if (isset($_SESSION['user']) && isset($_SESSION['user']['email'])) {
             $_SESSION['name'] = $_SESSION['user']['email'];
         }
-        /* @var IndexModel $indexModel */
-        $indexModel = App::resolve(IndexModel::class);
-        $datesQuery = $indexModel->dateRange();
+        /* @var MeetingsModel $meetingsModel */
+        $meetingsModel = App::resolve(MeetingsModel::class);
+        $datesQuery = $meetingsModel->dateRange();
+        /* @var StudentModel $studentModel */
+        $studentModel = App::resolve(StudentModel::class);
 
         $minDate = $datesQuery[0]['minDate'];
         $maxDate = date("Y-m-d", strtotime($datesQuery[0]['maxDate'] . ' +1 day'));
@@ -26,16 +29,16 @@ class IndexController
         $uniqueUsers = [];
         $params = [];
 
-        $uniqueStudents = $indexModel->uniqueStudentsFromMeetings();
+        $uniqueStudents = $meetingsModel->uniqueStudentsFromMeetings();
 
         if (Session::isAdmin()) {
-            $uniqueStudents = $indexModel->AllUniqueStudents();
-            $meetings = $indexModel->queryForMeetings($startDate, $endDate);
-            $meetingByStudent = $indexModel->queryMeetingByStudent($startDate, $endDate);
-            $meetingsByMentor = $indexModel->queryMeetingByMentor($startDate, $endDate);
+            $uniqueStudents = $meetingsModel->AllUniqueStudents();
+            $meetings = $meetingsModel->queryForMeetings($startDate, $endDate);
+            $meetingByStudent = $studentModel->queryMeetingByStudent($startDate, $endDate);
+            $meetingsByMentor = $meetingsModel->queryMeetingByMentor($startDate, $endDate);
         } else {
-            $meetings = $indexModel->queryForMeetingsNotAdmin($startDate, $endDate, $_SESSION['user']['user_id']);
-            $meetingByStudent = $indexModel->queryMeetingByStudentNotAdmin(
+            $meetings = $meetingsModel->queryForMeetingsNotAdmin($startDate, $endDate, $_SESSION['user']['user_id']);
+            $meetingByStudent = $meetingsModel->queryMeetingByStudentNotAdmin(
                 $startDate,
                 $endDate,
                 $_SESSION['user']['user_id'],
