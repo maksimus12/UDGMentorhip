@@ -16,7 +16,7 @@
                             <label for="email" class="sr-only">Email address</label>
                             <input id="email" name="email" type="text" autocomplete="email" required
                                    class="relative block w-full appearance-none rounded-none rounded-t-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                                   value="<?= $_POST['email'] ?? '' ?>"
+                                   value="<?= old('email') ?? '' ?>"
                                    placeholder="Email address">
                         </div>
 
@@ -25,7 +25,7 @@
                             <input id="password" name="password" type="password" autocomplete="current-password"
                                    required
                                    class="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                                   value="<?= $_POST['password'] ?? '' ?>"
+                                   value="<?= old('password') ?? '' ?>"
                                    placeholder="Password">
                         </div>
                     </div>
@@ -38,7 +38,7 @@
                         </button>
                     </div>
                     <div>
-                        <?php if (isset($errors['email'])) : ?>
+                        <?php  if (isset($errors['email'])) : ?>
                             <p class="text-red-500 text-xs mt-2"><?= $errors['email'] ?></p>
                         <?php endif; ?>
                     </div>

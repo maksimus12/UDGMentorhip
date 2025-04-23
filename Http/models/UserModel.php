@@ -3,6 +3,7 @@
 namespace Http\models;
 
 use Core\BasicModel;
+use Core\UserRoles;
 
 class UserModel extends BasicModel
 {
@@ -24,5 +25,21 @@ class UserModel extends BasicModel
                 'student_id' => $mentorId,
             ],
         )->get();
+    }
+
+    public function findUserByEmail($email)
+    {
+        return $this->db->query('select * from users where email= :email', [
+            'email' => $email
+        ])->find();
+    }
+
+    public function createNewUser($email, $password)
+    {
+        return $this->db->query('INSERT INTO users(email, password, role) VALUES(:email, :password, :role)', [
+            'email' => $email,
+            'password' => password_hash($password, PASSWORD_DEFAULT),
+            'role' => UserRoles::USER
+        ]);
     }
 }
