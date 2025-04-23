@@ -1,12 +1,15 @@
 <?php
+//Define var for IDE hinting
+/** @var $router */
 
 use Http\controllers\StudentsController;
+use Http\controllers\IndexController;
 
 $router->get('/', '/index.php')->only('auth');
 $router->get('/about', '/about.php');
 $router->get('/contact', '/contact.php');
 
-
+$router->get('/', IndexController::class, 'index')->only('auth');
 $router->get('/students', StudentsController::class, 'index')->only('admin');
 $router->post('/students', StudentsController::class, 'create')->only('admin');
 $router->delete('/students', StudentsController::class, 'delete')->only('admin');
