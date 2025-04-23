@@ -6,6 +6,12 @@ use Core\BasicModel;
 
 class StudentModel extends BasicModel
 {
+
+    public function getAllStudents()
+    {
+        return $this->db->query('SELECT * FROM students')->get();
+    }
+
     public function getStudentById(int $id)
     {
         return $this->db->query("SELECT * from students where id = :id", [
@@ -25,14 +31,29 @@ class StudentModel extends BasicModel
         return $this->db->query(
             "
             SELECT
-                students.fname AS student, 
-                COALESCE(GROUP_CONCAT(users.email), 'No mentor') AS mentor,
-                students.id AS student_id
+            students.fname AS student, 
+            COALESCE(GROUP_CONCAT(users.email), 'No mentor') AS mentor,
+            students.id AS student_id
             FROM students
             LEFT JOIN users_students ON students.id = users_students.student_id
             LEFT JOIN users ON users_students.user_id = users.id
             GROUP BY students.id
         ",
+        )->get();
+    }
+
+    public function uniqueStudentsByMentor($userId)
+    {
+        return $this->db->query(
+            'SELECT 
+                    students.id AS id,
+                    students.fname AS fname
+                    FROM users_students
+                    JOIN students ON users_students.student_id = students.id
+                    WHERE users_students.user_id = :id',
+            [
+                ':id' => $userId,
+            ],
         )->get();
     }
 

@@ -20,7 +20,7 @@ require base_path('views/partials/banner.php') ?>
                                         class="block text-sm font-medium text-gray-700"
                                 >Meeting Date & Time</label>
                                 <div class="mt-1">
-                                    <input required
+                                    <input
                                            type="date"
                                            id="meeting_datetime"
                                            name="meeting_datetime"
@@ -77,7 +77,7 @@ require base_path('views/partials/banner.php') ?>
                                            name="topic"
                                            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                                            placeholder="Meeting Topic"
-                                           value="<?= $_POST['topic'] ?? '' ?>"
+                                           value="<?= old('topic') ?? '' ?>"
                                     >
 
                                     <?php
@@ -102,7 +102,7 @@ require base_path('views/partials/banner.php') ?>
                             rows="3"
                             class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                             placeholder="Here's your meetings..."
-                    ><?= $_POST['body'] ?? '' ?></textarea>
+                    ><?= old('body') ?? '' ?></textarea>
 
                                     <?php
                                     if (isset($errors['body'])) : ?>

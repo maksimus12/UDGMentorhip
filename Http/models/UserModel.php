@@ -24,6 +24,8 @@ class UserModel extends BasicModel
         return $this->db->query('SELECT * FROM users WHERE id = :id', ['id' => $id])->find();
     }
 
+    public function getUniqueUsers() {}
+
     public function getMentorNameAndId($mentorId)
     {
         return $this->db->query(

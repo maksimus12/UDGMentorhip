@@ -7,9 +7,9 @@ use Core\ValidationException;
 abstract class FormValidation
 {
     protected array $errors = [];
-    protected $attributes = [];
+    protected array $attributes = [];
 
-    abstract public function validate($attributes);
+    abstract public function validate(array $attributes);
 
     public static function make($attributes): static
     {

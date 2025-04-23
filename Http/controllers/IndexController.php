@@ -23,16 +23,14 @@ class IndexController
         $minDate = $datesQuery[0]['minDate'];
         $maxDate = date("Y-m-d", strtotime($datesQuery[0]['maxDate'] . ' +1 day'));
 
-
         $startDate = !empty($_GET['startDate']) ? $_GET['startDate'] : $minDate;
         $endDate = !empty($_GET['endDate']) ? $_GET['endDate'] : $maxDate;
         $uniqueUsers = [];
-        $params = [];
 
         $uniqueStudents = $meetingsModel->uniqueStudentsFromMeetings();
 
         if (Session::isAdmin()) {
-            $uniqueStudents = $meetingsModel->AllUniqueStudents();
+            $uniqueUsers = $meetingsModel->AllUniqueUsers();
             $meetings = $meetingsModel->queryForMeetings($startDate, $endDate);
             $meetingByStudent = $studentModel->queryMeetingByStudent($startDate, $endDate);
             $meetingsByMentor = $meetingsModel->queryMeetingByMentor($startDate, $endDate);
@@ -45,6 +43,7 @@ class IndexController
             );
             $meetingsByMentor = [];
         }
+
         view("index.view.php", [
             'heading' => 'Home',
             'meetingCount' => count($meetings),

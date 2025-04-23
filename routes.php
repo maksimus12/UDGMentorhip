@@ -4,13 +4,11 @@
 /** @var $router */
 
 use Http\controllers\LoginController;
+use Http\controllers\MeetingsController;
 use Http\controllers\MentorsController;
 use Http\controllers\StudentsController;
 use Http\controllers\IndexController;
 use Http\controllers\RegistrationController;
-
-$router->get('/about', '/about.php');
-$router->get('/contact', '/contact.php');
 
 $router->get('/', IndexController::class, 'index')->only('auth');
 $router->get('/students', StudentsController::class, 'index')->only('admin');
@@ -19,12 +17,13 @@ $router->delete('/students', StudentsController::class, 'delete')->only('admin')
 $router->get('/student/edit', StudentsController::class, 'edit')->only('admin');
 $router->patch('/student', StudentsController::class, 'update')->only('admin');
 
-$router->get('/meeting', '/meetings/show.php');
-$router->delete('/meeting', '/meetings/destroy.php');
-$router->post('/meetings', '/meetings/store.php');
-$router->get('/meetings/create', '/meetings/create.php');
-$router->patch('/meeting', '/meetings/update.php');
-$router->get('/meeting/edit', '/meetings/edit.php');
+$router->get('/meetings', MeetingsController::class, 'index')->only('auth');
+$router->get('/meeting', MeetingsController::class, 'show')->only('auth');
+$router->delete('/meeting', MeetingsController::class, 'destroy')->only('auth');
+$router->get('/meetings/create', MeetingsController::class, 'create')->only('auth');
+$router->post('/meetings', MeetingsController::class, 'store')->only('auth');
+$router->get('/meeting/edit', MeetingsController::class, 'edit')->only('auth');
+$router->patch('/meeting', MeetingsController::class, 'update')->only('auth');
 
 $router->get('/mentors', MentorsController::class, 'index')->only('admin');
 $router->post('/mentors', MentorsController::class, 'create')->only('admin');
