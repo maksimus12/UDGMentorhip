@@ -1,0 +1,306 @@
+[
+  {
+    "id": 1,
+    "fname": "Abdulloeva Shahzoda"
+  },
+  {
+    "id": 2,
+    "fname": "Abdurakhmonov Damir"
+  },
+  {
+    "id": 3,
+    "fname": "Abylai Baimenov"
+  },
+  {
+    "id": 4,
+    "fname": "Advahov Stanislav"
+  },
+  {
+    "id": 5,
+    "fname": "Akmatbekova Aynazik"
+  },
+  {
+    "id": 6,
+    "fname": "Alexey Reshetnikov"
+  },
+  {
+    "id": 7,
+    "fname": "Amoashiy Anastasia"
+  },
+  {
+    "id": 8,
+    "fname": "Arabova Roksila"
+  },
+  {
+    "id": 9,
+    "fname": "Artemy Makarenko"
+  },
+  {
+    "id": 10,
+    "fname": "Asetov Musa"
+  },
+  {
+    "id": 11,
+    "fname": "Askarova Dariga"
+  },
+  {
+    "id": 12,
+    "fname": "Assanbekova Azhar"
+  },
+  {
+    "id": 13,
+    "fname": "Avci Rojda"
+  },
+  {
+    "id": 14,
+    "fname": "Aziza Gulova"
+  },
+  {
+    "id": 15,
+    "fname": "Azizova Sitora"
+  },
+  {
+    "id": 16,
+    "fname": "Bâstrica Eduard"
+  },
+  {
+    "id": 17,
+    "fname": "Batyrbekov Daniel"
+  },
+  {
+    "id": 18,
+    "fname": "Bayseitova Zhanel"
+  },
+  {
+    "id": 19,
+    "fname": "Bibas Diana"
+  },
+  {
+    "id": 20,
+    "fname": "Bureacov Nicolai"
+  },
+  {
+    "id": 21,
+    "fname": "Burkhanov Dzhakhongir"
+  },
+  {
+    "id": 22,
+    "fname": "Byrnat Livia"
+  },
+  {
+    "id": 23,
+    "fname": "Chekan Izabela"
+  },
+  {
+    "id": 24,
+    "fname": "Daniil Nozhkin"
+  },
+  {
+    "id": 25,
+    "fname": "Daria Rysbekova"
+  },
+  {
+    "id": 26,
+    "fname": "Ergali Ilias"
+  },
+  {
+    "id": 27,
+    "fname": "Gabriela Bloschenko"
+  },
+  {
+    "id": 28,
+    "fname": "Gorobaty Michaela"
+  },
+  {
+    "id": 29,
+    "fname": "Goy Jan"
+  },
+  {
+    "id": 30,
+    "fname": "Hanna Savchenko"
+  },
+  {
+    "id": 31,
+    "fname": "Hon Timofey"
+  },
+  {
+    "id": 32,
+    "fname": "Izbeshiuc Anastasia"
+  },
+  {
+    "id": 33,
+    "fname": "Jumaev Shakhzod"
+  },
+  {
+    "id": 34,
+    "fname": "Kristina Krechun"
+  },
+  {
+    "id": 35,
+    "fname": "Kurbonboyev Asadbek"
+  },
+  {
+    "id": 36,
+    "fname": "Kuschevaya Anna"
+  },
+  {
+    "id": 37,
+    "fname": "Madaminjonov Doniyor"
+  },
+  {
+    "id": 38,
+    "fname": "Makarenko Diana"
+  },
+  {
+    "id": 39,
+    "fname": "Malancha Daniel"
+  },
+  {
+    "id": 40,
+    "fname": "Mătăsaru March"
+  },
+  {
+    "id": 41,
+    "fname": "Mehrona Razakova"
+  },
+  {
+    "id": 42,
+    "fname": "Murodalizoda Shahzod"
+  },
+  {
+    "id": 43,
+    "fname": "Mustafin Daniil"
+  },
+  {
+    "id": 44,
+    "fname": "Musurmanova Lilia"
+  },
+  {
+    "id": 45,
+    "fname": "Mutruk Lidiana"
+  },
+  {
+    "id": 46,
+    "fname": "Odinaev Hojimahmud"
+  },
+  {
+    "id": 47,
+    "fname": "Oksana Zhulya"
+  },
+  {
+    "id": 48,
+    "fname": "Pacha Yana"
+  },
+  {
+    "id": 49,
+    "fname": "Pădure Vlad"
+  },
+  {
+    "id": 50,
+    "fname": "Poleacov Elena"
+  },
+  {
+    "id": 51,
+    "fname": "Polucciu Gabriela"
+  },
+  {
+    "id": 52,
+    "fname": "Safin Rafael"
+  },
+  {
+    "id": 53,
+    "fname": "Sakal Angelina"
+  },
+  {
+    "id": 54,
+    "fname": "Saletskaya Ana-Maria"
+  },
+  {
+    "id": 55,
+    "fname": "Savacencu Nicolae"
+  },
+  {
+    "id": 56,
+    "fname": "Shevchuk Maxim"
+  },
+  {
+    "id": 57,
+    "fname": "Shonazarov Samuel"
+  },
+  {
+    "id": 58,
+    "fname": "Sidorko Evaterina"
+  },
+  {
+    "id": 59,
+    "fname": "Suman Dorina"
+  },
+  {
+    "id": 60,
+    "fname": "Sytnik Zhanna"
+  },
+  {
+    "id": 61,
+    "fname": "Tadjimuratov Doniyor"
+  },
+  {
+    "id": 62,
+    "fname": "Tanasov Mark"
+  },
+  {
+    "id": 63,
+    "fname": "Topal Alina"
+  },
+  {
+    "id": 64,
+    "fname": "Topal Marina"
+  },
+  {
+    "id": 65,
+    "fname": "Transverse Melissa"
+  },
+  {
+    "id": 66,
+    "fname": "Turaeva Philadelphia"
+  },
+  {
+    "id": 67,
+    "fname": "Tureshova Gulmira"
+  },
+  {
+    "id": 68,
+    "fname": "Usarov Dzhokhongir"
+  },
+  {
+    "id": 69,
+    "fname": "Usubalieva Burul"
+  },
+  {
+    "id": 70,
+    "fname": "Uzenova Daniella"
+  },
+  {
+    "id": 71,
+    "fname": "Uzokbaev Dautbek"
+  },
+  {
+    "id": 72,
+    "fname": "Uzun Tamara"
+  },
+  {
+    "id": 73,
+    "fname": "Valeria Kurkotova"
+  },
+  {
+    "id": 74,
+    "fname": "Vasilenko Virginia"
+  },
+  {
+    "id": 75,
+    "fname": "Vylku Adriana"
+  },
+  {
+    "id": 76,
+    "fname": "Zhumabayev Kahraman"
+  }
+]

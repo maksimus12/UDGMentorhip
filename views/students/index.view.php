@@ -14,7 +14,7 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
             <div class="table_component" role="region" tabindex="0">
                 <div class="flex flex-col">
                     <div class="sm:-mx-6 lg:-mx-8">
-                        <div class="flex py-2 sm:px-6 lg:px-8">
+                        <div class="flex justify-between py-2 sm:px-6 lg:px-8">
                             <div class="w-6/12 ">
                                 <table class="table-auto border-collapse border border-gray-300 w-full min-w-full text-left text-sm font-light text-surface dark:text-black">
                                     <thead class="border-b border-neutral-200 font-medium dark:border-black/20">
@@ -61,7 +61,7 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
                                     </tbody>
                                 </table>
                             </div>
-                            <div class="w-6/12 ml-5 ">
+                            <div class="w-4/12 ml-5 ">
                                 <form method="POST" action="/students">
                                     <div class="shadow sm:rounded-md">
                                         <div class="space-y-6 bg-white px-4 py-5 sm:p-6">

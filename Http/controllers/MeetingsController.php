@@ -45,11 +45,23 @@ class MeetingsController
             'student' => !empty($_GET['student']) ? $_GET['student'] : null,
         ];
 
+        $firstRecord = 0;
+        $rows_per_page = (int)25;
+
+        if (isset($_GET['page-nr']))
+        {
+            $page = $_GET['page-nr']-1;
+            $firstRecord = $page * $rows_per_page;
+        }
+
 
         if (Session::isAdmin()) {
             $uniqueStudents = $this->meetingsModel->uniqueStudentsFromMeetings();
-            $meetings = $this->meetingsModel->getMeetingsForAdmin($filters);
+            $meetings = $this->meetingsModel->getMeetingsForAdmin($firstRecord,$rows_per_page,$filters);
             $uniqueUsers = $this->meetingsModel->AllUniqueUsers();
+            $allRecords = $this->meetingsModel->getNumberOfAllMeetingsForAdmin();
+            $pages = $this->meetingsModel->getNumberOfAllMeetingsPagesForAdmin($rows_per_page);
+
         } else {
             $uniqueStudents = $this->studentModel->uniqueStudentsByMentor($_SESSION['user']['user_id']);
             $meetings = $this->meetingsModel->getMeetingsForUser($_SESSION['user']['user_id'], $filters);
@@ -62,6 +74,8 @@ class MeetingsController
             'uniqueStudents' => $uniqueStudents,
             'startDate' => $startDate,
             'endDate' => $endDate,
+            'allRecords' => $allRecords,
+            'pages' => $pages,
         ]);
     }
 

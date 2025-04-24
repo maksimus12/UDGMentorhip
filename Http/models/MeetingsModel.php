@@ -152,8 +152,25 @@ class MeetingsModel extends BasicModel
         )->get();
     }
 
-    public function getMeetingsForAdmin(array $filters)
+    public function getNumberOfAllMeetingsForAdmin()
     {
+        $records = $this->db->query('SELECT * FROM meetings')->get();
+        return count($records);
+    }
+    public function getNumberOfAllMeetingsPagesForAdmin($rows_per_page)
+    {
+        $pages = ceil($this->getNumberOfAllMeetingsForAdmin() / $rows_per_page);
+        return $pages - 1;
+
+
+    }
+
+    public function getMeetingsForAdmin($start, $rows_per_page, array $filters)
+    {
+
+        $pages = $this->getNumberOfAllMeetingsPagesForAdmin($rows_per_page);
+
+
         $sql = 'SELECT
                 meetings.id,
                 meetings.meeting_datetime,
@@ -181,6 +198,9 @@ class MeetingsModel extends BasicModel
             $params['student_id'] = $filters['student'];
         }
 
+        $sql .= ' ORDER BY meetings.meeting_datetime DESC LIMIT '. $start . ", " . $rows_per_page ;
+
+
         return $this->db->query($sql, $params)->get();
     }
 
@@ -207,7 +227,7 @@ class MeetingsModel extends BasicModel
             $sql .= ' AND meetings.student_id = :student_id';
             $params['student_id'] = $filters['student'];
         }
-
+        $sql .= ' ORDER BY meetings.meeting_datetime DESC';
         return $this->db->query($sql, $params)->get();
     }
 

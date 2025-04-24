@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "email": "maks.diacenko@icloud.com",
+    "password": "$2y$12$VnorZZnX6VIsqqpwLr4CX.HuCsYu6TtGypVPuYqsN/6W96OajRK1S",
+    "role": 0,
+    "is_deleted": 0
+  },
+  {
+    "id": 2,
+    "email": "bulgacvadim@gmail.com",
+    "password": "$2y$12$8q4BBSXV.IA1t7Z7Ch.Nde8UKOLht/3k8NDz9.44q91m04NdLxxn6",
+    "role": 1,
+    "is_deleted": 0
+  },
+  {
+    "id": 3,
+    "email": "caragealudmila@gmail.com",
+    "password": "$2y$12$3/CLqgGVRkkcNrGXiWfLCeFAaKEhb0R5q13tqjKh2x1COZUpxuTnO",
+    "role": 1,
+    "is_deleted": 0
+  },
+  {
+    "id": 4,
+    "email": "cernomorețdaniel@gmail.com",
+    "password": "$2y$12$fdb9zW.lraH6W0bwhAo2Yu5Oz3bZmtRAUO9C8Xz.oTlWB7ige8Cd2",
+    "role": 1,
+    "is_deleted": 0
+  },
+  {
+    "id": 5,
+    "email": "constantinovaelena@gmail.com",
+    "password": "$2y$12$OWZwEDKirDGob2JnYrOY8evd/.032qp.YDwjiERWWODxVaWvnr3fi",
+    "role": 1,
+    "is_deleted": 0
+  },
+  {
+    "id": 7,
+    "email": "doncilăildica@gmail.com",
+    "password": "$2y$12$1Qd5TbAJ./q.2BdY4vq.6uuwnAibKN3HEmAFw3xVF5HHWLXbFtMQu",
+    "role": 1,
+    "is_deleted": 0
+  },
+  {
+    "id": 8,
+    "email": "fishermatt@gmail.com",
+    "password": "$2y$12$F9H5f/aLCrifignNQPHS9OnAJw9erlRSiD6QqHS.XcoAkzQV6vT0G",
+    "role": 1,
+    "is_deleted": 0
+  },
+  {
+    "id": 9,
+    "email": "fisherterri@gmail.com",
+    "password": "$2y$12$6Drb5q/zrZLBotJAq2VOQ.fgkzgosQsX1Q18hstupSic9E4na/OYm",
+    "role": 1,
+    "is_deleted": 0
+  },
+  {
+    "id": 10,
+    "email": "ghermanovserghei@gmail.com",
+    "password": "$2y$12$n8ioMF0hjLYW7iTkvrLW6.9AkNYxfBllCRc8c4fll9QLpJ4g.cxde",
+    "role": 1,
+    "is_deleted": 0
+  },
+  {
+    "id": 11,
+    "email": "iorgumariana@gmail.com",
+    "password": "$2y$12$WJShjIPZQ46WeU71ii1AWeYbj1r5vSuuHu9FQULBtrLJ.2efkRy8K",
+    "role": 1,
+    "is_deleted": 0
+  },
+  {
+    "id": 12,
+    "email": "malanceaiurie@gmail.com",
+    "password": "$2y$12$CGcAtOIRPli4hvVcVXJWR.sjMZQzvv84R3cUByJIInCA8PB.HG4/y",
+    "role": 1,
+    "is_deleted": 0
+  },
+  {
+    "id": 13,
+    "email": "mihailovgheorghe@gmail.com",
+    "password": "$2y$12$Kph97D8ByGDOl.23wimaUOmEcdv/RFgOGi4PEchR5wYfVDFivBshC",
+    "role": 1,
+    "is_deleted": 0
+  },
+  {
+    "id": 14,
+    "email": "ormanjivictor@gmail.com",
+    "password": "$2y$12$Rn0H2teqX/6FWIMdP4.5Q.dqplQ0T070FihWfLuOG8/MsCWByjuqy",
+    "role": 1,
+    "is_deleted": 0
+  },
+  {
+    "id": 15,
+    "email": "oselschiandrei@gmail.com",
+    "password": "$2y$12$04tfi1BlPNF55n4N4LYZyuCPByoU4YfJss7VetQWLm4ZkhZLawAz.",
+    "role": 1,
+    "is_deleted": 0
+  },
+  {
+    "id": 16,
+    "email": "sevastiandumitru@gmail.com",
+    "password": "$2y$12$SPelw8lhZQqHLgN1hQLd/OOdlpbTFBmE9rlmKtUCv8rmo7y9kxUi.",
+    "role": 1,
+    "is_deleted": 0
+  },
+  {
+    "id": 17,
+    "email": "stucalovatatiana@gmail.com",
+    "password": "$2y$12$bs7HcS52/9WIG2xhADJ9a.E9etNB3iY.IzI9Gtv3Lze0Od9VCeR6C",
+    "role": 1,
+    "is_deleted": 0
+  }
+]

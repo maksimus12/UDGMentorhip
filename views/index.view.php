@@ -46,7 +46,7 @@ $table_row_style = 'border-e border-neutral-200 whitespace-nowrap px-6 py-4 font
             } ?>
         </div>
         <div class="flex">
-            <div class="mt-5 md:w-1/4 rounded-lg bg-white   shadow-md overflow-hidden border border-gray-200">
+            <div class="mt-5 md:w-4/12 rounded-lg bg-white   shadow-md overflow-hidden border border-gray-200">
                 <table
                         class="border-collapse w-full min-w-full text-left text-sm font-light text-surface dark:text-black">
                     <thead
