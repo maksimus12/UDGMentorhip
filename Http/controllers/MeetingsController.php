@@ -56,15 +56,17 @@ class MeetingsController
 
 
         if (Session::isAdmin()) {
+            $allRecords = $this->meetingsModel->countMeetingsForAdmin($filters);
+            $pages = ceil($allRecords/$rows_per_page);
             $uniqueStudents = $this->meetingsModel->uniqueStudentsFromMeetings();
             $meetings = $this->meetingsModel->getMeetingsForAdmin($firstRecord,$rows_per_page,$filters);
             $uniqueUsers = $this->meetingsModel->AllUniqueUsers();
-            $allRecords = $this->meetingsModel->getNumberOfAllMeetingsForAdmin();
-            $pages = $this->meetingsModel->getNumberOfAllMeetingsPagesForAdmin($rows_per_page);
 
         } else {
+            $allRecords = $this->meetingsModel->countMeetingsForUser($_SESSION['user']['user_id'], $filters);
+            $pages = ceil($allRecords/$rows_per_page);
             $uniqueStudents = $this->studentModel->uniqueStudentsByMentor($_SESSION['user']['user_id']);
-            $meetings = $this->meetingsModel->getMeetingsForUser($_SESSION['user']['user_id'], $filters);
+            $meetings = $this->meetingsModel->getMeetingsForUser($_SESSION['user']['user_id'],$firstRecord,$rows_per_page, $filters);
             $uniqueUsers = [];
         }
         view("meetings/index.view.php", [
