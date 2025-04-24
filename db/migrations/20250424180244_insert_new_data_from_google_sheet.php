@@ -13,11 +13,19 @@ final class InsertNewDataFromGoogleSheet extends AbstractMigration
         $meetingsData = json_decode(file_get_contents(__DIR__ . '/../data/new_meetings.json'), true);
         $users_studentsData = json_decode(file_get_contents(__DIR__ . '/../data/new_users_students.json'), true);
 
+        $this->execute('SET FOREIGN_KEY_CHECKS = 0;');
+
+        $this->execute('TRUNCATE TABLE users_students;');
+        $this->execute('TRUNCATE TABLE meetings;');
+        $this->execute('TRUNCATE TABLE students;');
+        $this->execute('TRUNCATE TABLE users;');
+
         $this->table('users')->insert($usersData)->save();
         $this->table('students')->insert($studentsData)->save();
         $this->table('meetings')->insert($meetingsData)->save();
         $this->table('users_students')->insert($users_studentsData)->save();
 
+        $this->execute('SET FOREIGN_KEY_CHECKS = 1;');
     }
     public function down()
     {
