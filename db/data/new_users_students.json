@@ -1,0 +1,382 @@
+[
+  {
+    "id": 1,
+    "user_id": 17,
+    "student_id": 1
+  },
+  {
+    "id": 2,
+    "user_id": 12,
+    "student_id": 2
+  },
+  {
+    "id": 3,
+    "user_id": 10,
+    "student_id": 3
+  },
+  {
+    "id": 4,
+    "user_id": 14,
+    "student_id": 4
+  },
+  {
+    "id": 5,
+    "user_id": 17,
+    "student_id": 5
+  },
+  {
+    "id": 6,
+    "user_id": 4,
+    "student_id": 6
+  },
+  {
+    "id": 7,
+    "user_id": 17,
+    "student_id": 7
+  },
+  {
+    "id": 8,
+    "user_id": 17,
+    "student_id": 8
+  },
+  {
+    "id": 9,
+    "user_id": 8,
+    "student_id": 9
+  },
+  {
+    "id": 10,
+    "user_id": 6,
+    "student_id": 10
+  },
+  {
+    "id": 11,
+    "user_id": 17,
+    "student_id": 11
+  },
+  {
+    "id": 12,
+    "user_id": 17,
+    "student_id": 12
+  },
+  {
+    "id": 13,
+    "user_id": 11,
+    "student_id": 13
+  },
+  {
+    "id": 14,
+    "user_id": 5,
+    "student_id": 14
+  },
+  {
+    "id": 15,
+    "user_id": 17,
+    "student_id": 15
+  },
+  {
+    "id": 16,
+    "user_id": 4,
+    "student_id": 16
+  },
+  {
+    "id": 17,
+    "user_id": 16,
+    "student_id": 17
+  },
+  {
+    "id": 18,
+    "user_id": 9,
+    "student_id": 18
+  },
+  {
+    "id": 19,
+    "user_id": 11,
+    "student_id": 19
+  },
+  {
+    "id": 20,
+    "user_id": 14,
+    "student_id": 20
+  },
+  {
+    "id": 21,
+    "user_id": 13,
+    "student_id": 21
+  },
+  {
+    "id": 22,
+    "user_id": 3,
+    "student_id": 22
+  },
+  {
+    "id": 23,
+    "user_id": 2,
+    "student_id": 23
+  },
+  {
+    "id": 24,
+    "user_id": 6,
+    "student_id": 24
+  },
+  {
+    "id": 25,
+    "user_id": 9,
+    "student_id": 25
+  },
+  {
+    "id": 26,
+    "user_id": 13,
+    "student_id": 26
+  },
+  {
+    "id": 27,
+    "user_id": 3,
+    "student_id": 27
+  },
+  {
+    "id": 28,
+    "user_id": 2,
+    "student_id": 28
+  },
+  {
+    "id": 29,
+    "user_id": 8,
+    "student_id": 29
+  },
+  {
+    "id": 30,
+    "user_id": 7,
+    "student_id": 30
+  },
+  {
+    "id": 31,
+    "user_id": 8,
+    "student_id": 31
+  },
+  {
+    "id": 32,
+    "user_id": 11,
+    "student_id": 32
+  },
+  {
+    "id": 33,
+    "user_id": 12,
+    "student_id": 33
+  },
+  {
+    "id": 34,
+    "user_id": 3,
+    "student_id": 34
+  },
+  {
+    "id": 35,
+    "user_id": 15,
+    "student_id": 35
+  },
+  {
+    "id": 36,
+    "user_id": 7,
+    "student_id": 36
+  },
+  {
+    "id": 37,
+    "user_id": 15,
+    "student_id": 37
+  },
+  {
+    "id": 38,
+    "user_id": 7,
+    "student_id": 38
+  },
+  {
+    "id": 39,
+    "user_id": 16,
+    "student_id": 39
+  },
+  {
+    "id": 40,
+    "user_id": 13,
+    "student_id": 40
+  },
+  {
+    "id": 41,
+    "user_id": 3,
+    "student_id": 41
+  },
+  {
+    "id": 42,
+    "user_id": 14,
+    "student_id": 42
+  },
+  {
+    "id": 43,
+    "user_id": 14,
+    "student_id": 43
+  },
+  {
+    "id": 44,
+    "user_id": 11,
+    "student_id": 44
+  },
+  {
+    "id": 45,
+    "user_id": 3,
+    "student_id": 45
+  },
+  {
+    "id": 46,
+    "user_id": 14,
+    "student_id": 46
+  },
+  {
+    "id": 47,
+    "user_id": 5,
+    "student_id": 47
+  },
+  {
+    "id": 48,
+    "user_id": 7,
+    "student_id": 48
+  },
+  {
+    "id": 49,
+    "user_id": 13,
+    "student_id": 49
+  },
+  {
+    "id": 50,
+    "user_id": 11,
+    "student_id": 50
+  },
+  {
+    "id": 51,
+    "user_id": 11,
+    "student_id": 51
+  },
+  {
+    "id": 52,
+    "user_id": 15,
+    "student_id": 52
+  },
+  {
+    "id": 53,
+    "user_id": 7,
+    "student_id": 53
+  },
+  {
+    "id": 54,
+    "user_id": 3,
+    "student_id": 54
+  },
+  {
+    "id": 55,
+    "user_id": 13,
+    "student_id": 55
+  },
+  {
+    "id": 56,
+    "user_id": 8,
+    "student_id": 56
+  },
+  {
+    "id": 57,
+    "user_id": 13,
+    "student_id": 57
+  },
+  {
+    "id": 58,
+    "user_id": 11,
+    "student_id": 58
+  },
+  {
+    "id": 59,
+    "user_id": 3,
+    "student_id": 59
+  },
+  {
+    "id": 60,
+    "user_id": 5,
+    "student_id": 60
+  },
+  {
+    "id": 61,
+    "user_id": 15,
+    "student_id": 61
+  },
+  {
+    "id": 62,
+    "user_id": 15,
+    "student_id": 62
+  },
+  {
+    "id": 64,
+    "user_id": 3,
+    "student_id": 64
+  },
+  {
+    "id": 65,
+    "user_id": 11,
+    "student_id": 65
+  },
+  {
+    "id": 66,
+    "user_id": 5,
+    "student_id": 66
+  },
+  {
+    "id": 67,
+    "user_id": 5,
+    "student_id": 67
+  },
+  {
+    "id": 68,
+    "user_id": 14,
+    "student_id": 68
+  },
+  {
+    "id": 69,
+    "user_id": 17,
+    "student_id": 69
+  },
+  {
+    "id": 70,
+    "user_id": 5,
+    "student_id": 70
+  },
+  {
+    "id": 71,
+    "user_id": 8,
+    "student_id": 71
+  },
+  {
+    "id": 72,
+    "user_id": 5,
+    "student_id": 72
+  },
+  {
+    "id": 73,
+    "user_id": 9,
+    "student_id": 73
+  },
+  {
+    "id": 74,
+    "user_id": 3,
+    "student_id": 74
+  },
+  {
+    "id": 75,
+    "user_id": 11,
+    "student_id": 75
+  },
+  {
+    "id": 76,
+    "user_id": 13,
+    "student_id": 76
+  },
+  {
+    "id": 90,
+    "user_id": 1,
+    "student_id": 63
+  }
+]

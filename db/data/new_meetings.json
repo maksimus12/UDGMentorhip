@@ -1,0 +1,4262 @@
+[
+  {
+    "id": 1,
+    "student_id": 26,
+    "topic": "Planificarea întâlnirilor",
+    "body": "1. Sarcini și termene;\n2. Analiza rezultatelor testelor și stabilirea primului subiect de discuție.",
+    "user_id": 13,
+    "created_at": "2024-09-16 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-16"
+  },
+  {
+    "id": 2,
+    "student_id": 76,
+    "topic": "Planificarea întâlnirilor",
+    "body": "1. Sarcinile și termenele;\n2. Analiza rezultatelor testelor și stabilirea subiectului pentru urmatoarea întâlnire.",
+    "user_id": 13,
+    "created_at": "2024-09-16 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-16"
+  },
+  {
+    "id": 3,
+    "student_id": 24,
+    "topic": "Вводная общая встреча",
+    "body": "1. Знакомство \n2. Ожидания студентов\n3. Введение в менторство (разговор о том что это и для чего это) \n4. Составление графика встреч",
+    "user_id": 6,
+    "created_at": "2024-09-13 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-13"
+  },
+  {
+    "id": 4,
+    "student_id": 63,
+    "topic": "Вводная общая встреча",
+    "body": "1. Знакомство \n2. Ожидания студентов\n3. Введение в менторство (разговор о том что это и для чего это) \n4. Составление графика встреч",
+    "user_id": 6,
+    "created_at": "2024-09-13 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-13"
+  },
+  {
+    "id": 5,
+    "student_id": 10,
+    "topic": "Вводная общая встреча",
+    "body": "1. Знакомство \n2. Ожидания студентов\n3. Введение в менторство (разговор о том что это и для чего это) \n4. Составление графика встреч",
+    "user_id": 6,
+    "created_at": "2024-09-13 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-13"
+  },
+  {
+    "id": 6,
+    "student_id": 63,
+    "topic": "Управление временем",
+    "body": "1. Разработка календаря задач\n2. Регистрация в notion для планирования и отслеживания прогресса\n3. Работа с матрицей Эйзенхауера",
+    "user_id": 6,
+    "created_at": "2024-09-17 17:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-17"
+  },
+  {
+    "id": 7,
+    "student_id": 28,
+    "topic": "Pregatirea pentru aspectul spiritual",
+    "body": "Caietul de frecventare a bisericii , de rugaciune",
+    "user_id": 2,
+    "created_at": "2024-09-15 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-15"
+  },
+  {
+    "id": 8,
+    "student_id": 23,
+    "topic": "Pregatirea pentru aspectul spiritual",
+    "body": "Pregatirea caietului de frecventare a bisericii si de timp personal cu Domnul",
+    "user_id": 2,
+    "created_at": "2024-09-15 15:10:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-15"
+  },
+  {
+    "id": 9,
+    "student_id": 10,
+    "topic": "Управление временем",
+    "body": "1. Разработка календаря задач\n2. Регистрация в notion для планирования и отслеживания прогресса\n3. Работа с матрицей Эйзенхауера",
+    "user_id": 6,
+    "created_at": "2024-09-18 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-18"
+  },
+  {
+    "id": 10,
+    "student_id": 6,
+    "topic": "Repartizarea sarcinilor",
+    "body": "Analiza tuturor sarcinilor și repartizarea lor în calendar. \r\nCrearea calendarului comun.\r\nMetoda de lucru în cazul nereusitei în deadline.",
+    "user_id": 4,
+    "created_at": "2024-09-12 14:42:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-12"
+  },
+  {
+    "id": 11,
+    "student_id": 16,
+    "topic": "Repartizarea saricinilor",
+    "body": "Structurarea sarcinilor după urgență și notarea datelor de efectuare\r\nIntroducerea în efectuarea lucrărilor",
+    "user_id": 4,
+    "created_at": "2024-09-13 13:59:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-13"
+  },
+  {
+    "id": 12,
+    "student_id": 62,
+    "topic": "Самоконтроль и таймменеджмент",
+    "body": "Самоконтроль и равновесие, упорядоченность жизни. \nУстановка целей- конкретных и измеримых. \nПомог разбить большую задачу (чтение книги и аннотация) на мелкие шаги, с конкретным, каждодневным выполнением.",
+    "user_id": 15,
+    "created_at": "2024-09-20 14:20:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-20"
+  },
+  {
+    "id": 13,
+    "student_id": 20,
+    "topic": "Знакомство",
+    "body": "Как пришел к Господу\r\nПланы на будущее\r\nИнтересы",
+    "user_id": 14,
+    "created_at": "2024-09-17 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-17"
+  },
+  {
+    "id": 14,
+    "student_id": 6,
+    "topic": "Instrumente de gestionare a sarcinilor și a timpului",
+    "body": "Eisenhower’s time management\nNotion",
+    "user_id": 4,
+    "created_at": "2024-09-20 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-20"
+  },
+  {
+    "id": 15,
+    "student_id": 24,
+    "topic": "Управление временем",
+    "body": "1. Разработка календаря задач\n2. Регистрация в notion для планирования и отслеживания прогресса\n3. Работа с матрицей Эйзенхауера",
+    "user_id": 6,
+    "created_at": "2024-09-19 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-19"
+  },
+  {
+    "id": 16,
+    "student_id": 16,
+    "topic": "Analiza timpului",
+    "body": "- Analiza minuțioasă timpului din fiecare zi\n- Captarea timpului pentru lucrări la UDG\n- Principiile managementului timpului",
+    "user_id": 4,
+    "created_at": "2024-09-23 08:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-23"
+  },
+  {
+    "id": 17,
+    "student_id": 23,
+    "topic": "Discutii despre spiritualitate",
+    "body": "Vizita si slujirea in Biserica biblica , este in grupa de inchinare .Are repetitie miercuri si canta 2 ori pe saptamana.",
+    "user_id": 2,
+    "created_at": "2024-09-24 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-24"
+  },
+  {
+    "id": 18,
+    "student_id": 28,
+    "topic": "Discutii despre spiritualitate",
+    "body": "Am discutat despre biserica si implicarea in slujire , este implicată cu copii , scoala duminicala si proiecte .",
+    "user_id": 2,
+    "created_at": "2024-09-25 14:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-25"
+  },
+  {
+    "id": 19,
+    "student_id": 18,
+    "topic": "Введение и оценка",
+    "body": "Она рассказала о своем семейном прошлом и областях, в которых ей хотелось бы развиваться в своем духовном пути.  Мы также поговорили о проблемах, с которыми она сталкивается с учебой.",
+    "user_id": 9,
+    "created_at": "2024-09-25 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-25"
+  },
+  {
+    "id": 20,
+    "student_id": 39,
+    "topic": "1)Gestionarea timpului. 2) Postul. 3)Dragostea.",
+    "body": "Am avut o întâlnire reușită, iar Daniel a fost deschis pentru discuții. Pe baza rezultatelor testelor, am stabilit subiectele prioritare pentru cele 7 întâlniri din semestrul 1.\nPerformanța Academică:\n1.        Gestionarea timpului prin crearea unui calendar care să includă toate sarcinile și termenele limită pentru fiecare curs din acest semestru.\n2.        Stabilirea priorităților prin crearea unui grafic zilnic care să includă activitățile academice esențiale.\nCreșterea Spirituală:\nAm discutat despre tema \"Rugăciunea și Postul pentru Întărirea Relației cu Dumnezeu\" și am stabilit sarcinile care urmează să fie îndeplinite până la următoarea întâlnire.\nFormarea Caracterului Creștin:\nAm discutat despre trăsătura caracterului creștin - dragostea. De asemenea, am stabilit sarcini practice concrete pentru următoarele două săptămâni.",
+    "user_id": 16,
+    "created_at": "2024-09-25 15:45:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-25"
+  },
+  {
+    "id": 21,
+    "student_id": 67,
+    "topic": "MeetingTopic",
+    "body": "1. Правильное распределение времени.\n1. Посещение Церкви.",
+    "user_id": 5,
+    "created_at": "2024-09-26 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-26"
+  },
+  {
+    "id": 22,
+    "student_id": 72,
+    "topic": "MeetingTopic",
+    "body": "1. Правильное распределение времени и выполнение заданий.\n2. Посещение церкви (+адаптация)\n3. Отношение с коллегами.",
+    "user_id": 5,
+    "created_at": "2024-09-24 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-24"
+  },
+  {
+    "id": 23,
+    "student_id": 74,
+    "topic": "Stabilirea relației",
+    "body": "Aspectul spiritual\nAspectul academic\nCaracterul",
+    "user_id": 3,
+    "created_at": "2024-09-26 16:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-26"
+  },
+  {
+    "id": 24,
+    "student_id": 45,
+    "topic": "Stabilirea unei relații de încredere",
+    "body": "Aspectul spiritual\r\nAspectul academic\r\nCaracterul\r\nAm vorbit mai mult despre starea familiară, problemele cu care se confruntă.",
+    "user_id": 3,
+    "created_at": "2024-09-25 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-25"
+  },
+  {
+    "id": 25,
+    "student_id": 64,
+    "topic": "Stabilirea relației de încredere",
+    "body": "Aspectul spiritual\r\nAspectul academic. Se descurcă bine. este la zi cu temele.\r\nCaracterul\r\nAm vorbit mai mult despre modul ăîn care s-a întors la Domnul., bucuria că și tatăl ei s-a întors la Domnul.",
+    "user_id": 3,
+    "created_at": "2024-09-24 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-24"
+  },
+  {
+    "id": 26,
+    "student_id": 41,
+    "topic": "Stabilirea relației de încredere",
+    "body": "Consideră că are nevoie să crescă spiritual. Este în căutatareab unei biserici în care să se implice.\r\nAre nevoie de motivație de a învăța\r\nArev de lucrat la stabilirea unui orar al zilei.",
+    "user_id": 3,
+    "created_at": "2024-09-24 17:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-24"
+  },
+  {
+    "id": 27,
+    "student_id": 72,
+    "topic": "MeetingTopic",
+    "body": "1. Правильное распределение времени и выполнение заданий.\r\n2. Посещение церкви (+адаптация)\r\n3. Отношение с коллегами.",
+    "user_id": 5,
+    "created_at": "2024-09-24 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-24"
+  },
+  {
+    "id": 28,
+    "student_id": 34,
+    "topic": "Stabilirea relației de încredere",
+    "body": "Aspectul spiritual\r\nAspectul academic\r\nCaracterul",
+    "user_id": 3,
+    "created_at": "2024-09-17 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-17"
+  },
+  {
+    "id": 29,
+    "student_id": 70,
+    "topic": "MeetingTopic",
+    "body": "1. Правильное распределение времени.\r\n2. Выполнение заданий.\r\n3. Посещение церкви.",
+    "user_id": 5,
+    "created_at": "2024-09-20 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-20"
+  },
+  {
+    "id": 30,
+    "student_id": 22,
+    "topic": "Stabilirea relației de încredere",
+    "body": "Aspectul spiritual\nAspectul academic\nCaracterul",
+    "user_id": 3,
+    "created_at": "2024-09-17 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-17"
+  },
+  {
+    "id": 31,
+    "student_id": 59,
+    "topic": "Stabilirea relației de încredere",
+    "body": "Aspectul spiritual\r\nAspectul academic\r\nCaracterul",
+    "user_id": 3,
+    "created_at": "2024-09-16 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-16"
+  },
+  {
+    "id": 32,
+    "student_id": 27,
+    "topic": "Stabilirea relației de încredere",
+    "body": "Aspectul spiritual\r\nAspectul academic\r\nCaracterul\r\nAm vorbit despre complexul pe care îl are din cauza bâlbâielii.",
+    "user_id": 3,
+    "created_at": "2024-09-13 16:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-13"
+  },
+  {
+    "id": 33,
+    "student_id": 25,
+    "topic": "Введение и оценка",
+    "body": "Мы обсудили ученых, ее опыт и планы на будущее.  Мы также определили несколько областей развития персонажей, о которых мы поговорим в будущем.  Она замечательная девочка, которая хочет возрастать в Господе.",
+    "user_id": 9,
+    "created_at": "2024-09-26 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-26"
+  },
+  {
+    "id": 34,
+    "student_id": 17,
+    "topic": "1) Управление временем 2)Испытание мира Божьего 3)Сострадание",
+    "body": "У нас была хорошая встреча, и Даниэль был открыт для обсуждений. На основе результатов тестов мы определили приоритетные темы для 7 встреч в первом семестре.\nАкадемическая успеваемость:\nУправление временем путем создания календаря, включающего все задания и дедлайны для каждого курса в этом семестре.\nУстановление приоритетов путем составления ежедневного графика, включающего основные академические мероприятия.\nДуховный рост: Мы обсудили тему \"Испытание мира Божьего\" и установили задачи, которые должны быть выполнены до следующей встречи.\nФормирование христианского характера: Мы обсудили христианскую черту характера — сострадание. Также мы определили конкретные практические задания на следующие две недели.",
+    "user_id": 16,
+    "created_at": "2024-09-26 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-26"
+  },
+  {
+    "id": 35,
+    "student_id": 60,
+    "topic": "Ознакомительная встреча",
+    "body": "Meeting Subject",
+    "user_id": 5,
+    "created_at": "2024-09-27 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-27"
+  },
+  {
+    "id": 36,
+    "student_id": 47,
+    "topic": "Личное общениес Богом.",
+    "body": "1",
+    "user_id": 5,
+    "created_at": "2024-09-26 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-26"
+  },
+  {
+    "id": 37,
+    "student_id": 47,
+    "topic": "MeetingTopic",
+    "body": "1. Личное общение с Богом.\n2. Посещение Церкви.\n3. План домашних заданий и его выполнение.",
+    "user_id": 5,
+    "created_at": "2024-09-26 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-26"
+  },
+  {
+    "id": 38,
+    "student_id": 29,
+    "topic": "Introduction",
+    "body": "Introduction, getting acquainted, explanation of mentoring program",
+    "user_id": 8,
+    "created_at": "2024-09-12 18:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-12"
+  },
+  {
+    "id": 39,
+    "student_id": 9,
+    "topic": "Introduction",
+    "body": "Introduction, acquaintance, and explanation of mentoring program",
+    "user_id": 8,
+    "created_at": "2024-09-12 18:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-12"
+  },
+  {
+    "id": 40,
+    "student_id": 71,
+    "topic": "Introduction",
+    "body": "Introduction, acquaintance, and explanation of mentoring program",
+    "user_id": 8,
+    "created_at": "2024-09-12 18:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-12"
+  },
+  {
+    "id": 41,
+    "student_id": 31,
+    "topic": "Introduction",
+    "body": "Introduction, acquaintance, and explanation of mentoring program",
+    "user_id": 8,
+    "created_at": "2024-09-27 17:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-27"
+  },
+  {
+    "id": 42,
+    "student_id": 56,
+    "topic": "Introduction",
+    "body": "Introduction, acquaintance, and explanation of mentoring program",
+    "user_id": 8,
+    "created_at": "2024-09-29 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-29"
+  },
+  {
+    "id": 43,
+    "student_id": 50,
+    "topic": "Aspecte personale",
+    "body": "Evenimente petrecute în vacanță \r\nși stabilirea noilor obiective pentru acest an de studii.",
+    "user_id": 11,
+    "created_at": "2024-09-17 16:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-17"
+  },
+  {
+    "id": 44,
+    "student_id": 13,
+    "topic": "Evaluarea anului precedent e studii",
+    "body": "O analiză SWOT al anului precedent de studii \r\nobiective de îmbunătățire",
+    "user_id": 11,
+    "created_at": "2024-09-18 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-18"
+  },
+  {
+    "id": 45,
+    "student_id": 75,
+    "topic": "Prezentarea",
+    "body": "Am făcut cunoștință;\nam prezentat progrmaul și pași după care vom merge",
+    "user_id": 11,
+    "created_at": "2024-09-26 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-26"
+  },
+  {
+    "id": 46,
+    "student_id": 51,
+    "topic": "cunoștință",
+    "body": "prezentare: interese personale, \r\nScop pentru anul de studii",
+    "user_id": 11,
+    "created_at": "2024-09-27 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-27"
+  },
+  {
+    "id": 47,
+    "student_id": 58,
+    "topic": "prima întâlnire",
+    "body": "Scopul pentru anii de studii\r\ninterese academice; interese personale",
+    "user_id": 11,
+    "created_at": "2024-09-26 17:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-26"
+  },
+  {
+    "id": 48,
+    "student_id": 44,
+    "topic": "Prezentare",
+    "body": "Aspecte importante ale vieții; evaluare și stabilirea obiectivelor",
+    "user_id": 11,
+    "created_at": "2024-09-27 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-27"
+  },
+  {
+    "id": 49,
+    "student_id": 32,
+    "topic": "Aspecte personale",
+    "body": "Familie, \r\ninfluența bisericii în viața personală și a copiilor",
+    "user_id": 11,
+    "created_at": "2024-09-30 10:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-30"
+  },
+  {
+    "id": 50,
+    "student_id": 73,
+    "topic": "Введение и оценка",
+    "body": "Валерия рассказала мне о своей семье и прошлом.  Мы также обсудили ее отношения с Богом и проблемы, с которыми она сталкивается.",
+    "user_id": 9,
+    "created_at": "2024-09-30 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-30"
+  },
+  {
+    "id": 51,
+    "student_id": 5,
+    "topic": "Введение. Знакомство",
+    "body": "Выявили несколько проблемных областей:\n- прощение\n- обида\n- Бог не слышит, потеря первой любви\n- молитва",
+    "user_id": 17,
+    "created_at": "2024-09-30 14:10:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-30"
+  },
+  {
+    "id": 52,
+    "student_id": 11,
+    "topic": "Введение. Знакомство",
+    "body": "Выявили несколько проблемных моментов:\n- христианская жизнь - непостоянство в молитве, чтении Слова, благодарности Богу",
+    "user_id": 17,
+    "created_at": "2024-09-30 14:45:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-30"
+  },
+  {
+    "id": 53,
+    "student_id": 69,
+    "topic": "Введение. Знакомство",
+    "body": "Выявили несколько моментов, над которыми хотелось бы поработать:\n- неуверенность в себе, недоверие Богу, поиск себя и смысла жизни",
+    "user_id": 17,
+    "created_at": "2024-09-30 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-30"
+  },
+  {
+    "id": 54,
+    "student_id": 35,
+    "topic": "Важность регулярного чтения слова Божьего",
+    "body": "Пообщались о духовной дисциплине чтения слова божиего. Выбрали место, время, количество времени, режим и подготовку к чтению и общению с Богом.",
+    "user_id": 15,
+    "created_at": "2024-10-01 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-01"
+  },
+  {
+    "id": 55,
+    "student_id": 58,
+    "topic": "evaluarea situației pe 8 aspecte ale vieții",
+    "body": "Am identificat și formulat obiective petru îmbunătățirea spectelor: spiritual și fizic.",
+    "user_id": 11,
+    "created_at": "2024-10-01 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-01"
+  },
+  {
+    "id": 56,
+    "student_id": 75,
+    "topic": "caracterul creștin",
+    "body": "iertarea - calitate a caracterului creștin\r\npașii și procesul iertării",
+    "user_id": 11,
+    "created_at": "2024-10-01 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-01"
+  },
+  {
+    "id": 57,
+    "student_id": 44,
+    "topic": "prima întâlnire",
+    "body": "Așteptări de la sine și de la UDG;\r\nScopuri și priorități;\r\nprocrastinare - aspect de îmbunătățit",
+    "user_id": 11,
+    "created_at": "2024-10-02 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-02"
+  },
+  {
+    "id": 58,
+    "student_id": 29,
+    "topic": "Acclimation to life at UDG",
+    "body": "Discussed academics and character. Friendship and procrastination. Prayer",
+    "user_id": 8,
+    "created_at": "2024-10-01 16:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-01"
+  },
+  {
+    "id": 59,
+    "student_id": 9,
+    "topic": "Acclimation to life at UDG",
+    "body": "Discussed academics and character. Friendship and procrastination. Prayer",
+    "user_id": 8,
+    "created_at": "2024-10-01 16:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-01"
+  },
+  {
+    "id": 60,
+    "student_id": 71,
+    "topic": "Acclimation to life at UDG",
+    "body": "Discussed academics and character. Friendship and procrastination. Prayer",
+    "user_id": 8,
+    "created_at": "2024-10-01 16:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-01"
+  },
+  {
+    "id": 61,
+    "student_id": 19,
+    "topic": "prima întâlnire",
+    "body": "combinarea activității de învățare și munca",
+    "user_id": 11,
+    "created_at": "2024-10-07 10:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-07"
+  },
+  {
+    "id": 62,
+    "student_id": 6,
+    "topic": "Присутствие Бога",
+    "body": "- Определение присутствия Бога \r\n- Практические советы \r\n- Вопросы самоанализа",
+    "user_id": 4,
+    "created_at": "2024-10-08 14:17:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-08"
+  },
+  {
+    "id": 63,
+    "student_id": 22,
+    "topic": "Întâlnirea a 2-a",
+    "body": "Întâlnirea a doua. Am vorbit despre starea spirituală. Am vorbit, de asemenea de importanța disciplinei în norganizarea procesului de învățare.",
+    "user_id": 3,
+    "created_at": "2024-10-01 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-01"
+  },
+  {
+    "id": 64,
+    "student_id": 54,
+    "topic": "Întâlnire de cunoaștere",
+    "body": "Stabilirea unei relații de încredere. A povestit cum s-a întors la Domnul.",
+    "user_id": 3,
+    "created_at": "2024-10-01 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-01"
+  },
+  {
+    "id": 65,
+    "student_id": 2,
+    "topic": "Introductions, meet and greet",
+    "body": "Damir skipped the Vatici orientation so he was given the task to complete the Google forms and the behavioral profile until the next meeting that is scheduled on the 17th of October 2024.",
+    "user_id": 12,
+    "created_at": "2024-10-08 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-08"
+  },
+  {
+    "id": 66,
+    "student_id": 26,
+    "topic": "План развития на целый семестр",
+    "body": "1. Работы и сроки сдачи;\n2. План развития духовной жизни (книги Писания для личного изучения, план для развития молитвенной жизни);\n3. Качества характера которые нужно улучшить в этом году;",
+    "user_id": 13,
+    "created_at": "2024-09-17 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-17"
+  },
+  {
+    "id": 67,
+    "student_id": 57,
+    "topic": "План развития на целый семестр",
+    "body": "1. Работы и сроки сдачи;\r\n2. План развития духовной жизни (книги Писания для личного изучения, план для развития молитвенной жизни);\r\n3. Качества характера которые нужно улучшить в этом году;.",
+    "user_id": 13,
+    "created_at": "2024-09-18 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-18"
+  },
+  {
+    "id": 68,
+    "student_id": 76,
+    "topic": "План развития на целый семестр",
+    "body": "1. Работы и сроки сдачи;\r\n2. План развития духовной жизни (книги Писания для личного изучения, план для развития молитвенной жизни);\r\n3. Качества характера которые нужно улучшить в этом году;",
+    "user_id": 13,
+    "created_at": "2024-09-19 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-19"
+  },
+  {
+    "id": 69,
+    "student_id": 21,
+    "topic": "План развития на целый семестр",
+    "body": "1. Работы и сроки сдачи;\r\n2. План развития духовной жизни (книги Писания для личного изучения, план для развития молитвенной жизни);\r\n3. Качества характера которые нужно улучшить в этом году;",
+    "user_id": 13,
+    "created_at": "2024-09-20 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-20"
+  },
+  {
+    "id": 70,
+    "student_id": 55,
+    "topic": "Planul de progres pentru întreg semestru",
+    "body": "1. Sarcinile academice și termenii limită;\r\n2. Dezvoltarea vieții spirituale (cărțile biblice de studiat în acest semestru, planificarea vieții de rugăciune);\r\n3. Calitățile de caracter necesar de dezvoltat în acest an.",
+    "user_id": 13,
+    "created_at": "2024-09-17 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-17"
+  },
+  {
+    "id": 71,
+    "student_id": 49,
+    "topic": "Panul de dezvoltare pentru întreg semestru",
+    "body": "1. Sarcinile academice și termenii limită;\r\n2. Dezvoltarea vieții spirituale (cărțile biblice de studiat în acest semestru, planificarea vieții de rugăciune);\r\n3. Calitățile de caracter necesar de dezvoltat în acest an.",
+    "user_id": 13,
+    "created_at": "2024-09-18 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-18"
+  },
+  {
+    "id": 72,
+    "student_id": 40,
+    "topic": "Planul de dezvoltare pentru întreg semestru",
+    "body": "1. Sarcinile academice și termenii limită;\r\n2. Dezvoltarea vieții spirituale (cărțile biblice de studiat în acest semestru, planificarea vieții de rugăciune);\r\n3. Calitățile de caracter necesar de dezvoltat în acest an.",
+    "user_id": 13,
+    "created_at": "2024-09-20 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-20"
+  },
+  {
+    "id": 73,
+    "student_id": 44,
+    "topic": "MeetingTopic",
+    "body": "procrastinare \r\nCum cresc în cunoașterea Lui DUmnezeu",
+    "user_id": 11,
+    "created_at": "2024-10-09 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-09"
+  },
+  {
+    "id": 74,
+    "student_id": 40,
+    "topic": "Evaluarea primului pas. Provocări și Sfaturi pentru a continua.",
+    "body": "1. Evaluarea timpului petrecut în studiu și rugăciune;\r\n2. Evaluarea progresului academic;\r\n3. Planificarea următorului pas;\r\n4. Sfaturi în scopul dezvoltării disciplinei personale.",
+    "user_id": 13,
+    "created_at": "2024-10-09 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-09"
+  },
+  {
+    "id": 75,
+    "student_id": 14,
+    "topic": "Ознакомительная встреча",
+    "body": "1. Планирование времени\r\n2. Посещение церкви\r\n3. Учеба",
+    "user_id": 5,
+    "created_at": "2024-10-03 17:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-03"
+  },
+  {
+    "id": 76,
+    "student_id": 66,
+    "topic": "Ознакомительная встреча",
+    "body": "1. Учеба\r\n2. Планирование времени\r\n3. Посещение церкви",
+    "user_id": 5,
+    "created_at": "2024-10-07 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-07"
+  },
+  {
+    "id": 77,
+    "student_id": 28,
+    "topic": "Formarea caracterului",
+    "body": "Am vorbit despre disciplina spirituala in formarea caracterului crestin , Locul postului si rugaciunii in viata studentului .\r\nAm disctuat despre rolul Duhului Sfant in formarea caracterului crestin .",
+    "user_id": 2,
+    "created_at": "2024-10-10 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-10"
+  },
+  {
+    "id": 78,
+    "student_id": 55,
+    "topic": "Evaluarea pasului precedent",
+    "body": "1. Evaluarea progresului academic;\n2. Evaluarea procesului de creștere spirituală (studierea Scripturii, timpul de rugăciune, participarea la întâlnirile bisericii);\n3. Evaluarea relațiilor cu familia, colegii și sfaturi pentru a depăși situațiile dificile.",
+    "user_id": 13,
+    "created_at": "2024-10-10 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-10"
+  },
+  {
+    "id": 79,
+    "student_id": 57,
+    "topic": "Evaluarea pasului precedent",
+    "body": "1. Evaluarea progresului academic;\n2. Evaluarea procesului de creștere spirituală (studierea Scripturii, timpul de rugăciune, participarea la întâlnirile bisericii);\n3. Evaluarea relațiilor cu colegii de grup și de cameră sfaturi pentru a depăși conflictele.",
+    "user_id": 13,
+    "created_at": "2024-10-10 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-10"
+  },
+  {
+    "id": 80,
+    "student_id": 7,
+    "topic": "Введение. Знакомство",
+    "body": "Общие моменты. \r\nНежелание учиться, неопределенность в жизни",
+    "user_id": 17,
+    "created_at": "2024-09-16 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-16"
+  },
+  {
+    "id": 81,
+    "student_id": 8,
+    "topic": "Введение. Знакомство",
+    "body": "Общие моменты. Непрощение, обидчивость",
+    "user_id": 17,
+    "created_at": "2024-09-16 14:45:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-16"
+  },
+  {
+    "id": 82,
+    "student_id": 1,
+    "topic": "Введение. Знакомство",
+    "body": "Общие моменты. Конфликты с окружающими, требовательность к другим",
+    "user_id": 17,
+    "created_at": "2024-09-16 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-16"
+  },
+  {
+    "id": 83,
+    "student_id": 15,
+    "topic": "Введение. Знакомство",
+    "body": "Общие моменты. Доказательство существования Бога, обиды на Бога",
+    "user_id": 17,
+    "created_at": "2024-10-01 14:45:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-01"
+  },
+  {
+    "id": 84,
+    "student_id": 12,
+    "topic": "Введение. Знакомство",
+    "body": "Общие темы. Адаптация, трудности, работа с характером",
+    "user_id": 17,
+    "created_at": "2024-10-01 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-01"
+  },
+  {
+    "id": 85,
+    "student_id": 16,
+    "topic": "Smerenie",
+    "body": "Perspectiva biblică \r\nAutoevaluare la capitolul smereniei\r\nSfaturi practice",
+    "user_id": 4,
+    "created_at": "2024-10-11 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-11"
+  },
+  {
+    "id": 86,
+    "student_id": 23,
+    "topic": "Formarea caracterului",
+    "body": "Am discutat despre impactul Duhului Sfant in formarea caracterului . Importanta postului si rugaciunii in formarea caracterului",
+    "user_id": 2,
+    "created_at": "2024-10-15 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-15"
+  },
+  {
+    "id": 87,
+    "student_id": 69,
+    "topic": "Встреча №2",
+    "body": "- жизнь в свободе Духа\r\n- радость\r\n- распределение времени",
+    "user_id": 17,
+    "created_at": "2024-10-14 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-14"
+  },
+  {
+    "id": 88,
+    "student_id": 11,
+    "topic": "Встреча №2",
+    "body": "- размышление над Словом\r\n- радость\r\n- распределение времени",
+    "user_id": 17,
+    "created_at": "2024-10-14 14:45:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-14"
+  },
+  {
+    "id": 89,
+    "student_id": 12,
+    "topic": "Встреча №2",
+    "body": "- понимание и соблюдение библейской истины\r\n- радость\r\n- распределение времени",
+    "user_id": 17,
+    "created_at": "2024-10-14 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-14"
+  },
+  {
+    "id": 90,
+    "student_id": 8,
+    "topic": "Встреча №2",
+    "body": "- размышление над Словом\r\n- смирение\r\n- распределение времени",
+    "user_id": 17,
+    "created_at": "2024-10-14 16:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-14"
+  },
+  {
+    "id": 91,
+    "student_id": 15,
+    "topic": "Встреча №2",
+    "body": "- жизнь в свободе Духа\r\n- любовь к Богу и людям\r\n- распределение времени\r\n* личная ситуация",
+    "user_id": 17,
+    "created_at": "2024-10-15 14:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-15"
+  },
+  {
+    "id": 92,
+    "student_id": 1,
+    "topic": "Встреча №2",
+    "body": "- ежедневное покаяние и исповедь\r\n- смирение\r\n- распределение времени",
+    "user_id": 17,
+    "created_at": "2024-10-15 15:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-15"
+  },
+  {
+    "id": 93,
+    "student_id": 5,
+    "topic": "Встреча №2",
+    "body": "- жизнь в свободе Духа\r\n- радость\r\n- распределение времени",
+    "user_id": 17,
+    "created_at": "2024-10-16 16:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-16"
+  },
+  {
+    "id": 94,
+    "student_id": 25,
+    "topic": "Foundations of Mentoring",
+    "body": "Discussed three questions:  How did you become a Christian? What ministry, person, or book has God used to deepen your faith? What Bible verse is significant in your life?  Why?",
+    "user_id": 9,
+    "created_at": "2024-10-21 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-21"
+  },
+  {
+    "id": 95,
+    "student_id": 49,
+    "topic": "Evaluarea pasului precedent",
+    "body": "1. Evaluarea progresului academic;\n2. Evaluarea procesului de creștere spirituală (studierea Scripturii, timpul de rugăciune, participarea la întâlnirile bisericii);\n3. Evaluarea relațiilor cu colegii, prietenii, familia.",
+    "user_id": 13,
+    "created_at": "2024-10-18 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-18"
+  },
+  {
+    "id": 96,
+    "student_id": 26,
+    "topic": "Как разрешить внутренние конфликты",
+    "body": "1. Конфликт между желаемым и достигнутым.\r\n2. Как поставить перед собой реальные цели?\r\n3. Шаги от желаемого к достижению.",
+    "user_id": 13,
+    "created_at": "2024-10-21 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-21"
+  },
+  {
+    "id": 97,
+    "student_id": 41,
+    "topic": "Întâlnirea nr.3",
+    "body": "Aspectul spiritual\r\naspectul academic\r\nCaracterul\r\nÎn special am vorbit de organizarea și repartizarea timpului.\r\nÎncă este în căutarea unei biserici pe care să o frecventeze. \r\nDuminica trecută a asistat prima dată la un serviciu de botez.",
+    "user_id": 3,
+    "created_at": "2024-10-21 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-21"
+  },
+  {
+    "id": 98,
+    "student_id": 75,
+    "topic": "MeetingTopic",
+    "body": "Creștere spirituală și practicarea postului;\r\nModalități de solitudine ajustate la programul si resursel UDG-ului;\r\naspectul academic - reușită în pregătirea sarcinilor de lucru.",
+    "user_id": 11,
+    "created_at": "2024-10-22 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-22"
+  },
+  {
+    "id": 99,
+    "student_id": 58,
+    "topic": "MeetingTopic",
+    "body": "Planificarea activităților și a sarcinilor de lucru;\r\ncum să aleg o biserică pentru implicare și slujire.",
+    "user_id": 11,
+    "created_at": "2024-10-22 17:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-22"
+  },
+  {
+    "id": 100,
+    "student_id": 29,
+    "topic": "Academics and Life",
+    "body": "Continued discussion about acclimation to life in Moldova and at UDG",
+    "user_id": 8,
+    "created_at": "2024-10-21 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-21"
+  },
+  {
+    "id": 101,
+    "student_id": 9,
+    "topic": "Academics and Life",
+    "body": "Continued discussion about acclimation to life in Moldova and at UDG",
+    "user_id": 8,
+    "created_at": "2024-10-21 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-21"
+  },
+  {
+    "id": 102,
+    "student_id": 71,
+    "topic": "Academics and Life",
+    "body": "Continued discussion about acclimation to life in Moldova and at UDG",
+    "user_id": 8,
+    "created_at": "2024-10-21 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-21"
+  },
+  {
+    "id": 103,
+    "student_id": 44,
+    "topic": "MeetingTopic",
+    "body": "Schimbări în modlaitatea de planificare și realizare a sarcinilor.\nmodalități de management ale conflictelor sau situațiilor conflictuale",
+    "user_id": 11,
+    "created_at": "2024-10-23 15:10:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-23"
+  },
+  {
+    "id": 104,
+    "student_id": 34,
+    "topic": "Întâlnirea nr.2",
+    "body": "Aspectul spiritual\r\nAspectul Academic\r\nCaracterul\r\nReușește academic\r\nAm vorbit despre priorități, relațiile cu părinții",
+    "user_id": 3,
+    "created_at": "2024-10-23 17:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-23"
+  },
+  {
+    "id": 105,
+    "student_id": 59,
+    "topic": "Întâlnirea 3",
+    "body": "Slujește în biserica din Strășeni\r\nReușește academic\r\nAm discutat despre cum să își gestioneze unele situații neașteptate care apar.",
+    "user_id": 3,
+    "created_at": "2024-10-23 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-23"
+  },
+  {
+    "id": 106,
+    "student_id": 18,
+    "topic": "Foundations of Mentoring",
+    "body": "Discussed the history of her walk with Christ, ministries and church, accademics, and relationships.",
+    "user_id": 9,
+    "created_at": "2024-10-23 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-23"
+  },
+  {
+    "id": 107,
+    "student_id": 55,
+    "topic": "Evaluarea pasului precedent",
+    "body": "1. Evaluarea progresului academic;\n2. Evaluarea procesului de creștere spirituală (studierea Scripturii, timpul de rugăciune, participarea la întâlnirile bisericii);\n3. Evaluarea relațiilor cu colegii, prietenii, familia. (Sfaturi în ce privește abordarea părintelui vitreg).",
+    "user_id": 13,
+    "created_at": "2024-10-23 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-23"
+  },
+  {
+    "id": 108,
+    "student_id": 63,
+    "topic": "Управление временем и подведение итогов",
+    "body": "Поговорили о том, что получилось и что не получилось применить из прошедшей встречи. Решили что будут делать дальше. Рассказали о своих преживаниях в университете за первый месяц обучения.",
+    "user_id": 6,
+    "created_at": "2024-10-01 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-01"
+  },
+  {
+    "id": 109,
+    "student_id": 24,
+    "topic": "Управление временем и подведение итогов",
+    "body": "Поговорили о том, что получилось и что не получилось применить из прошедшей встречи. Решили что будут делать дальше. Рассказали о своих преживаниях в университете за первый месяц обучения.",
+    "user_id": 6,
+    "created_at": "2024-10-03 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-03"
+  },
+  {
+    "id": 110,
+    "student_id": 16,
+    "topic": "Generozitate",
+    "body": "Autoanaliza față de generozitate\r\nPracticarea generozității prin diferite resurse \r\nMotivarea generozității",
+    "user_id": 4,
+    "created_at": "2024-10-24 14:32:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-24"
+  },
+  {
+    "id": 111,
+    "student_id": 28,
+    "topic": "Formarea caracterului",
+    "body": "continuam cu formara caracterului .",
+    "user_id": 2,
+    "created_at": "2024-10-24 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-24"
+  },
+  {
+    "id": 112,
+    "student_id": 23,
+    "topic": "Formarea caracterului",
+    "body": "continuam cu formarea caracterului",
+    "user_id": 2,
+    "created_at": "2024-10-24 16:50:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-24"
+  },
+  {
+    "id": 113,
+    "student_id": 27,
+    "topic": "Întâlnirea 4",
+    "body": "Este în căutare de biserică\r\nMuncește mult în aspect academic pentru a dezvolta competențele de învățare\r\nAm discutat despre relația cu părinții",
+    "user_id": 3,
+    "created_at": "2024-10-24 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-24"
+  },
+  {
+    "id": 114,
+    "student_id": 24,
+    "topic": "Мотивация и постановка целей",
+    "body": "Постановка целей SMART\nКак удерживать и развивать мотивацию\nМониторинг прогресса",
+    "user_id": 6,
+    "created_at": "2024-10-24 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-24"
+  },
+  {
+    "id": 115,
+    "student_id": 49,
+    "topic": "Dezvoltarea caracterului",
+    "body": "Relațiile și principiile biblice de abordare a relațiilor.\r\nResponsabilitățile unui tânăr în relațiile cu o tânără.\r\nPericole și măsuri de precauție.",
+    "user_id": 13,
+    "created_at": "2024-10-24 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-24"
+  },
+  {
+    "id": 116,
+    "student_id": 51,
+    "topic": "-",
+    "body": "Reușite în planificarea sarcinilor în telefon ”To do List”;\r\nDeblocarea în comunicare cu persoanele cu autoritate.",
+    "user_id": 11,
+    "created_at": "2024-10-24 17:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-24"
+  },
+  {
+    "id": 117,
+    "student_id": 62,
+    "topic": "Проверка сомостоятельного задания",
+    "body": "Были проверны, те шаги которые он должен был предпринять. Следующая тема  обсуждения - Прокрастинация.",
+    "user_id": 15,
+    "created_at": "2024-10-17 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-17"
+  },
+  {
+    "id": 118,
+    "student_id": 61,
+    "topic": "проверка домашнего задания",
+    "body": "Есть относителный прогресс в дисциплине общения с Богом!",
+    "user_id": 15,
+    "created_at": "2024-10-18 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-18"
+  },
+  {
+    "id": 119,
+    "student_id": 57,
+    "topic": "Как справится с негативными эмоциями",
+    "body": "Источник негативных эмоций (Раздражитель).\r\nКак понять себя и как преодолеть такие моменты.\r\nСоветы и примеры.",
+    "user_id": 13,
+    "created_at": "2024-10-25 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-25"
+  },
+  {
+    "id": 120,
+    "student_id": 21,
+    "topic": "Time management",
+    "body": "Meeting Subject",
+    "user_id": 13,
+    "created_at": "2024-10-25 12:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-25"
+  },
+  {
+    "id": 121,
+    "student_id": 52,
+    "topic": "Знакомство, регулярность общения с Богом",
+    "body": "Meeting Subject",
+    "user_id": 15,
+    "created_at": "2024-09-19 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-19"
+  },
+  {
+    "id": 122,
+    "student_id": 52,
+    "topic": "Проверка сомостоятельного задания",
+    "body": "Meeting Subject",
+    "user_id": 15,
+    "created_at": "2024-10-21 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-21"
+  },
+  {
+    "id": 123,
+    "student_id": 33,
+    "topic": "Introductions, meet and greet",
+    "body": "Am făcut cunoștință cu studentul, am discutat despre perioada de adaptare. Am dat testele care trebuie completate până la următoarea discuție.",
+    "user_id": 12,
+    "created_at": "2024-10-25 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-25"
+  },
+  {
+    "id": 124,
+    "student_id": 31,
+    "topic": "Local Church Involvement",
+    "body": "Discussed academics and spiritual life, but talked most about Timothy's local church and his involvement in it.",
+    "user_id": 8,
+    "created_at": "2024-10-26 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-26"
+  },
+  {
+    "id": 125,
+    "student_id": 32,
+    "topic": "MeetingTopic",
+    "body": "- reușitele academice, activitățile de la practică și aplicarea cunoștințelor asimilate;\r\n- managementul timpului cu familia, lucrul și biserica.",
+    "user_id": 11,
+    "created_at": "2024-10-28 11:52:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-28"
+  },
+  {
+    "id": 126,
+    "student_id": 13,
+    "topic": "MeetingTopic",
+    "body": "Situația academică și planificarea sarcinilor - reușita acestora;\r\nRelația și imaginea personală în relație.",
+    "user_id": 11,
+    "created_at": "2024-10-28 11:10:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-28"
+  },
+  {
+    "id": 127,
+    "student_id": 19,
+    "topic": "MeetingTopic",
+    "body": "viața spirituală și principiile învățate din experiențele de zi cu zi.",
+    "user_id": 11,
+    "created_at": "2024-10-28 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-28"
+  },
+  {
+    "id": 128,
+    "student_id": 10,
+    "topic": "Мотивация и постановка целей",
+    "body": "Постановка целей SMART\nКак удерживать и развивать мотивацию\nМониторинг прогресса",
+    "user_id": 6,
+    "created_at": "2024-10-25 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-25"
+  },
+  {
+    "id": 129,
+    "student_id": 54,
+    "topic": "Întâlnirea 2",
+    "body": "Aspectul spiritual. Frecventează biserica BEZ STEN. Dedică timp pentru laudă și închinare, de asemenea e implicată în Pagina de instagram a studenților UDG\r\nAspectul academic. Se descurcă, și-a făcut un plan cu timpul de predare al lucrăriloor. Se descurcă bine cu învățătura.\r\nLucrează la dezvoltarea caracterului.",
+    "user_id": 3,
+    "created_at": "2024-10-29 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-29"
+  },
+  {
+    "id": 130,
+    "student_id": 64,
+    "topic": "Întâlnirea 2",
+    "body": "Aspectul spiritual\r\naspectul academic\r\nFormarea caracterului",
+    "user_id": 3,
+    "created_at": "2024-10-25 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-25"
+  },
+  {
+    "id": 131,
+    "student_id": 36,
+    "topic": "Первая встреча",
+    "body": "Вводная встреча о заполнении тестов, начале учебного года, о посещении церкви, о необходимости иметь календарь с заданиями по всем предметам, планирование следующей встречи в октябре и др.",
+    "user_id": 7,
+    "created_at": "2024-09-27 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-27"
+  },
+  {
+    "id": 132,
+    "student_id": 53,
+    "topic": "Первая встреча",
+    "body": "Вводная встреча о заполнении тестов, начале учебного года, о посещении церкви, о необходимости иметь календарь с заданиями по всем предметам, планирование следующей встречи в октябре и др.",
+    "user_id": 7,
+    "created_at": "2024-09-27 16:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-27"
+  },
+  {
+    "id": 133,
+    "student_id": 36,
+    "topic": "Вторая встреча",
+    "body": "Обсуждения о церкви, служении в церкви, ведение дневника духовного роста, выполнение заданий в учебе и работа над собой и над своим характером.",
+    "user_id": 7,
+    "created_at": "2024-10-28 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-28"
+  },
+  {
+    "id": 134,
+    "student_id": 38,
+    "topic": "Знакомство",
+    "body": "Вводная встреча о заполнении тестов, начале учебного года, о посещении церкви, о необходимости иметь календарь с заданиями по всем предметам, планирование следующей встречи в октябре и др.",
+    "user_id": 7,
+    "created_at": "2024-09-30 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-30"
+  },
+  {
+    "id": 135,
+    "student_id": 30,
+    "topic": "Знакомство",
+    "body": "Вводная встреча о заполнении тестов, начале учебного года, о посещении церкви, о необходимости иметь календарь с заданиями по всем предметам, планирование следующей встречи в октябре и др.",
+    "user_id": 7,
+    "created_at": "2024-09-30 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-30"
+  },
+  {
+    "id": 136,
+    "student_id": 48,
+    "topic": "Знакомство",
+    "body": "Вводная встреча о заполнении тестов, начале учебного года, о посещении церкви, о необходимости иметь календарь с заданиями по всем предметам, планирование следующей встречи в октябре и др.",
+    "user_id": 7,
+    "created_at": "2024-09-30 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-30"
+  },
+  {
+    "id": 137,
+    "student_id": 30,
+    "topic": "Вторая встреча",
+    "body": "Обсуждения о церкви, посещение разных церквей, ведение дневника духовного роста, выполнение заданий в учебе и работа над собой и над своим характером, практика духовных дисциплин, таких как пост, молитва и чтение Библии.",
+    "user_id": 7,
+    "created_at": "2024-10-24 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-24"
+  },
+  {
+    "id": 138,
+    "student_id": 38,
+    "topic": "Вторая встреча",
+    "body": "Обсуждения о посещении церкви \"Голос Истины\" и вовлечение в служение, ведение дневника духовного роста, выполнение заданий в учебе и работа над собой и над своим характером.",
+    "user_id": 7,
+    "created_at": "2024-10-21 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-21"
+  },
+  {
+    "id": 139,
+    "student_id": 48,
+    "topic": "Вторая встреча",
+    "body": "Обсуждения о церкви, посещение церквей, ведение дневника духовного роста, выполнение заданий в учебе и работа над собой и над своим характером.",
+    "user_id": 7,
+    "created_at": "2024-10-21 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-21"
+  },
+  {
+    "id": 140,
+    "student_id": 65,
+    "topic": "MeetingTopic",
+    "body": "planificarea sarcinilor de lucru.",
+    "user_id": 11,
+    "created_at": "2024-10-29 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-29"
+  },
+  {
+    "id": 141,
+    "student_id": 50,
+    "topic": "MeetingTopic",
+    "body": "Soluționarea situației de conflict cu C.; \r\nStabilirea sarcinilor clare....",
+    "user_id": 11,
+    "created_at": "2024-10-31 10:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-31"
+  },
+  {
+    "id": 142,
+    "student_id": 62,
+    "topic": "Прокрастинация",
+    "body": "Meeting Subject",
+    "user_id": 15,
+    "created_at": "2024-10-31 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-31"
+  },
+  {
+    "id": 143,
+    "student_id": 6,
+    "topic": "Motivație și scopuri",
+    "body": "- Găsirea sfere din viața în care este nevoie de motivație\r\n- Stabilirea scopurilor după modelul SMART\r\n- Stabilirea sistemului de monitorizare a îndeplinirii scopurilor și menținerii motivației",
+    "user_id": 4,
+    "created_at": "2024-11-01 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-01"
+  },
+  {
+    "id": 144,
+    "student_id": 17,
+    "topic": "Chemarea de la Domnul",
+    "body": "Deoarece Daniel dorea să părăsească universitatea și să se întoarcă acasă, am discutat cu el despre chemarea sa de la Domnul. De asemenea, a fost important să-l încurajez să caute răspunsul Domnului cu privire la decizia sa de a renunța la studii. Am continuat discuția pe 23 octombrie, când mi-a spus că s-a răzgândit și va rămâne să studieze.",
+    "user_id": 16,
+    "created_at": "2024-10-22 13:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-22"
+  },
+  {
+    "id": 145,
+    "student_id": 17,
+    "topic": "23. Dezvoltarea unei Atitudini de Slugă 24. Perseverență",
+    "body": "Am revizuit temele anterioare și am discutat noile teme:\r\n23. Dezvoltarea unei Atitudini de Slujitor\r\n24. Perseverența",
+    "user_id": 16,
+    "created_at": "2024-10-30 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-30"
+  },
+  {
+    "id": 146,
+    "student_id": 39,
+    "topic": "15. Creșterea într-o Relație de Dragoste cu Dumnezeu 9. Generozitate",
+    "body": "Am discutat implementarea temelor anterioare și modul în care au fost aplicate în practică. De asemenea, am abordat noile teme:\r\n15. Creșterea într-o Relație de Dragoste cu Dumnezeu\r\n9. Generozitatea",
+    "user_id": 16,
+    "created_at": "2024-10-30 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-30"
+  },
+  {
+    "id": 147,
+    "student_id": 28,
+    "topic": "reusita studiilor",
+    "body": "am vorbit despre sarcini , reustia la sarcini , modele de planificare .",
+    "user_id": 2,
+    "created_at": "2024-11-06 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-06"
+  },
+  {
+    "id": 148,
+    "student_id": 11,
+    "topic": "укрепление в Слове",
+    "body": "- выполнение заданий\r\n- методы обучения\r\n- Слово Божие и его применение в жизни",
+    "user_id": 17,
+    "created_at": "2024-11-06 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-06"
+  },
+  {
+    "id": 149,
+    "student_id": 69,
+    "topic": "доверие Богу",
+    "body": "- выполнение заданий\r\n- методы обучения\r\n- доверие Богу в трудностях",
+    "user_id": 17,
+    "created_at": "2024-11-06 14:45:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-06"
+  },
+  {
+    "id": 150,
+    "student_id": 12,
+    "topic": "как укрепляться в Слове",
+    "body": "- выполнение заданий\r\n- методы обучения\r\n- чтение и применение Слова",
+    "user_id": 17,
+    "created_at": "2024-11-06 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-06"
+  },
+  {
+    "id": 151,
+    "student_id": 15,
+    "topic": "доверие Богу",
+    "body": "- выполнение заданий\r\n- методы обучения\r\n- самооценка, зависть",
+    "user_id": 17,
+    "created_at": "2024-11-06 16:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-06"
+  },
+  {
+    "id": 152,
+    "student_id": 5,
+    "topic": "доверие Богу",
+    "body": "- выполнение заданий\r\n- методы обучения\r\n- доверие Богу в трудностях",
+    "user_id": 17,
+    "created_at": "2024-11-06 17:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-06"
+  },
+  {
+    "id": 153,
+    "student_id": 7,
+    "topic": "близость с Богом",
+    "body": "- убеждения, взгляды\r\n- развитие близких отношений с Богом\r\n- учеба, выполнение задание, управление временем",
+    "user_id": 17,
+    "created_at": "2024-10-18 14:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-18"
+  },
+  {
+    "id": 154,
+    "student_id": 63,
+    "topic": "Мотивация и постановка целей",
+    "body": "Постановка целей SMART\r\nКак удерживать и развивать мотивацию\r\nМониторинг прогресса",
+    "user_id": 6,
+    "created_at": "2024-10-29 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-29"
+  },
+  {
+    "id": 155,
+    "student_id": 33,
+    "topic": "Behavioral Profile",
+    "body": "Completarea corectă a profilului, discutarea detaliilor legate de profil, etc.",
+    "user_id": 12,
+    "created_at": "2024-11-07 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-07"
+  },
+  {
+    "id": 156,
+    "student_id": 35,
+    "topic": "прощение обидчика",
+    "body": "как победить желание отомстить тому, кто обидел нас и нашу семью.",
+    "user_id": 15,
+    "created_at": "2024-11-08 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-08"
+  },
+  {
+    "id": 157,
+    "student_id": 56,
+    "topic": "Preparation for marriage",
+    "body": "Questions about his readiness for marriage",
+    "user_id": 8,
+    "created_at": "2024-11-10 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-10"
+  },
+  {
+    "id": 158,
+    "student_id": 25,
+    "topic": "Foundations of Mentoring",
+    "body": "Talked about how our families influence our relationship with God and about her classes, relationships with other students, and service in her church.",
+    "user_id": 9,
+    "created_at": "2024-11-11 14:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-11"
+  },
+  {
+    "id": 159,
+    "student_id": 51,
+    "topic": "MeetingTopic",
+    "body": "Rugăciune; \r\nLiniștea interioară (gand și suflet)",
+    "user_id": 11,
+    "created_at": "2024-11-11 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-11"
+  },
+  {
+    "id": 160,
+    "student_id": 29,
+    "topic": "Update",
+    "body": "Academics, spiritual life, character, friendships, and ministry",
+    "user_id": 8,
+    "created_at": "2024-11-05 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-05"
+  },
+  {
+    "id": 161,
+    "student_id": 9,
+    "topic": "Update",
+    "body": "Academics, spiritual life, character, friendships, and ministry",
+    "user_id": 8,
+    "created_at": "2024-11-05 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-05"
+  },
+  {
+    "id": 162,
+    "student_id": 71,
+    "topic": "Update",
+    "body": "Academics, spiritual life, character, friendships, and ministry",
+    "user_id": 8,
+    "created_at": "2024-11-05 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-05"
+  },
+  {
+    "id": 163,
+    "student_id": 28,
+    "topic": "cresterea spirituala",
+    "body": "Am discutat despre biserica , implicare +slujire. Impresia despre predica si impactul predicii .\r\nFrecventa si consecventa",
+    "user_id": 2,
+    "created_at": "2024-11-12 15:59:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-12"
+  },
+  {
+    "id": 164,
+    "student_id": 23,
+    "topic": "cresterea spirituala",
+    "body": "Am discutat despre biserica , implicare +slujire. Impresia despre predica si impactul predicii .\r\nFrecventa si consecventa",
+    "user_id": 2,
+    "created_at": "2024-11-12 15:50:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-12"
+  },
+  {
+    "id": 165,
+    "student_id": 44,
+    "topic": "MeetingTopic",
+    "body": "Reușitele pe care le are în planificarea timpului personal de citire biblică și rugăciune;",
+    "user_id": 11,
+    "created_at": "2024-11-12 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-12"
+  },
+  {
+    "id": 166,
+    "student_id": 54,
+    "topic": "Întâlnirea nr.3 Nu s-a prezentat",
+    "body": "S-a omis o întâlnire",
+    "user_id": 3,
+    "created_at": "2024-11-12 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-12"
+  },
+  {
+    "id": 167,
+    "student_id": 75,
+    "topic": "MeetingTopic",
+    "body": "reușitele academice, Nevoia unui spațiu de rugăciune și dorința de o seară de laudă și închinare cu studenții.",
+    "user_id": 11,
+    "created_at": "2024-11-12 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-12"
+  },
+  {
+    "id": 168,
+    "student_id": 37,
+    "topic": "Кротость, прощение, обиды. Месть.",
+    "body": "Как быть сильным и в тоже время прощать и быть кротким.",
+    "user_id": 15,
+    "created_at": "2024-11-12 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-12"
+  },
+  {
+    "id": 169,
+    "student_id": 3,
+    "topic": "Test",
+    "body": "Test",
+    "user_id": 10,
+    "created_at": "2024-11-13 17:01:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-13"
+  },
+  {
+    "id": 170,
+    "student_id": 4,
+    "topic": "Призвание в жизни христианина",
+    "body": "1. Обсуждение качеств, способствующих определению призвания\r\n2. Успеваемоcть в учебе\r\n3. Создание и поддержка взаимоотношений\r\n4. Важность самооценки для человека",
+    "user_id": 14,
+    "created_at": "2024-11-13 15:35:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-13"
+  },
+  {
+    "id": 171,
+    "student_id": 20,
+    "topic": "Как подготовить проповедь",
+    "body": "1. Аспекты, связаннные с проповедью\r\n2. Успеваемость \r\n3. Определение роста",
+    "user_id": 14,
+    "created_at": "2024-11-12 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-12"
+  },
+  {
+    "id": 172,
+    "student_id": 64,
+    "topic": "Întâlnirea nr 3",
+    "body": "Azi am vorbit mai mult despre cum să fim ancorați în adevăr, fără să ne lăsăm influiențați de oameni care ne rănesc într-un fel sau altul. Am vorbit  mai mult despre caracter.",
+    "user_id": 3,
+    "created_at": "2024-11-13 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-13"
+  },
+  {
+    "id": 173,
+    "student_id": 34,
+    "topic": "Întâlnirea nr.3",
+    "body": "Am discutat mai mult despre aspectul spiritual.",
+    "user_id": 3,
+    "created_at": "2024-11-13 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-13"
+  },
+  {
+    "id": 174,
+    "student_id": 40,
+    "topic": "Evaluarea pasului precedent",
+    "body": "1. Situația și dinamica academică. (Susținerea seminarelor restante)\r\n2. Progresul spiritual. (Timpul în intimitate cu Scriptura. Provocări și depășirea lor)\r\n3. Slujirea eclesială. Ghidare din partea lui Dumnezeu să înțeleagă care este biserica potrivită.",
+    "user_id": 13,
+    "created_at": "2024-11-13 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-13"
+  },
+  {
+    "id": 175,
+    "student_id": 49,
+    "topic": "Evaluarea pasului precedent",
+    "body": "1. Reușita academică. \r\n2. Timpul de părtășie cu Domnul.\r\n3. Relația de prietenie și pregătirea pentru căsătorie.",
+    "user_id": 13,
+    "created_at": "2024-11-13 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-13"
+  },
+  {
+    "id": 176,
+    "student_id": 26,
+    "topic": "Служение в церкви",
+    "body": "1. Как понять что служение которое ведется идет на пользу церкви?\r\n2. Как соблюдать равновесие между служением и учебой?\r\n3. Академический прогресс.\r\n4. Духовное развитие (Анализ и оценка).",
+    "user_id": 13,
+    "created_at": "2024-11-13 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-13"
+  },
+  {
+    "id": 177,
+    "student_id": 4,
+    "topic": "Знакомство с студентом",
+    "body": "1. Мечта - молодежный пастор, развиваться в христианском формировании\r\n2. Обсудили процесс учебы.\r\n3. Низкая самооценка, Испытывает глубокое волнение перед чем-то новым, Стесняется просить помощи",
+    "user_id": 14,
+    "created_at": "2024-09-23 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-23"
+  },
+  {
+    "id": 178,
+    "student_id": 42,
+    "topic": "Обзор прошлого года учебы",
+    "body": "1. Успехи и сожаления\r\n2. Относительно будущей жизни\r\n3. Вести динамику учебы",
+    "user_id": 14,
+    "created_at": "2024-09-24 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-24"
+  },
+  {
+    "id": 179,
+    "student_id": 43,
+    "topic": "Знакомство с студентом",
+    "body": "1. Выбрать по 7 тем для обсуждения по духовному росту и развитию характера\r\n2. Вести динамику учебы \r\n3. Чтение Библии",
+    "user_id": 14,
+    "created_at": "2024-09-27 14:20:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-27"
+  },
+  {
+    "id": 180,
+    "student_id": 68,
+    "topic": "Обзор прошлого года учебы",
+    "body": "1. Успехи и сожаления\r\n2. Выбор тем для дискуссий (по 7 тем)\r\n3. Вести динамику успеваемости \r\n4. Чтение Библии",
+    "user_id": 14,
+    "created_at": "2024-09-27 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-27"
+  },
+  {
+    "id": 181,
+    "student_id": 46,
+    "topic": "Знакомство с студентом",
+    "body": "1. Выбрать темы для дискуссий (по 7 тем)\r\n2. Вести дневник успеваемости\r\n3. Как учиться\r\n4. Чтение Библии",
+    "user_id": 14,
+    "created_at": "2024-09-27 16:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-09-27"
+  },
+  {
+    "id": 182,
+    "student_id": 4,
+    "topic": "Важность дисциплины",
+    "body": "1. Анализ заполненных анкет\r\n2. Проверка успеваемости\r\n3. Акцент на важность самодисциплины\r\n4. Акцент на чтение Библии и молитвенную жизнь",
+    "user_id": 14,
+    "created_at": "2024-10-03 15:55:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-03"
+  },
+  {
+    "id": 183,
+    "student_id": 20,
+    "topic": "Успехи в учебе",
+    "body": "1. Обсуждение заданий по предметам\r\n2. Дисциплина учебы",
+    "user_id": 14,
+    "created_at": "2024-10-07 14:45:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-07"
+  },
+  {
+    "id": 184,
+    "student_id": 4,
+    "topic": "Как сохранять доверие к Богу в трудные времена",
+    "body": "1. Обсуждение темы доверия Богу в трудные времена\r\n2. Обсуждение заданий",
+    "user_id": 14,
+    "created_at": "2024-10-10 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-10"
+  },
+  {
+    "id": 185,
+    "student_id": 42,
+    "topic": "Менеджмент времени и жизненных ресурсов",
+    "body": "1. Мотивация первенстовать во всем\r\n2. Ответственность за произнесенные слова\r\n3. Пересмотр графика жизни",
+    "user_id": 14,
+    "created_at": "2024-10-18 11:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-18"
+  },
+  {
+    "id": 186,
+    "student_id": 68,
+    "topic": "Молитва как постоянный диалог с Богом",
+    "body": "1. Успеваемость в учебе\r\n2. Молитва\r\nЧувствует, что молитвенная жизнь остыла\r\nПричина: физическая усталость и влияние неверующей среды\r\nПоговорили о разбивке молитв на короткие интервалы по 5-7 минут\r\nПризвал к зрелости в молитве: конкретизировать просьбы и разговор\r\nДал ему читать книгу Хантера: Бог, который слышит",
+    "user_id": 14,
+    "created_at": "2024-10-25 13:50:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-25"
+  },
+  {
+    "id": 187,
+    "student_id": 43,
+    "topic": "Как выполнять свою миссию быть светом в мире",
+    "body": "1. Поговорили об успеваемости\r\n2. Поговорили о его будущем служении\r\n3. Миссия в мире\r\ni.\tЧто в моем представлении является «свет»?\r\nii.\tЧто такое светить в мире? \r\niii.\tЗачем мне светить в мире?",
+    "user_id": 14,
+    "created_at": "2024-10-25 14:40:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-25"
+  },
+  {
+    "id": 188,
+    "student_id": 20,
+    "topic": "Скромность - Отсутствие желания хвастаться или искать признания",
+    "body": "1. Впечатления от учебы\r\n2. Как не позволить «серости» христианского сообщества уничтожить рвение учиться и усваивать образ жизни Христа\r\n3. Обсудили тему скромности\r\n- оценить и похвалить достижения других, вместо того чтобы привлекать внимание к себе.\r\n- быть простым и искренним, избегая преувеличений.",
+    "user_id": 14,
+    "created_at": "2024-10-30 15:20:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-30"
+  },
+  {
+    "id": 189,
+    "student_id": 46,
+    "topic": "Смирение - Признание собственных ограничений и потребности в Боге",
+    "body": "1. Качества деятельности отца как пастор\r\n2. Важность дисциплины\r\n3. Нагнать график выполнения заданий\r\n4. Смирение\r\n- Избегать хвастовства своими достижениями, признавая вклад других и благословения Бога.\r\n- Искать возможности служить другим без ожидания признания или вознаграждения.\r\n5. Рассмотрение распорядка дня",
+    "user_id": 14,
+    "created_at": "2024-10-31 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-31"
+  },
+  {
+    "id": 190,
+    "student_id": 43,
+    "topic": "Воздержанность и самоконтроль в жизни христианина",
+    "body": "1. Обсудили успехи учебы\r\n2. Обсудили тему самоконтроля",
+    "user_id": 14,
+    "created_at": "2024-11-06 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-06"
+  },
+  {
+    "id": 191,
+    "student_id": 20,
+    "topic": "Как проповедовать",
+    "body": "1. Успехи в учебе\r\n2. Обсудили аспекты, связанные с проповедованием. \r\n3. Поделился материалом",
+    "user_id": 14,
+    "created_at": "2024-11-12 15:45:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-12"
+  },
+  {
+    "id": 192,
+    "student_id": 50,
+    "topic": "MeetingTopic",
+    "body": "- stările dificile prin carea trecut și ce ajutat-o să le depășească;\r\n- viața spirituală (lectura biblică)",
+    "user_id": 11,
+    "created_at": "2024-11-18 10:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-18"
+  },
+  {
+    "id": 193,
+    "student_id": 13,
+    "topic": "MeetingTopic",
+    "body": "Planificarea activităților și disciplină",
+    "user_id": 11,
+    "created_at": "2024-11-18 11:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-18"
+  },
+  {
+    "id": 194,
+    "student_id": 53,
+    "topic": "Вторая встреча",
+    "body": "Посещение церкви, качества характера, духовный рост и личное время с Богом. Академическая успеваемость и работа над заданиями по предметам.",
+    "user_id": 7,
+    "created_at": "2024-11-18 14:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-18"
+  },
+  {
+    "id": 195,
+    "student_id": 48,
+    "topic": "3-я встреча",
+    "body": "Посещение церкви и служение. \r\nКачественное проведение времени с Богом\r\nМолитва - тайная комната\r\n Чтение послание от Иоанна\r\nУспеваемость по заданиям.",
+    "user_id": 7,
+    "created_at": "2024-10-31 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-31"
+  },
+  {
+    "id": 196,
+    "student_id": 30,
+    "topic": "3-я встреча",
+    "body": "Задания по предметам, сложности в написании и подготовке, посещение церкви, духовный рост.",
+    "user_id": 7,
+    "created_at": "2024-10-31 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-31"
+  },
+  {
+    "id": 197,
+    "student_id": 46,
+    "topic": "Признание и борьба с грехом",
+    "body": "1.\tНесколько полезных изменений\r\na.\tЧувство благодарности\r\nb.\tПереборол стеснительность \r\n2.\tЧему научился за время учебы\r\na.\tПонял, что ничего не знает\r\nb.\tИзучил Флэтчера – ситуационная этика \r\n3.\tВ чем испытывает проблемы?\r\na.\tСоц. сети – научиться контролировать\r\n4.\tКак обстоят дела с дисциплиной \r\na.\tПодъем – отбой\r\nb.\tУбирание сектора\r\nc.\tДежурство в классе\r\nd.\tЛичная гигиена \r\ne.\tПосещение (опоздание) уроков\r\nf.\tСвоевременное выполнение заданий\r\n5.\tУспеваемость в учебе\r\na.\tНагнал задания и все идет по графику\r\n\r\nИЗУЧИЛИ ВМЕСТЕ ТЕМУ \"ПРИЗНАНИЕ И БОРЬБА С ГРЕХОМ\"",
+    "user_id": 14,
+    "created_at": "2024-11-19 15:40:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-19"
+  },
+  {
+    "id": 198,
+    "student_id": 38,
+    "topic": "3-я встреча",
+    "body": "Работа над качествами характера, духовный рост, работа над заданиями по учебе.",
+    "user_id": 7,
+    "created_at": "2024-11-19 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-19"
+  },
+  {
+    "id": 199,
+    "student_id": 41,
+    "topic": "Întâlnirea nr.5",
+    "body": "Am discutat despre toate cele trei aspecte, dar mai mult am vorbit despre timpul personal de părtășie cu Dumnezeu.",
+    "user_id": 3,
+    "created_at": "2024-11-19 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-19"
+  },
+  {
+    "id": 200,
+    "student_id": 59,
+    "topic": "Întâlnirea nr.5",
+    "body": "Am vorbit de cele trei aspecte în ,mentorare. De asemenea despre răbdare.",
+    "user_id": 3,
+    "created_at": "2024-11-20 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-20"
+  },
+  {
+    "id": 201,
+    "student_id": 68,
+    "topic": "Учебная дисциплина - Успеваемость",
+    "body": "1.\tУспеваемость\r\na.\tЗадолженность по Истории философии\r\nb.\tДве задолженности по эмпирические исследования  \r\n2.\tДисциплина",
+    "user_id": 14,
+    "created_at": "2024-11-22 15:40:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-22"
+  },
+  {
+    "id": 202,
+    "student_id": 54,
+    "topic": "Întâlnirea nr.4",
+    "body": "Am discutat despre cele trei aspecte în mentorare. Acum este în plin studiu pentru a da la timp toate lucrările.\r\nAm vorbit și despre provocările de slujire în grupul de laudă și închinare.",
+    "user_id": 3,
+    "created_at": "2024-11-19 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-19"
+  },
+  {
+    "id": 203,
+    "student_id": 24,
+    "topic": "Привычки и постановка целей",
+    "body": "1. Как развивать хорошие привычки\r\n2. Поставить цель развить одну хорошую привычку и избавиться от одной плохой привычки \r\n3. Разработать план действий по достижению выше поставленных целей",
+    "user_id": 6,
+    "created_at": "2024-11-20 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-20"
+  },
+  {
+    "id": 204,
+    "student_id": 28,
+    "topic": "formarea caracterului",
+    "body": "Rolul bisericii si a comunitatii crestine in cresterea spirituaala si in cresterea calitatilor de caracter",
+    "user_id": 2,
+    "created_at": "2024-11-21 15:50:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-21"
+  },
+  {
+    "id": 205,
+    "student_id": 23,
+    "topic": "Vorbim despre formarea caracterului",
+    "body": "Rolul bisericii si a comunitatii crestine in cresterea spirituaala si in cresterea calitatilor de caracter",
+    "user_id": 2,
+    "created_at": "2024-11-21 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-21"
+  },
+  {
+    "id": 206,
+    "student_id": 63,
+    "topic": "Привычки и постановка целей",
+    "body": "1. Как развивать хорошие привычки\r\n2. Поставить цель развить одну хорошую привычку и избавиться от одной плохой привычки \r\n3. Разработать план действий по достижению выше поставленных целей",
+    "user_id": 6,
+    "created_at": "2024-11-21 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-21"
+  },
+  {
+    "id": 207,
+    "student_id": 46,
+    "topic": "Признание и борьба с грехом (обсуждение)",
+    "body": "1.\tРассмотрели два списка грехов из Библии (Рим. 1:28-31; Гал 5:19-21). \r\n2.\tПоставила ударение на то, что только Бог вправе называть что-либо грехом\r\n3.\tПривет текст из Нагорной проповеди, что его как парня искушает, и поговорили о том, как с этим бороться. \r\n4.\tОбсудили возможные грехи здесь в университете, такие как воровство, обман, невыполнение своих обязанностей, и др., которые необходимо иметь в виду и быть готовыми с ними бороться.   \r\n5.\tПоговорили о графике чтения Библии.\r\na.\tПрочел Евангелие от Матфея.\r\nb.\tДоговорились встретиться и обсудить, что нового для себя взял из этой книги.",
+    "user_id": 14,
+    "created_at": "2024-11-20 15:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-20"
+  },
+  {
+    "id": 208,
+    "student_id": 58,
+    "topic": "MeetingTopic",
+    "body": "dezamagire față de anumite rezultate academice;\r\nindecizie în privința bisericii și a plecării acasă.",
+    "user_id": 11,
+    "created_at": "2024-11-25 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-25"
+  },
+  {
+    "id": 209,
+    "student_id": 66,
+    "topic": "Встреча №2",
+    "body": "1. Церковь-общение с христианами\r\n2. Чтение Библии\r\n3. Учеба",
+    "user_id": 5,
+    "created_at": "2024-10-21 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-21"
+  },
+  {
+    "id": 210,
+    "student_id": 14,
+    "topic": "Встреча №2",
+    "body": "1. Церковь - общение с христианами\r\n2. Учеба/эмоциональное состояние",
+    "user_id": 5,
+    "created_at": "2024-10-22 14:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-22"
+  },
+  {
+    "id": 211,
+    "student_id": 14,
+    "topic": "Встреча №3",
+    "body": "1. Святость \r\n2. Академическая успеваемость",
+    "user_id": 5,
+    "created_at": "2024-11-26 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-26"
+  },
+  {
+    "id": 212,
+    "student_id": 44,
+    "topic": "MeetingTopic",
+    "body": "reu;ite academice, resurse personale \r\nfrecvența bisericii",
+    "user_id": 11,
+    "created_at": "2024-11-26 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-26"
+  },
+  {
+    "id": 213,
+    "student_id": 43,
+    "topic": "Кротость - Спокойный и мирный ответ в трудных ситуациях",
+    "body": "1. Успеваемость в учебе\n2. Важность выработки графика работы\n3. Мониторинг применения предыдущей темы\n4. Обсуждение важности кротости в жизни христианина и меры для усвоения данного качества характера.",
+    "user_id": 14,
+    "created_at": "2024-11-26 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-26"
+  },
+  {
+    "id": 214,
+    "student_id": 51,
+    "topic": "MeetingTopic",
+    "body": "nu sa prezentat",
+    "user_id": 11,
+    "created_at": "2024-11-25 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-25"
+  },
+  {
+    "id": 215,
+    "student_id": 75,
+    "topic": "MeetingTopic",
+    "body": "Nu a reușit să vină, fiind ocupă cu scrierea lucrărilor.",
+    "user_id": 11,
+    "created_at": "2024-11-26 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-26"
+  },
+  {
+    "id": 216,
+    "student_id": 66,
+    "topic": "Встреча №3",
+    "body": "1. Академическая успеваемость\r\n2. Чтение Библии",
+    "user_id": 5,
+    "created_at": "2024-11-26 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-26"
+  },
+  {
+    "id": 217,
+    "student_id": 47,
+    "topic": "Встреча №2",
+    "body": "не пришла",
+    "user_id": 5,
+    "created_at": "2024-10-11 15:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-11"
+  },
+  {
+    "id": 218,
+    "student_id": 47,
+    "topic": "Встреча №3",
+    "body": "1. Отношения с коллегами\r\n2. Академическая успеваемость",
+    "user_id": 5,
+    "created_at": "2024-10-22 15:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-22"
+  },
+  {
+    "id": 219,
+    "student_id": 19,
+    "topic": "MeetingTopic",
+    "body": "Managementul banilor și a prioritățilo, ale activităților pentur a menține biserica pe planul principal.",
+    "user_id": 11,
+    "created_at": "2024-11-27 11:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-27"
+  },
+  {
+    "id": 220,
+    "student_id": 52,
+    "topic": "Проверка самостоятельного задания",
+    "body": "Meeting Subject",
+    "user_id": 15,
+    "created_at": "2024-11-26 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-26"
+  },
+  {
+    "id": 221,
+    "student_id": 61,
+    "topic": "лень и прокрастинация",
+    "body": "Meeting Subject",
+    "user_id": 15,
+    "created_at": "2024-11-27 15:45:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-27"
+  },
+  {
+    "id": 222,
+    "student_id": 29,
+    "topic": "Story if his conversion",
+    "body": "Spiritual history and life experiences",
+    "user_id": 8,
+    "created_at": "2024-11-20 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-20"
+  },
+  {
+    "id": 223,
+    "student_id": 9,
+    "topic": "Story of his conversion",
+    "body": "Spiritual history and life experiences",
+    "user_id": 8,
+    "created_at": "2024-11-20 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-20"
+  },
+  {
+    "id": 224,
+    "student_id": 71,
+    "topic": "Story of his conversion",
+    "body": "Spiritual history and life experiences",
+    "user_id": 8,
+    "created_at": "2024-11-20 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-20"
+  },
+  {
+    "id": 225,
+    "student_id": 20,
+    "topic": "Важность послушания Богу",
+    "body": "1. Успеваемость \r\n2. Поговорили о мерах для успешного планирования выполнения заданий\r\n3. Важность наработки способности слушать",
+    "user_id": 14,
+    "created_at": "2024-11-28 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-28"
+  },
+  {
+    "id": 226,
+    "student_id": 4,
+    "topic": "Любовь к Слову Божьему",
+    "body": "1. Успеваемость \r\n2. Обсуждение темы \"Любовь к Слову Божьему!\"\r\n3. Задание на завтра: читать и размышлять над Мф. 5:21-26 и вывести несколько практических выводов.",
+    "user_id": 14,
+    "created_at": "2024-11-28 16:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-28"
+  },
+  {
+    "id": 227,
+    "student_id": 8,
+    "topic": "приоритеты",
+    "body": "- Поиск Царства Божия \r\n- Умеренность, самоконтроль и равновесие во всех аспектах жизни\r\n- Мотивация и постановка целей",
+    "user_id": 17,
+    "created_at": "2024-11-28 14:40:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-28"
+  },
+  {
+    "id": 228,
+    "student_id": 7,
+    "topic": "приоритеты",
+    "body": "- Поиск Царства Божия \r\n- Умеренность, самоконтроль и равновесие во всех аспектах жизни\r\n- Мотивация и постановка целей",
+    "user_id": 17,
+    "created_at": "2024-11-28 15:25:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-28"
+  },
+  {
+    "id": 229,
+    "student_id": 1,
+    "topic": "приоритеты",
+    "body": "- Поиск Царства Божия \r\n- Умеренность, самоконтроль и равновесие во всех аспектах жизни\r\n- Мотивация и постановка целей",
+    "user_id": 17,
+    "created_at": "2024-11-28 16:10:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-28"
+  },
+  {
+    "id": 230,
+    "student_id": 47,
+    "topic": "Встреча №4",
+    "body": "1. Академическая успеваемость\r\n2. Размышление на словом Божиим.",
+    "user_id": 5,
+    "created_at": "2024-11-28 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-28"
+  },
+  {
+    "id": 231,
+    "student_id": 72,
+    "topic": "Встреча №2",
+    "body": "1. Познание Бога\r\n2. Обида / не принимать все близко к сердцу",
+    "user_id": 5,
+    "created_at": "2024-10-21 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-21"
+  },
+  {
+    "id": 232,
+    "student_id": 72,
+    "topic": "Встреча №3",
+    "body": "Личные переживания",
+    "user_id": 5,
+    "created_at": "2024-11-07 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-07"
+  },
+  {
+    "id": 233,
+    "student_id": 42,
+    "topic": "Кротость - Спокойный и мирный ответ в трудных ситуациях",
+    "body": "1. Успеваемость в учебе\r\n2. Обсудили выбранную тему. Шахзоду эта темы была кстати, поскольку он борется с самообладанием.",
+    "user_id": 14,
+    "created_at": "2024-11-29 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-29"
+  },
+  {
+    "id": 234,
+    "student_id": 65,
+    "topic": "MeetingTopic",
+    "body": "Surse de motivație; relațiile și claitatea relațiilor din această etapă de viață",
+    "user_id": 11,
+    "created_at": "2024-11-29 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-29"
+  },
+  {
+    "id": 235,
+    "student_id": 75,
+    "topic": "MeetingTopic",
+    "body": "reușitele academice\r\nprocesul de iertare - o nouă percepție și abordare critică a situațiilor",
+    "user_id": 11,
+    "created_at": "2024-12-03 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-03"
+  },
+  {
+    "id": 236,
+    "student_id": 22,
+    "topic": "Întâlnirea nr.5",
+    "body": "Am  cele trei aspecte, viața spirituală, reușita la cursuri și comportamentul",
+    "user_id": 3,
+    "created_at": "2024-12-03 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-03"
+  },
+  {
+    "id": 237,
+    "student_id": 41,
+    "topic": "Întâlnirea nr.6",
+    "body": "Implicarea în biserica Pobeda\r\nEste încurajată de rezultatele pe care le are la cursuri",
+    "user_id": 3,
+    "created_at": "2024-12-03 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-03"
+  },
+  {
+    "id": 238,
+    "student_id": 12,
+    "topic": "посвящение Богу",
+    "body": "- посвящение жизни Богу, познание воли\r\n- распределение времени",
+    "user_id": 17,
+    "created_at": "2024-12-03 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-03"
+  },
+  {
+    "id": 239,
+    "student_id": 69,
+    "topic": "познание воли Божией",
+    "body": "- посвящение жизни Богу, познание воли\r\n- кротость, коммуникация",
+    "user_id": 17,
+    "created_at": "2024-12-03 14:45:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-03"
+  },
+  {
+    "id": 240,
+    "student_id": 5,
+    "topic": "посвящение Богу",
+    "body": "- познание воли Божией\r\n- распределение времени, служение",
+    "user_id": 17,
+    "created_at": "2024-12-03 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-03"
+  },
+  {
+    "id": 241,
+    "student_id": 51,
+    "topic": "MeetingTopic",
+    "body": "Metode de studiere, reușite academice și dezamagiri",
+    "user_id": 11,
+    "created_at": "2024-12-04 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-04"
+  },
+  {
+    "id": 242,
+    "student_id": 64,
+    "topic": "Întâlnirea nr.4",
+    "body": "Am discutat despre cele trei aspecte și am pus accent pe dezvoltarea caracterului.",
+    "user_id": 3,
+    "created_at": "2024-12-04 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-04"
+  },
+  {
+    "id": 243,
+    "student_id": 27,
+    "topic": "Întâlnirea nr.5",
+    "body": "Am discutat despre cele trei aspecte și am pus accent pe  modalități de învățare.",
+    "user_id": 3,
+    "created_at": "2024-12-04 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-04"
+  },
+  {
+    "id": 244,
+    "student_id": 58,
+    "topic": "MeetingTopic",
+    "body": "Analiza activității personale, academice, relaționale și spirituale în acest semestru.",
+    "user_id": 11,
+    "created_at": "2024-12-05 14:20:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-05"
+  },
+  {
+    "id": 245,
+    "student_id": 54,
+    "topic": "Întâlnirea nr.5",
+    "body": "Am vorbit despre frecventarea bisericii, procesul de studii  și despre familia de origine.",
+    "user_id": 3,
+    "created_at": "2024-12-05 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-05"
+  },
+  {
+    "id": 246,
+    "student_id": 32,
+    "topic": "MeetingTopic",
+    "body": "famielie, copii, absențe",
+    "user_id": 11,
+    "created_at": "2024-12-05 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-05"
+  },
+  {
+    "id": 247,
+    "student_id": 59,
+    "topic": "Întâlnirea nr.6",
+    "body": "Am vorbit despre  implibarea în slujirea, procesul de studii și despre cazurile în care trebuie de spus un „Nu” ferm.",
+    "user_id": 3,
+    "created_at": "2024-12-05 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-05"
+  },
+  {
+    "id": 248,
+    "student_id": 15,
+    "topic": "посвящение Богу",
+    "body": "- послушание Богу\r\n- применение заповедей в повседневной жизни\r\n- духовный рост",
+    "user_id": 17,
+    "created_at": "2024-12-04 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-04"
+  },
+  {
+    "id": 249,
+    "student_id": 11,
+    "topic": "посвящение Богу",
+    "body": "- послушание Богу\r\n- применение заповедей в повседневной жизни\r\n- взаимоотношения, угодные Богу",
+    "user_id": 17,
+    "created_at": "2024-12-05 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-05"
+  },
+  {
+    "id": 250,
+    "student_id": 33,
+    "topic": "Academic performance, challenges, relationships with colleagues, friends, church.",
+    "body": "Meeting Subject",
+    "user_id": 12,
+    "created_at": "2024-12-06 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-06"
+  },
+  {
+    "id": 251,
+    "student_id": 39,
+    "topic": "1) Pregătirea pentru teste și examene. 2) Creșterea în Cunoașterea lui Dumnezeu. 3) Bunătatea.",
+    "body": "Am avut o întâlnire productivă cu Daniel Malancea. Am constatat că are o restanță pe care urmează să o recupereze în sesiunea de recuperare. Am purtat o discuție serioasă despre priorități, iar convingerea mea este că această conversație va aduce rezultate pozitive.\r\nDe asemenea, am discutat despre importanța creșterii în cunoașterea lui Dumnezeu și dezvoltarea bunătății ca trăsătură de caracter.",
+    "user_id": 16,
+    "created_at": "2024-12-09 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-09"
+  },
+  {
+    "id": 252,
+    "student_id": 62,
+    "topic": "30. Любовь к Слову Божьему",
+    "body": "Meeting Subject",
+    "user_id": 15,
+    "created_at": "2024-12-10 14:20:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-10"
+  },
+  {
+    "id": 253,
+    "student_id": 16,
+    "topic": "Obiective SMART",
+    "body": "Metoda obiectivelor SMART\r\nComunicare despre reușita academică (Analiza metodei de lucru pentru semestrul curent)",
+    "user_id": 4,
+    "created_at": "2024-12-10 14:40:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-10"
+  },
+  {
+    "id": 254,
+    "student_id": 35,
+    "topic": "30. Любовь к Слову Божьему",
+    "body": "Meeting Subject",
+    "user_id": 15,
+    "created_at": "2024-12-10 15:20:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-10"
+  },
+  {
+    "id": 255,
+    "student_id": 40,
+    "topic": "Evaluarea pasului precedent",
+    "body": "1. Situația academică\n2. Starea spirituală și practicarea disciplinelor spirituale\n3. Relația cu colegii, în cămin.\n4. Relația cu biserica și implicarea",
+    "user_id": 13,
+    "created_at": "2024-10-25 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-25"
+  },
+  {
+    "id": 256,
+    "student_id": 76,
+    "topic": "Evaluarea pasului precedent",
+    "body": "1. Situația academică\r\n2. Starea spirituală și practicarea disciplinelor spirituale\r\n3. Relația cu colegii, în cămin, în campus.\r\n4. Provocările în ce privește organizarea activităților studențești.\r\n5. Relația cu biserica și implicarea",
+    "user_id": 13,
+    "created_at": "2024-10-24 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-24"
+  },
+  {
+    "id": 257,
+    "student_id": 57,
+    "topic": "Evaluarea pasului precedent",
+    "body": "1. Situația academică\r\n2. Starea spirituală și practicarea disciplinelor spirituale\r\n3. Relația cu colegii, în cămin.\r\n4. Relația cu biserica și implicarea",
+    "user_id": 13,
+    "created_at": "2024-11-14 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-14"
+  },
+  {
+    "id": 258,
+    "student_id": 21,
+    "topic": "Evaluarea pasului precedent",
+    "body": "Meeting Subject",
+    "user_id": 13,
+    "created_at": "2024-11-14 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-14"
+  },
+  {
+    "id": 259,
+    "student_id": 76,
+    "topic": "Evaluarea pasului precedent",
+    "body": "Subiecte personale\r\nSituații de organizare a vieții studenților",
+    "user_id": 13,
+    "created_at": "2024-11-18 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-18"
+  },
+  {
+    "id": 260,
+    "student_id": 55,
+    "topic": "Evaluarea pasului precedent",
+    "body": "1. Situația academică\r\n2. Starea spirituală și practicarea disciplinelor spirituale.\r\n3. Relația cu familia și implicarea în biserică.",
+    "user_id": 13,
+    "created_at": "2024-11-18 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-18"
+  },
+  {
+    "id": 261,
+    "student_id": 57,
+    "topic": "Evaluarea pasului precedent",
+    "body": "1. Situația academică\r\n2. Starea spirituală și practicarea disciplinelor spirituale\r\n3. Relația cu colegii, în cămin.\r\n4. Comunicarea și relația cu biserica de acasă.",
+    "user_id": 13,
+    "created_at": "2024-11-18 17:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-18"
+  },
+  {
+    "id": 262,
+    "student_id": 40,
+    "topic": "Evaluarea pasului precedent",
+    "body": "1. Situația academică\r\n2. Starea spirituală și practicarea disciplinelor spirituale\r\n3. Relația cu colegii, în cămin.\r\n4. Implicarea în slujire",
+    "user_id": 13,
+    "created_at": "2024-11-25 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-25"
+  },
+  {
+    "id": 263,
+    "student_id": 55,
+    "topic": "Evaluarea pasului precedent",
+    "body": "1. Situația academică\r\n2. Starea spirituală și practicarea disciplinelor spirituale",
+    "user_id": 13,
+    "created_at": "2024-11-25 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-25"
+  },
+  {
+    "id": 264,
+    "student_id": 49,
+    "topic": "Evaluarea pasului precedent",
+    "body": "1. Situația academică\r\n2. Starea spirituală și practicarea disciplinelor spirituale\r\n3. Relația cu biserica din sat și implicarea în lucrarea cu tinerii.",
+    "user_id": 13,
+    "created_at": "2024-11-25 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-25"
+  },
+  {
+    "id": 265,
+    "student_id": 40,
+    "topic": "Evaluarea pasului precedent",
+    "body": "1. Situația academică\r\n2. Starea spirituală și practicarea disciplinelor spirituale\r\n3. Relația cu familia și depășirea crizei de comunicare.",
+    "user_id": 13,
+    "created_at": "2024-12-04 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-04"
+  },
+  {
+    "id": 266,
+    "student_id": 49,
+    "topic": "Evaluarea pasului precedent",
+    "body": "1. Slujirea cu tineretul: Pregătirea și calificarea liderului.",
+    "user_id": 13,
+    "created_at": "2024-12-05 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-05"
+  },
+  {
+    "id": 267,
+    "student_id": 57,
+    "topic": "Evaluarea pasului precedent",
+    "body": "1. Situația academică\r\n2. Starea spirituală și practicarea disciplinelor spirituale\r\n3. Relația cu colegii, în cămin.\r\n4. Biserica și implicarea personală.",
+    "user_id": 13,
+    "created_at": "2024-12-04 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-04"
+  },
+  {
+    "id": 268,
+    "student_id": 55,
+    "topic": "Evaluarea pasului precedent",
+    "body": "1. Situația legată de familie și posibilități de a evita conflictele.",
+    "user_id": 13,
+    "created_at": "2024-12-04 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-04"
+  },
+  {
+    "id": 269,
+    "student_id": 26,
+    "topic": "Evaluarea pasului precedent",
+    "body": "1. Subiecte personale.\r\n2. Aspecte legate de procesul academic.",
+    "user_id": 13,
+    "created_at": "2024-12-06 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-06"
+  },
+  {
+    "id": 270,
+    "student_id": 76,
+    "topic": "Evaluarea pasului precedent",
+    "body": "Concluzii și reflecții asupra semestrului",
+    "user_id": 13,
+    "created_at": "2024-12-09 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-09"
+  },
+  {
+    "id": 271,
+    "student_id": 26,
+    "topic": "Discuții pe subiecte personale",
+    "body": "Meeting Subject",
+    "user_id": 13,
+    "created_at": "2024-12-09 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-09"
+  },
+  {
+    "id": 272,
+    "student_id": 49,
+    "topic": "Discuții pe marginea întrebărilor personale",
+    "body": "Meeting Subject",
+    "user_id": 13,
+    "created_at": "2024-12-12 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-12"
+  },
+  {
+    "id": 273,
+    "student_id": 40,
+    "topic": "Discuții pe marginea întrebărilor personale",
+    "body": "Meeting Subject",
+    "user_id": 13,
+    "created_at": "2024-12-12 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-12"
+  },
+  {
+    "id": 274,
+    "student_id": 17,
+    "topic": "MeetingTopic",
+    "body": "Мы обсуждали академическую успеваемость. У Даниила есть одна задолженность. На этой неделе он встретится с Вадимом Булгак и договорится о пересдаче.",
+    "user_id": 16,
+    "created_at": "2024-12-16 13:45:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-16"
+  },
+  {
+    "id": 275,
+    "student_id": 18,
+    "topic": "Foundations of Mentoring",
+    "body": "Bitterness and Forgiveness",
+    "user_id": 9,
+    "created_at": "2024-12-16 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-16"
+  },
+  {
+    "id": 276,
+    "student_id": 43,
+    "topic": "Послушание - готовность следовать Божьей воле",
+    "body": "1. Посещение церкви \r\n - какие элементы богослужения и жизни церкви были отмечены студентом \r\n2. Успеваемость - студент вовремя справляется со всеми заданиями. \r\n3. Послушание - готовность следовать Божьей воле\r\n- определение послушания\r\n- ключевые черты послушания\r\n- причины нежелания следовать Божьей воле\r\n- Как современному юноше узнать волю Божью",
+    "user_id": 14,
+    "created_at": "2024-12-17 10:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-17"
+  },
+  {
+    "id": 277,
+    "student_id": 4,
+    "topic": "Успеваемость в учебе",
+    "body": "i.\tОценивает свою учебу ниже среднего \r\nii.\tПод конец напряг – нагромоздилось \r\niii.\tЗадолженности \r\n1.\tПо методологии уч. деятельности – реферат (не сдал с 28.11)\r\n2.\tХристианская этика – реферат (пользовался ChatGPT) \r\n3.\tАннотация по Систематическому богословию \r\n\r\nДо 19.12. должен решить с преподавателями вопрос сдачи задолженностей",
+    "user_id": 14,
+    "created_at": "2024-12-17 12:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-17"
+  },
+  {
+    "id": 278,
+    "student_id": 73,
+    "topic": "Foundations of Mentoring",
+    "body": "Recent struggles with health and God answering prayer.",
+    "user_id": 9,
+    "created_at": "2024-12-17 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-17"
+  },
+  {
+    "id": 279,
+    "student_id": 25,
+    "topic": "Difficulties in our walk with Christ",
+    "body": "Daria shared a time recently when God answered a prayer and showed his love for her.  It was a good conversation about how he shows his love for us.",
+    "user_id": 9,
+    "created_at": "2024-12-17 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-17"
+  },
+  {
+    "id": 280,
+    "student_id": 44,
+    "topic": "MeetingTopic",
+    "body": "Analiza SWOT al activiții personale în acest semestru;\r\ntransformarea punctelor slabe în obiective.",
+    "user_id": 11,
+    "created_at": "2024-12-17 17:10:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-17"
+  },
+  {
+    "id": 281,
+    "student_id": 65,
+    "topic": "MeetingTopic",
+    "body": "- nu a fost la UGD și nu s-a prezentat",
+    "user_id": 11,
+    "created_at": "2024-12-06 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-06"
+  },
+  {
+    "id": 282,
+    "student_id": 55,
+    "topic": "Întrebări și subiecte personale",
+    "body": "Meeting Subject",
+    "user_id": 13,
+    "created_at": "2024-12-16 16:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-16"
+  },
+  {
+    "id": 283,
+    "student_id": 21,
+    "topic": "Evaluarea progresului per semestru",
+    "body": "1. Progresul academic - lipsa restanțelor\r\n2. Progresul spiritual - a respectat în proporție de 90% sarcinile cu privire la disciplinele spirituale\r\n3. Dezvoltarea caracterului - relații bune cu colegii, cu corpul profesoral și administrativ... un comportament exemplar. \r\nCalificativul - F.Bine sau Admis.",
+    "user_id": 13,
+    "created_at": "2024-12-17 16:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-17"
+  },
+  {
+    "id": 284,
+    "student_id": 6,
+    "topic": "Retrospectivă and perspectiva",
+    "body": "Mulțumiri în 2024\r\nplanuri în 2025",
+    "user_id": 4,
+    "created_at": "2024-12-17 13:55:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-17"
+  },
+  {
+    "id": 285,
+    "student_id": 60,
+    "topic": "Встреча №2",
+    "body": "Meeting Subject",
+    "user_id": 5,
+    "created_at": "2024-10-22 15:20:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-22"
+  },
+  {
+    "id": 286,
+    "student_id": 60,
+    "topic": "Встреча №3",
+    "body": "Meeting Subject",
+    "user_id": 5,
+    "created_at": "2024-11-14 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-14"
+  },
+  {
+    "id": 287,
+    "student_id": 60,
+    "topic": "Встреча №4",
+    "body": "Meeting Subject",
+    "user_id": 5,
+    "created_at": "2024-12-05 14:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-05"
+  },
+  {
+    "id": 288,
+    "student_id": 60,
+    "topic": "Встреча №5",
+    "body": "Meeting Subject",
+    "user_id": 5,
+    "created_at": "2024-12-12 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-12"
+  },
+  {
+    "id": 289,
+    "student_id": 67,
+    "topic": "Встреча №3",
+    "body": "Meeting Subject",
+    "user_id": 5,
+    "created_at": "2024-11-29 14:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-29"
+  },
+  {
+    "id": 290,
+    "student_id": 28,
+    "topic": "reusita scolara",
+    "body": "Am disctuat despre sarcini si volumul de munca in realizarea sarcinilor .",
+    "user_id": 2,
+    "created_at": "2024-12-18 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-18"
+  },
+  {
+    "id": 291,
+    "student_id": 23,
+    "topic": "reusita scolara",
+    "body": "Meeting Subject",
+    "user_id": 2,
+    "created_at": "2024-12-18 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-18"
+  },
+  {
+    "id": 292,
+    "student_id": 72,
+    "topic": "Встреча №4",
+    "body": "Meeting Subject",
+    "user_id": 5,
+    "created_at": "2024-12-05 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-05"
+  },
+  {
+    "id": 293,
+    "student_id": 70,
+    "topic": "Встреча №2",
+    "body": "Meeting Subject",
+    "user_id": 5,
+    "created_at": "2024-10-11 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-10-11"
+  },
+  {
+    "id": 294,
+    "student_id": 70,
+    "topic": "Встреча №3",
+    "body": "Meeting Subject",
+    "user_id": 5,
+    "created_at": "2024-11-29 15:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-11-29"
+  },
+  {
+    "id": 295,
+    "student_id": 46,
+    "topic": "Оценка первому семестру",
+    "body": "1.\tУспеваемость. \r\n2.\tПреуспел в английском языке \r\n3.\tОценка первого семестра. Вначале мучала ностальгия по дому, но теперь все нормализовалось \r\n4.\tДал задание прочитать на каникулах Евангелие от Луки и Деяния Апостолов и отметить, что нового узнал, и какие вопросы были вызваны по ходу чтения.",
+    "user_id": 14,
+    "created_at": "2024-12-18 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-18"
+  },
+  {
+    "id": 296,
+    "student_id": 20,
+    "topic": "Оценка учебы в первом семестре",
+    "body": "1.\tУспеваемость – нужно переделать реферат по Методологии, согласно принятых требований\r\n2.\tОбъяснил, что Коле нужно учиться отвечать на вопросы «как», а не «что». Нужно фокусировать свое внимание не на результате, а способе, который привел к этому результату   \r\n3.\tПодготовить одну рождественскую проповедь (предложил одну тему)",
+    "user_id": 14,
+    "created_at": "2024-12-18 16:20:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-18"
+  },
+  {
+    "id": 297,
+    "student_id": 16,
+    "topic": "Retrospectiva 2024 și perspectiva 2025",
+    "body": "Meeting Subject",
+    "user_id": 4,
+    "created_at": "2024-12-18 13:55:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-18"
+  },
+  {
+    "id": 298,
+    "student_id": 51,
+    "topic": "MeetingTopic",
+    "body": "-",
+    "user_id": 11,
+    "created_at": "2024-12-19 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-19"
+  },
+  {
+    "id": 299,
+    "student_id": 41,
+    "topic": "Întâlnirea nr.7",
+    "body": "Aspectul spiritual, academic și caracterul. Mai mult am discutat despre dezvoltarea caracterului.",
+    "user_id": 3,
+    "created_at": "2024-12-17 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-17"
+  },
+  {
+    "id": 300,
+    "student_id": 59,
+    "topic": "Întâlnirea nr.7",
+    "body": "Aspectul spiritual, academic, caracterul. Am vorbit mai mult desp-re cum să facem față dezamăgirilor.",
+    "user_id": 3,
+    "created_at": "2024-12-17 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-17"
+  },
+  {
+    "id": 301,
+    "student_id": 27,
+    "topic": "Întâlnirea nr.6",
+    "body": "Aspectul spiritual, academic, caracterul. Am vorbit despre copilărie, relația cu tata.",
+    "user_id": 3,
+    "created_at": "2024-12-18 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-18"
+  },
+  {
+    "id": 302,
+    "student_id": 17,
+    "topic": "Духов«Укрепление в Слове Божьем» и «Миссия быть светом в мире»",
+    "body": "Духовный рост: Мы обсудили темы «Укрепление в Слове Божьем» и «Миссия быть светом в мире» и определили задачи, которые нужно выполнить в течение месяца.",
+    "user_id": 16,
+    "created_at": "2024-12-13 11:45:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-13"
+  },
+  {
+    "id": 303,
+    "student_id": 17,
+    "topic": "«Послушание» и «Чистота сердца»",
+    "body": "Формирование христианского характера: Мы рассмотрели христианские черты характера — «Послушание» и «Чистота сердца», а также установили конкретные практические задания на следующий месяц.",
+    "user_id": 16,
+    "created_at": "2024-12-13 13:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-13"
+  },
+  {
+    "id": 304,
+    "student_id": 17,
+    "topic": "\"Размышление над Словом Божьим\" и \"Умеренность\"",
+    "body": "Духовный рост: Мы обсудили тему «Размышление над Словом Божьим» и определили задачи, которые необходимо выполнить в течение месяца.\r\nФормирование христианского характера: Мы рассмотрели христианскую черту характера — «Умеренность» и установили конкретные практические задания на следующий месяц.",
+    "user_id": 16,
+    "created_at": "2024-12-16 10:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-16"
+  },
+  {
+    "id": 305,
+    "student_id": 70,
+    "topic": "Встреча №4",
+    "body": "Meeting Subject",
+    "user_id": 5,
+    "created_at": "2024-12-19 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-19"
+  },
+  {
+    "id": 306,
+    "student_id": 67,
+    "topic": "Встреча №4",
+    "body": "1. Чтение Библии\r\n2. Познание Бога",
+    "user_id": 5,
+    "created_at": "2024-12-23 11:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-23"
+  },
+  {
+    "id": 307,
+    "student_id": 47,
+    "topic": "Встреча №5",
+    "body": "Познание Бога",
+    "user_id": 5,
+    "created_at": "2024-12-23 10:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-23"
+  },
+  {
+    "id": 308,
+    "student_id": 66,
+    "topic": "Встреча №4",
+    "body": "Размышления на Словом Божиим",
+    "user_id": 5,
+    "created_at": "2024-12-19 12:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-19"
+  },
+  {
+    "id": 309,
+    "student_id": 14,
+    "topic": "Встреча №4",
+    "body": "Meeting Subject",
+    "user_id": 5,
+    "created_at": "2024-12-19 12:50:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-19"
+  },
+  {
+    "id": 310,
+    "student_id": 57,
+    "topic": "Evaluarea semestrului",
+    "body": "Evaluarea reușitei academice și participării la ore\r\nEvaluarea progresului spiritual\r\nEvaluarea dezvoltării caracterului",
+    "user_id": 13,
+    "created_at": "2024-12-18 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-18"
+  },
+  {
+    "id": 311,
+    "student_id": 39,
+    "topic": "\"Curăția inimii\" și Căutarea Împărăției lui Dumnezeu.",
+    "body": "Creșterea Spirituală:\r\nAm discutat despre tema \"Curăția inimii\" și am stabilit sarcinile care urmează să fie îndeplinite până la următoarea întâlnire.\r\nFormarea Caracterului Creștin:\r\nAm discutat despre trăsătura caracterului creștin - Căutarea Împărăției lui Dumnezeu. De asemenea, am stabilit sarcini practice concrete pentru următoarele două săptămâni.",
+    "user_id": 16,
+    "created_at": "2024-12-24 11:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2024-12-24"
+  },
+  {
+    "id": 312,
+    "student_id": 39,
+    "topic": "1) Cumpătare 2) Meditația asupra Cuvântului lui Dumnezeu",
+    "body": "Am discutat reușita academică. Daniel a dat o restanță și mai are de dat un examen săptămâna aceasta. Am discutat despre Cumpătate și despre pașii cum să dezvolți această trăsătură de caracter. Am discutat și despre meditația asupra Cuvântului lui Dumnezeu și pașii practici corecți care îl vor ajuta să înțeleagă și să aplice corect adevărurile descoperite din text.",
+    "user_id": 16,
+    "created_at": "2025-01-22 16:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-22"
+  },
+  {
+    "id": 313,
+    "student_id": 25,
+    "topic": "Spiritual Growth",
+    "body": "We discussed areas she wants to grow in her character and relationship with God, her studies, her relationships with other students and her current Bible reading.",
+    "user_id": 9,
+    "created_at": "2025-01-22 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-22"
+  },
+  {
+    "id": 314,
+    "student_id": 37,
+    "topic": "Цель жизни",
+    "body": "Цель жизни, цель учебы, ратоты, картеры и семьи.",
+    "user_id": 15,
+    "created_at": "2025-01-23 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-23"
+  },
+  {
+    "id": 315,
+    "student_id": 9,
+    "topic": "Как прошли каникулы",
+    "body": "Meeting Subject",
+    "user_id": 8,
+    "created_at": "2025-01-18 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-18"
+  },
+  {
+    "id": 316,
+    "student_id": 58,
+    "topic": "MeetingTopic",
+    "body": "-situație de conflict în cameră",
+    "user_id": 11,
+    "created_at": "2025-01-08 00:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-08"
+  },
+  {
+    "id": 317,
+    "student_id": 75,
+    "topic": "MeetingTopic",
+    "body": "Reușite în disciplinele psirituale",
+    "user_id": 11,
+    "created_at": "2025-01-28 00:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-28"
+  },
+  {
+    "id": 318,
+    "student_id": 13,
+    "topic": "MeetingTopic",
+    "body": "-",
+    "user_id": 11,
+    "created_at": "2025-01-29 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-29"
+  },
+  {
+    "id": 319,
+    "student_id": 29,
+    "topic": "Как прошли каникулы и будущая свадьба",
+    "body": "Meeting Subject",
+    "user_id": 8,
+    "created_at": "2025-01-30 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-30"
+  },
+  {
+    "id": 320,
+    "student_id": 34,
+    "topic": "Întâlnirea nr.1 sem 1",
+    "body": "Aspectul spiritual, academic, comportament",
+    "user_id": 3,
+    "created_at": "2025-01-21 17:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-21"
+  },
+  {
+    "id": 321,
+    "student_id": 59,
+    "topic": "Întâlnirea nr.1 sem 1",
+    "body": "Aspectul spiritual, academic, comportamental",
+    "user_id": 3,
+    "created_at": "2025-01-28 17:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-28"
+  },
+  {
+    "id": 322,
+    "student_id": 27,
+    "topic": "Întâlnirea nr.1 sem 1",
+    "body": "Aspectul spiritual, academic, comportamental",
+    "user_id": 3,
+    "created_at": "2025-01-29 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-29"
+  },
+  {
+    "id": 323,
+    "student_id": 45,
+    "topic": "Întâlnirea nr.1 sem 1",
+    "body": "Consiliere",
+    "user_id": 3,
+    "created_at": "2025-01-30 17:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-30"
+  },
+  {
+    "id": 324,
+    "student_id": 35,
+    "topic": "Цель учебы в UDG, как часть цели жизни",
+    "body": "Meeting Subject",
+    "user_id": 15,
+    "created_at": "2025-01-31 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-31"
+  },
+  {
+    "id": 325,
+    "student_id": 28,
+    "topic": "reusita semestrului 1",
+    "body": "am discutat despre obiectre , profesori , sesiune",
+    "user_id": 2,
+    "created_at": "2025-02-05 14:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-05"
+  },
+  {
+    "id": 326,
+    "student_id": 23,
+    "topic": "reusita semestrului 1",
+    "body": "am discutat despre semestrul 1 , obiecte si profesori . Sesiunea si examene .",
+    "user_id": 2,
+    "created_at": "2025-02-05 14:55:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-05"
+  },
+  {
+    "id": 327,
+    "student_id": 9,
+    "topic": "Friends, family, and academics",
+    "body": "Meeting Subject",
+    "user_id": 8,
+    "created_at": "2025-02-04 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-04"
+  },
+  {
+    "id": 328,
+    "student_id": 71,
+    "topic": "Christmas Vacation, Life at UDG",
+    "body": "Meeting Subject",
+    "user_id": 8,
+    "created_at": "2025-02-05 14:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-05"
+  },
+  {
+    "id": 329,
+    "student_id": 17,
+    "topic": "1) Кротость 2) Обучение постоянной зависимости от Бога",
+    "body": "Мы обсуждали успеваемость и поведение Даниила. Также обсуждали детально темы: Кротость и Обучение зависимости от Бога",
+    "user_id": 16,
+    "created_at": "2025-02-05 15:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-05"
+  },
+  {
+    "id": 330,
+    "student_id": 46,
+    "topic": "1. Обзор прошедшего семестра",
+    "body": "Meeting Subject",
+    "user_id": 14,
+    "created_at": "2025-02-05 14:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-05"
+  },
+  {
+    "id": 331,
+    "student_id": 46,
+    "topic": "1. Обзор прошедшего семестра",
+    "body": "Meeting Subject",
+    "user_id": 14,
+    "created_at": "2025-02-05 14:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-05"
+  },
+  {
+    "id": 332,
+    "student_id": 46,
+    "topic": "1. Обзор прошедшего семестра - успехи, недочеты",
+    "body": "1. Как побороть застенчивость \r\n 2. Практическое задание: \r\n           - пересесть на первую парту\r\n           - каждый день за едой общаться с новым \r\n                человеком",
+    "user_id": 14,
+    "created_at": "2025-02-05 14:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-05"
+  },
+  {
+    "id": 333,
+    "student_id": 20,
+    "topic": "Обзор прошедшего семестра",
+    "body": "1. Успехи и провалы\r\n2. Церковная практика \r\n3. Взаимоотношения с мамой и младшим братом.",
+    "user_id": 14,
+    "created_at": "2025-02-05 14:55:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-05"
+  },
+  {
+    "id": 334,
+    "student_id": 39,
+    "topic": "1) Perseverență 2) Recunoașterea și lupta împotriva păcatului",
+    "body": "Am discutat cu Daniel reușita academică și 2 subiecte menționate de mai sus detailat.",
+    "user_id": 16,
+    "created_at": "2025-02-05 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-05"
+  },
+  {
+    "id": 335,
+    "student_id": 4,
+    "topic": "Обзор предыдущего семестра",
+    "body": "1. Рост в академическом, личностном и богословском плане\r\n2. Рассмотрели проблему неуверенности. У Стаса сильно развита неуверенность. Перед будущими трудностями, он входит в ступор, который его парализует. От этого он очень страдает.",
+    "user_id": 14,
+    "created_at": "2025-02-07 14:45:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-07"
+  },
+  {
+    "id": 336,
+    "student_id": 16,
+    "topic": "Assignments Schedule",
+    "body": "Schedule of the assignments",
+    "user_id": 4,
+    "created_at": "2025-02-08 14:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-08"
+  },
+  {
+    "id": 337,
+    "student_id": 7,
+    "topic": "трудности",
+    "body": "- доверие Богу\r\n- восприятие трудностей",
+    "user_id": 17,
+    "created_at": "2025-02-03 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-03"
+  },
+  {
+    "id": 338,
+    "student_id": 1,
+    "topic": "благодарность Богу",
+    "body": "- постановка целей и воля Божия\r\n- доверие Богу",
+    "user_id": 17,
+    "created_at": "2025-02-03 15:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-03"
+  },
+  {
+    "id": 339,
+    "student_id": 15,
+    "topic": "быть благодарным",
+    "body": "- оценка прошлого и видение будущего\r\n- трудности, доверие Богу",
+    "user_id": 17,
+    "created_at": "2025-02-03 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-03"
+  },
+  {
+    "id": 340,
+    "student_id": 11,
+    "topic": "трудности",
+    "body": "- апатия и отсутствие сил\r\n- доверие Богу, постановка целей, подотчетность",
+    "user_id": 17,
+    "created_at": "2025-02-04 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-04"
+  },
+  {
+    "id": 341,
+    "student_id": 12,
+    "topic": "конфликты",
+    "body": "- недопонимания с людьми\r\n- отношения с Богом",
+    "user_id": 17,
+    "created_at": "2025-02-04 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-04"
+  },
+  {
+    "id": 342,
+    "student_id": 8,
+    "topic": "благодарность Богу",
+    "body": "- анализ и планы на будущее\r\n- переживания и доверие Богу",
+    "user_id": 17,
+    "created_at": "2025-02-07 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-07"
+  },
+  {
+    "id": 343,
+    "student_id": 69,
+    "topic": "благодарность",
+    "body": "- моменты радости и благодарности Богу\r\n- фокус на ближнем",
+    "user_id": 17,
+    "created_at": "2025-02-07 14:45:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-07"
+  },
+  {
+    "id": 344,
+    "student_id": 5,
+    "topic": "благодарность Богу",
+    "body": "- анализ и видение будущего\r\n- благодарность за Божье водительство",
+    "user_id": 17,
+    "created_at": "2025-02-07 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-07"
+  },
+  {
+    "id": 345,
+    "student_id": 42,
+    "topic": "Обзор пройденного семестра",
+    "body": "1. Шахзод признал, что много время потратил на работу и по этой причине мало времени уделял учебе. \r\n2. Договорились, что начиная с этого семестра, Шахзод больше не работает и все время посвящает учебе. \r\n3. Нужно будет основательно посвятить себя усвоению преподаваемого материала. На данный момент пока не вижу, чтобы Шахзод прилагал сердце к учебе.",
+    "user_id": 14,
+    "created_at": "2025-02-10 14:20:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-10"
+  },
+  {
+    "id": 346,
+    "student_id": 43,
+    "topic": "Обзор прошедшего семестра",
+    "body": "1. Похвалил Даниила за успехи в прошедшем семестре\r\n2. Обсудили, что дал первый семестр: стал более ответственным, видел как Бог отвечал на нужды и вопросы через людей, научился адаптироваться в новых условиях\r\n3. Предостерег Даниила не распылять свое время и ресурсы на какие-то еще мероприятия, чтобы всего себя посвятить богословскому формированию.",
+    "user_id": 14,
+    "created_at": "2025-02-10 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-10"
+  },
+  {
+    "id": 347,
+    "student_id": 68,
+    "topic": "Обзор успеваемости в прошедшем семестре",
+    "body": "1. Анализ задолженностей (проявил халатность при написании эссе, не сделал практику в поместной церкви)\r\n2. Анализ мотивации к учебе (не совладал со своими страхами)\r\n3. Анализ усвояемости учебного материала",
+    "user_id": 14,
+    "created_at": "2025-02-12 15:40:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-12"
+  },
+  {
+    "id": 348,
+    "student_id": 25,
+    "topic": "Checking on all aspects of growth",
+    "body": "Talked about in the book of James we need to control our tongues and not speak too quickly and hurt people.(she says this is a problem).  She asked for prayer for an up-coming service Sat.  She will lead a group, giving her testimony and leading a Bible study.",
+    "user_id": 9,
+    "created_at": "2025-02-12 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-12"
+  },
+  {
+    "id": 349,
+    "student_id": 33,
+    "topic": "Conclusions on the 1st Semester",
+    "body": "Discutarea rezultatelor academice, personale pentru semestrul I. Provocări, greutăți, planuri pentru 2025. Starea spirituală (timp personal cu Dumnezeu, etc.)",
+    "user_id": 12,
+    "created_at": "2025-02-14 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-14"
+  },
+  {
+    "id": 350,
+    "student_id": 61,
+    "topic": "Дисцтплина времени",
+    "body": "Meeting Subject",
+    "user_id": 15,
+    "created_at": "2025-02-18 16:55:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-18"
+  },
+  {
+    "id": 351,
+    "student_id": 61,
+    "topic": "Дисциплина времени и занятий",
+    "body": "Meeting Subject",
+    "user_id": 15,
+    "created_at": "2025-02-18 16:55:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-18"
+  },
+  {
+    "id": 352,
+    "student_id": 17,
+    "topic": "Обсуждение 3 задолжностей и пути их решения. Также обсуждали тему духовного роста: Стремление познать волю Божью и тему преобразования характера: Святость",
+    "body": "1) Обсуждение успеваемости 2)Стремление познать волю Божью 3)Святость",
+    "user_id": 16,
+    "created_at": "2025-02-19 13:50:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-19"
+  },
+  {
+    "id": 353,
+    "student_id": 39,
+    "topic": "Am discutat reușita academică și planul de lucru pentru a reuși la timp de îndeplinit sarcinile. Am discutat cum de îmbunătățit trăsătura de caracter – Înțelepciunea și subiectul dezvoltării spirituală – Dezvoltarea unei atitudini de slugă.",
+    "body": "1) Reușita academică 2) Înțelepciunea 3) Dezvoltarea unei atitudini de slugă.",
+    "user_id": 16,
+    "created_at": "2025-02-19 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-19"
+  },
+  {
+    "id": 354,
+    "student_id": 51,
+    "topic": "-",
+    "body": "-",
+    "user_id": 11,
+    "created_at": "2025-02-19 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-19"
+  },
+  {
+    "id": 355,
+    "student_id": 13,
+    "topic": "-",
+    "body": "-",
+    "user_id": 11,
+    "created_at": "2025-02-17 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-17"
+  },
+  {
+    "id": 356,
+    "student_id": 57,
+    "topic": "План развития на II семестр",
+    "body": "Время с Богом\r\nАкадемическая успеваемость\r\nРазвитие христианского характера",
+    "user_id": 13,
+    "created_at": "2025-01-20 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-20"
+  },
+  {
+    "id": 357,
+    "student_id": 40,
+    "topic": "Planificarea programului de mentorare pentru semestrul",
+    "body": "Creșterea spirituală\r\nProgresul academic\r\nFormarea caracterului creștin",
+    "user_id": 13,
+    "created_at": "2025-01-20 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-20"
+  },
+  {
+    "id": 358,
+    "student_id": 49,
+    "topic": "Planificarea programului de mentorat pentru semestrul al II-lea",
+    "body": "Formarea spirituală\r\nProgresul academic\r\nFormarea caracterului creștin",
+    "user_id": 13,
+    "created_at": "2025-01-24 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-24"
+  },
+  {
+    "id": 359,
+    "student_id": 55,
+    "topic": "Planificarea programului de mentorare pentru semestrul al II-lea",
+    "body": "Creșterea spirituală\r\nProgresul academic\r\nFormarea caracterului creștin",
+    "user_id": 13,
+    "created_at": "2025-01-24 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-24"
+  },
+  {
+    "id": 360,
+    "student_id": 40,
+    "topic": "Analiza rezultatelor sesiunii de iarnă",
+    "body": "Provocările pe parcursul primului semestru\r\nReușitele și nereușitele",
+    "user_id": 13,
+    "created_at": "2025-01-27 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-27"
+  },
+  {
+    "id": 361,
+    "student_id": 49,
+    "topic": "Evaluarea progresului din semestrul I",
+    "body": "Meeting Subject",
+    "user_id": 13,
+    "created_at": "2025-01-27 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-27"
+  },
+  {
+    "id": 362,
+    "student_id": 57,
+    "topic": "Анализ прошлого семестра",
+    "body": "Академические результаты",
+    "user_id": 13,
+    "created_at": "2025-01-29 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-29"
+  },
+  {
+    "id": 363,
+    "student_id": 55,
+    "topic": "Analiza rezultatelor semestrului precedent",
+    "body": "Progresul academic\r\nProgresul spiritual",
+    "user_id": 13,
+    "created_at": "2025-01-29 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-29"
+  },
+  {
+    "id": 364,
+    "student_id": 76,
+    "topic": "Анализ прошлого семестра",
+    "body": "Meeting Subject",
+    "user_id": 13,
+    "created_at": "2025-01-29 17:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-29"
+  },
+  {
+    "id": 365,
+    "student_id": 21,
+    "topic": "Анализ прошлого семестра",
+    "body": "Meeting Subject",
+    "user_id": 13,
+    "created_at": "2025-01-30 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-30"
+  },
+  {
+    "id": 366,
+    "student_id": 26,
+    "topic": "Анализ прошлого семестра",
+    "body": "Meeting Subject",
+    "user_id": 13,
+    "created_at": "2025-01-30 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-01-30"
+  },
+  {
+    "id": 367,
+    "student_id": 40,
+    "topic": "Progresul spiritual",
+    "body": "Discuții asupra problemelor care împiedică progresul spiritual",
+    "user_id": 13,
+    "created_at": "2025-02-10 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-10"
+  },
+  {
+    "id": 368,
+    "student_id": 49,
+    "topic": "Slujirea în biserica locală",
+    "body": "Cum este posibili de relansat lucrarea cu tinerii?\r\nAnaliza situației și planificarea primilor pași.",
+    "user_id": 13,
+    "created_at": "2025-02-10 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-10"
+  },
+  {
+    "id": 369,
+    "student_id": 55,
+    "topic": "Ordinea priorităților",
+    "body": "Care sunt principiile punerii în ordine a priorităților?",
+    "user_id": 13,
+    "created_at": "2025-02-10 17:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-10"
+  },
+  {
+    "id": 370,
+    "student_id": 26,
+    "topic": "Порядок приоритетов",
+    "body": "Meeting Subject",
+    "user_id": 13,
+    "created_at": "2025-02-11 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-11"
+  },
+  {
+    "id": 371,
+    "student_id": 21,
+    "topic": "Порядок приоритетов",
+    "body": "Meeting Subject",
+    "user_id": 13,
+    "created_at": "2025-02-11 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-11"
+  },
+  {
+    "id": 372,
+    "student_id": 57,
+    "topic": "Порядок приоритетов",
+    "body": "Meeting Subject",
+    "user_id": 13,
+    "created_at": "2025-02-14 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-14"
+  },
+  {
+    "id": 373,
+    "student_id": 29,
+    "topic": "New Semester",
+    "body": "Acclimating to new courses and teachers",
+    "user_id": 8,
+    "created_at": "2025-02-21 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-21"
+  },
+  {
+    "id": 374,
+    "student_id": 42,
+    "topic": "Дисциплина в жизни человека",
+    "body": "1. Обсудили важность дисциплины \r\n2. Главный приоритет - академическая подготовка\r\n3. Работа над определением жизненного курса после учебы",
+    "user_id": 14,
+    "created_at": "2025-02-24 14:20:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-24"
+  },
+  {
+    "id": 375,
+    "student_id": 52,
+    "topic": "Стремление познать волю Божью",
+    "body": "Meeting Subject",
+    "user_id": 15,
+    "created_at": "2025-02-24 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-24"
+  },
+  {
+    "id": 376,
+    "student_id": 61,
+    "topic": "Дисциплина и уборка в комнате",
+    "body": "Meeting Subject",
+    "user_id": 15,
+    "created_at": "2025-02-24 16:40:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-24"
+  },
+  {
+    "id": 377,
+    "student_id": 28,
+    "topic": "reusita la studii",
+    "body": "Am discutat despre planul individual de studii",
+    "user_id": 2,
+    "created_at": "2025-02-26 13:46:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-26"
+  },
+  {
+    "id": 378,
+    "student_id": 23,
+    "topic": "studiile",
+    "body": "am discutat importanta planul individual de studii",
+    "user_id": 2,
+    "created_at": "2025-02-26 14:10:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-26"
+  },
+  {
+    "id": 379,
+    "student_id": 40,
+    "topic": "Pregătirea întâlnirii de tineret",
+    "body": "Cum se pregătește o întâlnire de tineret?\r\nCare sunt subiectele sau seriile de subiecte potrivite pentru întâlnirile de tineret?\r\nCare ținta unei asemenea întâlniri?",
+    "user_id": 13,
+    "created_at": "2025-02-17 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-17"
+  },
+  {
+    "id": 380,
+    "student_id": 49,
+    "topic": "Întrebări personale studiul cărții Evanghelia după Marcu",
+    "body": "Meeting Subject",
+    "user_id": 13,
+    "created_at": "2025-02-19 17:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-19"
+  },
+  {
+    "id": 381,
+    "student_id": 40,
+    "topic": "Cum alegem biserica în care să slujim?",
+    "body": "Întrebări și frământări pe subiecte personale",
+    "user_id": 13,
+    "created_at": "2025-02-26 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-26"
+  },
+  {
+    "id": 382,
+    "student_id": 55,
+    "topic": "Rezolvarea conflictelor în grupul de tineri al bisericii",
+    "body": "Meeting Subject",
+    "user_id": 13,
+    "created_at": "2025-02-26 17:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-26"
+  },
+  {
+    "id": 383,
+    "student_id": 26,
+    "topic": "Обсуждение личных вопросов и переживаний",
+    "body": "Meeting Subject",
+    "user_id": 13,
+    "created_at": "2025-02-26 18:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-26"
+  },
+  {
+    "id": 384,
+    "student_id": 62,
+    "topic": "Святость",
+    "body": "Формирование христианского характера",
+    "user_id": 15,
+    "created_at": "2025-02-25 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-25"
+  },
+  {
+    "id": 385,
+    "student_id": 61,
+    "topic": "time management",
+    "body": "Meeting Subject",
+    "user_id": 15,
+    "created_at": "2025-02-25 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-25"
+  },
+  {
+    "id": 386,
+    "student_id": 58,
+    "topic": "-",
+    "body": "reușite academice și facultate",
+    "user_id": 11,
+    "created_at": "2025-02-27 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-27"
+  },
+  {
+    "id": 387,
+    "student_id": 4,
+    "topic": "Жизнь в свободе Духа",
+    "body": "1. Успеваемость\r\n2. важность дисциплины (завести ежедневник)\r\n3. Улучшить чтение Библии\r\n4. Подготовить материал для обсуждения темы жизни в Духе. Прийти подготовленным к  4-5 марта",
+    "user_id": 14,
+    "created_at": "2025-02-27 14:59:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-27"
+  },
+  {
+    "id": 388,
+    "student_id": 46,
+    "topic": "Сила характера",
+    "body": "1. Обсудили успеваемость (радует что подопечный получает удовольствие от учебы и от успехов)\r\n2. Радует, что подопечный проявляет послушание (пересел с задней парты за переднюю. что качественно сказалось на усвояемости материала)\r\n3. С успехом борется с стеснением - вчера презентовал во время урока свою страну перед классом.\r\n4. Побудил подопечного интенсифицировать усвояемость русского языка. \r\n5. Побудил Ходжимахмуда вести дневник дел. чтобы не транжирить время понапрасну.",
+    "user_id": 14,
+    "created_at": "2025-02-28 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-28"
+  },
+  {
+    "id": 389,
+    "student_id": 9,
+    "topic": "Interpersonal Issues",
+    "body": "Relationship difficulties",
+    "user_id": 8,
+    "created_at": "2025-03-01 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-01"
+  },
+  {
+    "id": 390,
+    "student_id": 20,
+    "topic": "Успех второго семестра",
+    "body": "1. Успехи в учебе\r\n2. Заинтересованность в смежных дисциплинах - социальное направление (какое-то время подопечный встречался с подростком, который исповедовал другую сексуальную ориентацию.)  Хочет в дальнейшем помогать таковым\r\n3. Отношение с мамой\r\n4. Отношения в общежитии. \r\n5. Попросил подопечного в каждый месяц упражняться в подготовке и  написании  проповедей.",
+    "user_id": 14,
+    "created_at": "2025-03-04 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-04"
+  },
+  {
+    "id": 391,
+    "student_id": 2,
+    "topic": "Feedback on the 1st Semester",
+    "body": "Reușita lui Damir, situatia academica, personală, spirituală. Clarificarea restanțelor, bursă, planuri pentru semestrul curent, etc.",
+    "user_id": 12,
+    "created_at": "2025-02-28 15:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-28"
+  },
+  {
+    "id": 392,
+    "student_id": 13,
+    "topic": "-",
+    "body": "-",
+    "user_id": 11,
+    "created_at": "2025-03-03 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-03"
+  },
+  {
+    "id": 393,
+    "student_id": 19,
+    "topic": "-",
+    "body": "-",
+    "user_id": 11,
+    "created_at": "2025-03-04 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-04"
+  },
+  {
+    "id": 394,
+    "student_id": 32,
+    "topic": "-",
+    "body": "-",
+    "user_id": 11,
+    "created_at": "2025-03-04 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-04"
+  },
+  {
+    "id": 395,
+    "student_id": 68,
+    "topic": "Успехи в новом семестре",
+    "body": "1. Замечания по поводу процесса учебы (усвояемости материала) \r\n2. Вопрос выбора формы дипломной работы. Обсудили, что предпочтительнее будет дипломный проект. Дал срок до 20.03 подготовить черновой вариант.\r\n3. Обсудили вопрос влюбленности и как  к этому относиться правильно.",
+    "user_id": 14,
+    "created_at": "2025-03-04 15:50:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-04"
+  },
+  {
+    "id": 396,
+    "student_id": 35,
+    "topic": "регулярное чтение слова божьего",
+    "body": "Meeting Subject",
+    "user_id": 15,
+    "created_at": "2025-03-04 15:05:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-04"
+  },
+  {
+    "id": 397,
+    "student_id": 43,
+    "topic": "Испытание мира Божия в жизни",
+    "body": "1. Обсудили процесс учебы \r\n2. Рассмотрели важность прохождения курса Основы менеджмента для пасторского служения\r\n3. Рассмотрели новую тему, касательно важности мира Божия в жизни христианина.",
+    "user_id": 14,
+    "created_at": "2025-03-11 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-11"
+  },
+  {
+    "id": 398,
+    "student_id": 29,
+    "topic": "Life at UDG",
+    "body": "Usual questions of academics, personal life, and interactions with other students.",
+    "user_id": 8,
+    "created_at": "2025-03-20 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-20"
+  },
+  {
+    "id": 399,
+    "student_id": 4,
+    "topic": "Дисциплина в жизни человека",
+    "body": "1. Обсудили процесс усвояемости материала\r\n2. Выработали механизм проверки усвоения материала (за прошлую неделю Станислав не прочел ни одной страницы). Договорились, что до пятницы (28.03) Стас с 21:30-22:00 будет отправлять мне небольшой отчет о количестве прочитанных страниц и выполненных заданий\r\n3. Поговорили о личных вопросах, касательно создания семьи",
+    "user_id": 14,
+    "created_at": "2025-03-24 15:26:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-24"
+  },
+  {
+    "id": 400,
+    "student_id": 25,
+    "topic": "Checking on all aspects of growth",
+    "body": "Discussed her course work at UDG & her ministry.  The main topic was her relationships and how they are affected by her relationship with God.  Very good meeting.",
+    "user_id": 9,
+    "created_at": "2025-03-20 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-20"
+  },
+  {
+    "id": 401,
+    "student_id": 46,
+    "topic": "Успеваемость в учебе",
+    "body": "1. Освоение библиографии за второй семестр (на 26.03.25 принести список заданных книг, с указанием прочитанных страниц)\r\n2. Чтение Библии (условились, что менти будет утром выделять для чтения 45-50 минут. Для этого нужно будет просыпаться в 6:30, чтобы с 7:00 сесть за чтение Библии)\r\n3. Разобрать Мф. 5:13-16 и приготовить небольшой конспект проповеди",
+    "user_id": 14,
+    "created_at": "2025-03-25 15:20:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-25"
+  },
+  {
+    "id": 402,
+    "student_id": 23,
+    "topic": "discutii despre planificarea timpului",
+    "body": "Succesul si realizarile se masoara prin disciplina si planificare a timpului , modele si planuri .",
+    "user_id": 2,
+    "created_at": "2025-03-12 14:50:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-12"
+  },
+  {
+    "id": 403,
+    "student_id": 28,
+    "topic": "planificarea",
+    "body": "Succesul si realizarile se masoara prin disciplina si planificare a timpului , modele si planuri .",
+    "user_id": 2,
+    "created_at": "2025-03-12 15:40:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-12"
+  },
+  {
+    "id": 404,
+    "student_id": 39,
+    "topic": "1. Vrednicia 2. Libertatea în Duh",
+    "body": "Trăirea în libertatea Duhului înseamnă a experimenta eliberarea de sub puterea păcatului și trăirea într-o viață ghidată de Duhul Sfânt.",
+    "user_id": 16,
+    "created_at": "2025-03-27 16:06:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-27"
+  },
+  {
+    "id": 405,
+    "student_id": 23,
+    "topic": "viata spirituala",
+    "body": "Umblarea cu Domnul si inchinarea",
+    "user_id": 2,
+    "created_at": "2025-03-26 15:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-26"
+  },
+  {
+    "id": 406,
+    "student_id": 75,
+    "topic": "-",
+    "body": "Sfera spirituală, planificarea timpului cu DUmnezeu și reușite.",
+    "user_id": 11,
+    "created_at": "2025-04-02 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-04-02"
+  },
+  {
+    "id": 407,
+    "student_id": 51,
+    "topic": "-",
+    "body": "Lecțiile de matematică și reușitele academice la UDG",
+    "user_id": 11,
+    "created_at": "2025-03-27 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-27"
+  },
+  {
+    "id": 408,
+    "student_id": 46,
+    "topic": "Чистота сердца и мыслей",
+    "body": "1. Успеваемость в учебе\r\n2. Мониторинг работы над библейским текстом (Мф. 5:13-16). Обсудили кое-какие рекомендации\r\n3. Вопрос дисциплины: правильное распределение времени и динамика чтения Библии. Пока с этим есть определенные трудности. \r\n4. Порадовал своего подопечного прогрессом, который отметили как минимум трое преподавателей.",
+    "user_id": 14,
+    "created_at": "2025-04-07 15:50:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-04-07"
+  },
+  {
+    "id": 409,
+    "student_id": 43,
+    "topic": "Прокрастинация и как с ним бороться",
+    "body": "1. Обсудили успехи в учебе\r\n2. Изменения в характере подопечного за время учебы\r\n3. Основная борьбы подопечного - из-за стремления все делать по максимуму не впасть в прокрастинацию. Есть боязнь, что из-за боязни, что может сделать что-то неидеально, может потерять мотивацию браться за что-то\r\n4. Личные вопросы: как выбрать соответствующего партнера по жизни и как определить что перерос родительский дом.",
+    "user_id": 14,
+    "created_at": "2025-04-08 15:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-04-08"
+  },
+  {
+    "id": 410,
+    "student_id": 20,
+    "topic": "Важность бодрствования в христианской жизни",
+    "body": "1. Успеваемость в учебе\r\n2. Возможности для летней практики\r\n3. Как делать учеников в случае моего подопечного (украинский беженец)\r\n4. Вопросы по книге Мак-Артура \"Возвращение к пасторскому служению\".\r\n5. Подопечный высоко оценил для себя брошюру \"Советы по самообразованию\"",
+    "user_id": 14,
+    "created_at": "2025-04-08 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-04-08"
+  },
+  {
+    "id": 411,
+    "student_id": 28,
+    "topic": "Sanatate si lectiile",
+    "body": "prezenta online la lectii in timpul restaurarii fizice !!!",
+    "user_id": 2,
+    "created_at": "2025-04-09 13:50:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-04-09"
+  },
+  {
+    "id": 412,
+    "student_id": 68,
+    "topic": "Практическое проявление любви к Богу",
+    "body": "1. Были предложены тексты (15 текстов), в которых есть призыв любить Бога. Подопечный должен их изучить, чтобы извлечь аспекты, связанные с любовью к Богу и рассказать, каким образом он претворяет в жизнь данную заповедь\r\n2. Обсудили успехи в учебе\r\n3. Обговорили форму написания дипломной работы или проекта.",
+    "user_id": 14,
+    "created_at": "2025-04-09 13:55:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-04-09"
+  },
+  {
+    "id": 413,
+    "student_id": 4,
+    "topic": "Практическое проявление любви к Богу",
+    "body": "1. Предложил подопечному 15 текстов из Библии для исследования темы, как практически исполнить заповедь \"любить Бога\".\r\n2. Обсудили успехи в учебе\r\n3. Отчет о поездке в Украину (Николаевская область)\r\n4. Поговорили о важности подотчетности в целях достижения целей. Попросил подопечного каждый вечер кратко отчитываться о выполненных заданиях.",
+    "user_id": 14,
+    "created_at": "2025-04-09 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-04-09"
+  },
+  {
+    "id": 414,
+    "student_id": 23,
+    "topic": "discutam reusita studiilor",
+    "body": "Suntem in perioada de paste , discutam pregatirea de sesiune si finalizare",
+    "user_id": 2,
+    "created_at": "2025-04-10 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-04-10"
+  },
+  {
+    "id": 415,
+    "student_id": 2,
+    "topic": "Catching up",
+    "body": "Updates on school, personal, spiritual life. Challenges (summer internship), Prayer needs (fruits of the spirit), etc.",
+    "user_id": 12,
+    "created_at": "2025-04-10 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-04-10"
+  },
+  {
+    "id": 416,
+    "student_id": 73,
+    "topic": "Checking on all aspects of growth",
+    "body": "Growth in Christian Character",
+    "user_id": 9,
+    "created_at": "2025-04-11 13:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-04-11"
+  },
+  {
+    "id": 417,
+    "student_id": 15,
+    "topic": "пост и молитва",
+    "body": "- дух дисциплины\r\n- служение",
+    "user_id": 17,
+    "created_at": "2025-03-04 16:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-04"
+  },
+  {
+    "id": 418,
+    "student_id": 12,
+    "topic": "пост и молитва",
+    "body": "- дух дисциплины\r\n- семейные проблемы, вина",
+    "user_id": 17,
+    "created_at": "2025-02-04 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-02-04"
+  },
+  {
+    "id": 419,
+    "student_id": 5,
+    "topic": "пост и молитва",
+    "body": "- дух дисциплины\r\n- служение, отношения",
+    "user_id": 17,
+    "created_at": "2025-03-04 15:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-04"
+  },
+  {
+    "id": 420,
+    "student_id": 69,
+    "topic": "пост и молитва",
+    "body": "- дух дисциплины\r\n- отношения, обида",
+    "user_id": 17,
+    "created_at": "2025-03-06 15:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-06"
+  },
+  {
+    "id": 421,
+    "student_id": 11,
+    "topic": "пост и молитва",
+    "body": "- дух дисциплины\r\n- отношения, проблемы с учебой",
+    "user_id": 17,
+    "created_at": "2025-03-06 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-03-06"
+  },
+  {
+    "id": 422,
+    "student_id": 1,
+    "topic": "пост и молитва",
+    "body": "- дух дисциплины\r\n- отношения, духовный рост",
+    "user_id": 17,
+    "created_at": "2025-04-02 15:45:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-04-02"
+  },
+  {
+    "id": 423,
+    "student_id": 8,
+    "topic": "пост и молитва",
+    "body": "- дух дисциплины\r\n- отношения, границы",
+    "user_id": 17,
+    "created_at": "2025-04-01 14:30:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-04-01"
+  },
+  {
+    "id": 424,
+    "student_id": 42,
+    "topic": "Чистота сердца и мыслей",
+    "body": "1. Поговорили с подопечным о взаимоотношениях с противоположным полом\r\n2. Успехи в учебе. Подопечный имеет за прошлый семестр одну задолженность. Уже написал работу и удостоверился, что написана, согласно запрашиваемым требованиям. \r\n3. Поговорили о значимости чистого сердца, что это означает, и о необходимости проверки себя на предмет закрытости перед Богом в каких-то аспектах, что необходимо вывести на свет Божий.",
+    "user_id": 14,
+    "created_at": "2025-04-14 14:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-04-14"
+  },
+  {
+    "id": 425,
+    "student_id": 25,
+    "topic": "Checking on all aspects of growth",
+    "body": "Question of summer plans and best use of time",
+    "user_id": 9,
+    "created_at": "2025-04-11 15:00:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-04-11"
+  },
+  {
+    "id": 426,
+    "student_id": 39,
+    "topic": "1) Tărie de caracter 2) Misiunea de a Fi Lumină în Lume",
+    "body": "Am discutat aceste două teme: 1) Tărie de caracter 2) Misiunea de a Fi Lumină în Lume",
+    "user_id": 16,
+    "created_at": "2025-04-17 15:15:00",
+    "updated_at": null,
+    "meeting_datetime": "2025-04-17"
+  }
+]

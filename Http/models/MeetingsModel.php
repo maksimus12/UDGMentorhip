@@ -152,7 +152,35 @@ class MeetingsModel extends BasicModel
         )->get();
     }
 
-    public function getMeetingsForAdmin(array $filters)
+    public function countMeetingsForAdmin(array $filters): int
+    {
+        $sql = '
+          SELECT COUNT(*) AS cnt
+          FROM meetings
+          INNER JOIN users    ON meetings.user_id    = users.id
+          INNER JOIN students ON meetings.student_id = students.id
+          WHERE users.is_deleted = 0
+            AND meeting_datetime BETWEEN :start AND :end
+        ';
+        $params = [
+            'start' => $filters['startDate'],
+            'end'   => $filters['endDate'],
+        ];
+
+        if (!empty($filters['mentor'])) {
+            $sql     .= ' AND meetings.user_id    = :user_id';
+            $params['user_id'] = $filters['mentor'];
+        }
+        if (!empty($filters['student'])) {
+            $sql     .= ' AND meetings.student_id = :student_id';
+            $params['student_id'] = $filters['student'];
+        }
+
+        return (int) $this->db->query($sql, $params)
+            ->get()[0]['cnt'];
+    }
+
+    public function getMeetingsForAdmin($start, $rows_per_page, array $filters)
     {
         $sql = 'SELECT
                 meetings.id,
@@ -181,10 +209,40 @@ class MeetingsModel extends BasicModel
             $params['student_id'] = $filters['student'];
         }
 
+        $sql .= ' ORDER BY meetings.meeting_datetime DESC LIMIT '. $start . ", " . $rows_per_page ;
+
         return $this->db->query($sql, $params)->get();
     }
+    public function countMeetingsForUser( $userId, array $filters): int
+    {
+        $sql = '
+          SELECT COUNT(*) AS cnt
+          FROM meetings
+          INNER JOIN users    ON meetings.user_id    = users.id
+          INNER JOIN students ON meetings.student_id = students.id
+          WHERE meetings.user_id = :user_id
+            AND meeting_datetime BETWEEN :start AND :end
+        ';
+        $params = [
+            'user_id' => $userId,
+            'start' => $filters['startDate'],
+            'end'   => $filters['endDate'],
+        ];
 
-    public function getMeetingsForUser($userId, array $filters)
+        if (!empty($filters['mentor'])) {
+            $sql     .= ' AND meetings.user_id    = :user_id';
+            $params['user_id'] = $filters['mentor'];
+        }
+        if (!empty($filters['student'])) {
+            $sql     .= ' AND meetings.student_id = :student_id';
+            $params['student_id'] = $filters['student'];
+        }
+
+        return (int) $this->db->query($sql, $params)
+            ->get()[0]['cnt'];
+    }
+
+    public function getMeetingsForUser($userId, $start, $rows_per_page, array $filters)
     {
         $sql = 'SELECT
                 meetings.id,
@@ -207,6 +265,8 @@ class MeetingsModel extends BasicModel
             $sql .= ' AND meetings.student_id = :student_id';
             $params['student_id'] = $filters['student'];
         }
+
+        $sql .= ' ORDER BY meetings.meeting_datetime DESC LIMIT '. $start . ", " . $rows_per_page ;
 
         return $this->db->query($sql, $params)->get();
     }
